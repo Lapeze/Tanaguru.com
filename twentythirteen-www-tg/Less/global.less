@@ -1,0 +1,460 @@
+/**
+ * Header
+ * -----------------------------------------------------------------------------
+ */
+
+// kill max-width 1600 
+.site,
+.navbar {max-width:none;}
+
+.navbar {background-color: #efefef;}
+
+// header background
+#masthead {.radial-gradient(#00d9f0;#008594);}
+.site-header .home-link {
+    background: url(Images/bg-noise.png) repeat top left;
+    background: url(Images/Montagnes.png) no-repeat bottom right;
+}
+
+/**
+ * Footer 
+ * -----------------------------------------------------------------------------
+ */
+#colophon {padding-bottom: 14px;}
+
+.site-footer {
+    background-color: @footer-bgcolor;
+    color: @footer-color;
+    font-size: 0.938em; // 15px
+    line-height: 1.25em; // 20px
+
+    .widget a {color: @footer-color;}    /* presence obligéé ici car selecteur définit comme tel dans theme parent */
+    a {color: @footer-color;}
+    h2 {
+        font-size: 1.25em; // 20px
+        line-height: 1.25em; // 20px
+        margin: 0 0 5px 0;
+    }
+}
+
+#footer-tg-logo h2{
+    display:inline-block;
+    vertical-align: top;
+    font-size: 1.875em;
+}
+
+.widget {
+    margin: 0 1% 0 0;
+    padding: 20px 20px 5px;
+}
+.widget li {padding:0;}
+
+
+#footer-tg li:before,
+#footer-and-also li:before {
+    content:">";
+    font-weight: bold;
+}
+#footer-social img {margin: 0 0 20px 15px;}
+#footer-social a {display: inline-block;}
+
+#footer2-1,
+#footer2-2 {
+    font-size: 0.813em; //13px
+    line-height: 0.938em; //15px
+}
+
+#footer2-1 {margin-bottom: 0.4em;}
+
+#footer2-2 {
+    font-weight: 300; /* Open_Sans light */
+    margin-bottom: 0;
+}
+
+/**
+ * Front page
+ * -----------------------------------------------------------------------------
+ */
+
+.responsive {
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+#everest {
+    background: transparent; 
+    position : relative;
+    min-height: 1185px;
+    min-width: 100%;
+} 
+
+#everest_gradiant {
+    min-height: 34em;
+/*    box-shadow: inset 0 5px 5px -3px black;*/
+    .radial-gradient (@gradient-blue-start; @gradient-blue-end);     
+}
+
+#everest_filter {}
+
+#everest_dragon {
+    position : absolute;
+    top : 7em;
+    min-width :100%;
+    min-height:1185px; 
+    background-image: url(Images/dragon.png),url(Images/dragon_repeat.png);
+    background-repeat: no-repeat, repeat-x;
+    background-position: 50% 0%, 50% 0%;
+    background-color: transparent;    
+}
+#text_simply {
+    /*    position: absolute;
+        left:42%;*/
+    margin-left: 42%;
+    padding : 10px 10px 10px 55px;
+    width: 650px;
+    min-height: 145px;
+    background-color: white;
+    
+    h2 {
+        font-size: 2.375em; //43px
+        color: #4d4d4d;   
+        margin:0;
+    }
+    p {
+        font-size: 1.375em; //20px
+        line-height: 1.375em; //20px
+        color: #666; 
+        margin:0;
+    }
+}
+
+#button_simply {
+    /*    position:absolute;
+        left : 30%;
+        top: 80%;*/
+    
+    margin-left: 140px;
+    font-weight:bold;
+    font-size: 1.875em; //30px
+    padding: 10px 20px 6px;
+}
+
+#accessibility_fast {
+ h2 {
+     margin-top: 400px;
+     font-size: 2.687em; //43px
+     color: #4d4d4d;   
+ }
+ p {
+     font-size: 1.250em; //20px
+     line-height: 1.250em; //20px
+     color: #666; 
+     max-width: 42.125em;
+     margin-bottom: 60px;
+ }
+}
+
+#technology {
+    background-color: #fafafa;
+    padding : 150px 0 100px 0;
+    
+    a {color: white;}
+
+    h2 {
+        font-size: 1.75em; //28px
+        color: #4d4d4d;
+        margin-bottom: 70px;
+    }
+
+    h3{
+        font-size: 1.437em; // 23px
+        margin-bottom: 10px;
+        color: #666;
+        margin-top: 0;
+    }
+    ul {
+        padding :0;
+        margin-bottom: 100px;
+    }
+
+    li {display: inline-block;}
+
+    p{      
+        color: #666;
+        font-size: 1.125em; //18px
+        line-height: 1.375; //22px
+        margin-bottom: 0;  
+    }
+}
+
+#techno1, #techno2, #techno3 {text-align: left;}
+
+#button_technology {
+    font-weight:bold;
+    font-size: 1.625em; //26px
+    padding: 10px 20px 6px;
+}
+
+
+#why {
+    .radial-gradient (@gradient-blue-start; @gradient-blue-end);
+    padding : 150px 0 180px 0;
+
+    h2 {
+        font-size: 1.75em; //28px
+        color: #4d4d4d;
+        background: white;
+    }
+
+    h3{
+        font-size: 1.437em; // 23px
+
+        margin-bottom: 5px;
+        color: #666;
+    }
+    ul {padding :0;}
+
+    li{
+        padding:20px;
+        display: inline-block;
+    }
+    p{
+        margin-bottom: 0;
+        color: #666;
+        font-size: 1.125em; //18px
+        line-height: 1.375; //22px
+        text-align: left;
+    }
+}
+
+#steps {
+
+    h2 {
+        color: #4d4d4d;
+        font-size: 2.812em; //45px
+        line-height: 1,25em; //20px 
+        margin: 0;
+    }
+    
+ 
+    
+    p{
+        color: #666666;
+        font-size: 1,25em; //20px 
+        line-height: 1,25em; //20px 
+        margin-top : 5px;
+    }
+    
+    ol {margin: 20px 0 50px 0}
+    
+    li { 
+        color: #666666;
+        font-size: 1.062em; //17px
+        line-height: 1.312em; //21px
+        text-align: center;
+    }
+
+    background: #fafafa;
+}
+
+#references { 
+    padding : 40px 0 0 0;
+    img {margin:10px 25px 10px 25px;}
+    h2 {
+        color: #4d4d4d;
+        font-size: 2.812em; //45px
+        line-height: 1,25em; //20px 
+        margin-bottom: 0;
+    }
+    p{
+        color: #666666;
+        font-size: 1,25em; //20px 
+        line-height: 1,25em; //20px 
+    }
+}
+.center {text-align: center;}
+
+#evaluate {
+    padding : 60px 0 130px 0;
+    a {
+        font-family: montserrat;
+        color: @button-color;   
+    }
+
+    a:active  {
+        font-family: montserrat;
+        color: @button-color;
+    }
+    a:hover {
+        font-family: montserrat;
+        color: @button-color; 
+    }
+    p {margin-bottom:0;}
+}
+
+#button_evaluate {
+    font-weight:bold;
+    font-size: 1.625em; //26px
+    padding: 10px 20px 6px;
+
+}
+.button {
+    display:inline-block;
+    vertical-align: middle;
+    font-family: montserrat;
+    color: @button-color;   
+    .linear-gradient (@gradient-red-start; @gradient-red-end);
+    //.linear-gradient (rgba(0,0,0,0); rgba(0,0,0,0.05)); //@@@TODO
+    border-bottom: 5px solid #A00 ;
+    border-radius: 4px;
+}
+
+
+/**
+ * 11.0 Media Queries
+ * -----------------------------------------------------------------------------
+ */
+
+@media screen and (min-width: 1040px) {
+    .widget {padding: 0 0.5% 5px;}
+    #footer-tg-logo     {
+        width:30%;   
+    }
+    #footer-tg          {
+        width:20%;     
+    }
+    #footer-and-also    {
+        width:20%;     
+    }
+    #footer-social      {
+        width:20%;
+    }
+
+    #technology {
+        background-image: url(Images/technology.png),url(Images/technology_repeat.png);
+        background-repeat: no-repeat,repeat-x;
+        background-position: top center, top;
+    }  
+
+    #techno1 {
+        padding: 0 30px 0 0;
+        width: 300px;
+    }
+    #techno2 {
+        padding : 0 30px 0 30px;
+        border-left: 0.1px solid #666;
+        border-right: 0.1px solid #666;
+        width:330px;
+    }
+    #techno3 {
+        padding: 0 0 0 30px;
+        width: 300px;
+    }
+
+    #why {
+        .radial-gradient-multiple-bg (@gradient-blue-start; @gradient-blue-end; @img1url-why; @img1repeat-why; @img1pos-why; @img2url-why; @img2repeat-why; @img2pos-why; @img3url-why; @img3repeat-why; @img3pos-why; @img4url-why; @img4repeat-why; @img4pos-why; @img5url-why; @img5repeat-why; @img5pos-why; @img6url-why; @img6repeat-why; @img6pos-why);
+
+        h2 {
+            width : 400px;
+            min-height: 1em;
+            margin : auto;
+            padding : 8px;
+            margin-bottom: 50px; 
+            position:relative;
+
+
+            &:before {
+                border-color: #FFFFFF #FFFFFF #FFFFFF rgba(0, 0, 0, 0);
+                border-style: solid;
+                border-width: 0.95em 0.5em;
+                content: " ";
+                height: 0;
+                left: -1em;
+                position: absolute;
+                top: 0;
+            }
+
+            &:after {
+                border-color: #FFFFFF rgba(0, 0, 0, 0) #FFFFFF #FFFFFF;
+                border-style: solid;
+                border-width: 0.95em 0.5em;
+                content: " ";
+                height: 0;
+                right: -1em;
+                position: absolute;
+                top: 0;
+            }   
+        }
+        h3 {margin-top: 10px;}
+    }
+
+    #why1 {
+        min-height: 270px;
+        width : 315px;  
+        background-color: white;
+        box-shadow: inset -2px -0px 20px -10px #000;
+    }
+    #why2 {
+        min-height: 310px;
+        width : 325px;
+        vertical-align: 15px;
+        background-color: white;
+    }
+    #why3 {
+        min-height: 270px;
+        width : 315px;    
+        background-color: white;
+        box-shadow: inset 1px 0 20px -10px #000;
+        vertical-align: 10px;
+    }
+
+    #step1{
+        width : 180px;
+        margin: 0 0 0 0;
+    }
+    #step2{
+        width : 210px;
+        margin: 0 0 0 50px;
+        vertical-align: top;
+    }
+    #step3{
+        width : 180px;
+        margin: 0 0 0 35px;
+    }
+    #step4{
+        width : 180px;
+        margin: 0 35px 0 50px;
+    }
+    #steps {
+        background-image: url(Images/steps_clouds.png),url(Images/steps_clouds_repeat.png);
+        background-repeat: no-repeat,repeat-x;
+        background-position: bottom center, bottom;
+        padding: 120px 0 200px 0;
+        li {display:inline-block;}
+    }
+    #evaluate {
+        background-image: url(Images/footer_mountains.png),url(Images/footer_mountains_repeat.png);
+        background-repeat: no-repeat,repeat-x;
+        background-position: bottom center, bottom;
+    }  
+}
+
+@media (max-width: 1039px) {
+    #steps{
+        padding-bottom: 50px;
+        ol{
+            width : 60%;
+            margin: 30px auto 0 auto;
+          }  
+     
+        li {text-align: left;}
+    }
+    #why1, 
+    #why2, 
+    #why3 {
+        background-color: white;
+
+    }
+}

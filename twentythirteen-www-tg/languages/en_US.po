@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Matthieu Faure <mfaure@open-s.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../footer.php:32
+msgid "And also"
+msgstr "And also"
+
+msgid "Technology link title"
+msgstr "Tanaguru's Technologies"
+
+msgid "Technology link text"
+msgstr "Technology"
+
+msgid "Technology link Link"
+msgstr "Link_to_Technology_Page"
+
+msgid "Tour link text"
+msgstr "Tour"
+
+msgid "Tour link"
+msgstr "Link_to_Tour_Page"
+
+msgid "Offer link text"
+msgstr "Offer"
+
+msgid "Offer link"
+msgstr "Link_to_Offer_Page"
+
+msgid "KBAccess link title"
+msgstr "KBAccess - collaborative set of good and bad examples of web accessibility"
+
+msgid "KBAccess URL"
+msgstr "http://www.kbaccess.org"
+
+msgid "Contrast-Finder link title"
+msgstr "Contrast-Finder *proposes* good colors for a valid contrast"
+
+msgid "Contrast-Finder URL"
+msgstr "http://contrast-finder.tanaguru.com"
+
+msgid "Observatory link text"
+msgstr "The observatory"
+
+msgid "Observatory URL"
+msgstr "http://observatoire-accessibilite.org"
+
+msgid "Open-S URL"
+msgstr "http://www.open-s.com"
+
+msgid "Press link text"
+msgstr "Press"
+
+msgid "Press link"
+msgstr "link_to_Press_page"
+
+msgid "Social Tanaguru"
+msgstr "Tanaguru on social networks"
+
+msgid "Tanaguru on Twitter"
+msgstr "Tanaguru on Twitter"
+
+msgid "Twitter link title"
+msgstr "Tanaguru on Twitter"
+
+msgid "Twitter link"
+msgstr "https://twitter.com/tanaguruapp"
+
+msgid "Tanaguru on Github"
+msgstr "Tanaguru on Github"
+
+msgid "Github link title"
+msgstr "Tanaguru on Github"
+
+msgid "Github link"
+msgstr "https://github.com/Tanaguru/Tanaguru"
+
+msgid "Tanaguru on Linkedin"
+msgstr "Tanaguru on Linkedin"
+
+msgid "Linkedin link title"
+msgstr "Tanaguru on Linkedin"
+
+msgid "Linkedin link"
+msgstr "http://www.linkedin.com/company/open-s/products?trk=tabs_biz_product"
+
+msgid "Tanaguru on Slideshare"
+msgstr "Tanaguru on Slideshare"
+
+msgid "Slideshare link title"
+msgstr "Tanaguru on Slideshare"
+
+msgid "Slideshare link"
+msgstr "http://fr.slideshare.net/OpenSCompany"
+
+msgid "Tanaguru on Ohloh"
+msgstr "Tanaguru on Ohloh"
+
+msgid "Ohloh link title"
+msgstr "Tanaguru on Ohloh"
+
+msgid "Ohloh link"
+msgstr "https://www.ohloh.net/p/Tanaguru"
+
+msgid "Tanaguru free software by Open-S"
+msgstr "Tanaguru, free software edited by <a href=\"http://www.Open-S.com/\">Open-S</a>"
+
+msgid "Legal text link"
+msgstr "Legal"
+
+msgid "Legal link"
+msgstr "Link_to_legal_page"
+
+msgid "Credits text link"
+msgstr "Credits"
+
+msgid "Credits link"
+msgstr "Link_to_credits_page"
+
+msgid "Accessibility text link"
+msgstr "Accessibility statement"
+
+msgid "Accessibility link"
+msgstr "Link_to_Accessibility_page"
+
+msgid "Evaluate your accessibility !"
+msgstr "Evaluate your accessibility !"
