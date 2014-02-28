@@ -25,22 +25,23 @@
 .site-footer {
     background-color: @footer-bgcolor;
     color: @footer-color;
-    font-size: 0.938em; // 15px
-    line-height: 1.25em; // 20px
+    .my-font-size(15); //15px
+    .my-line-height(20); //20px
 
     .widget a {color: @footer-color;}    /* presence obligéé ici car selecteur définit comme tel dans theme parent */
     a {color: @footer-color;}
+    
     h2 {
-        font-size: 1.25em; // 20px
-        line-height: 1.25em; // 20px
+        .my-font-size(20); //20px
+        .my-line-height(20); //20px
         margin: 0 0 5px 0;
     }
 }
 
 #footer-tg-logo h2{
-    display:inline-block;
+    .my-font-size(30); //30px
+    display: inline-block;
     vertical-align: top;
-    font-size: 1.875em;
 }
 
 .widget {
@@ -48,7 +49,6 @@
     padding: 20px 20px 5px;
 }
 .widget li {padding:0;}
-
 
 #footer-tg li:before,
 #footer-and-also li:before {
@@ -60,8 +60,8 @@
 
 #footer2-1,
 #footer2-2 {
-    font-size: 0.813em; //13px
-    line-height: 0.938em; //15px
+    .my-font-size(13); //13px
+    .my-line-height(15); //15px
 }
 
 #footer2-1 {margin-bottom: 0.4em;}
@@ -77,51 +77,36 @@
  */
 
 .responsive {
-    display:block;
-    margin-left:auto;
+    display: block;
+    margin-left: auto;
     margin-right: auto;
     max-width: 100%;
 }
 
-#everest {
-    background: transparent; 
-    position : relative;
-    min-height: 1185px;
-    min-width: 100%;
-} 
+.center {text-align: center;}
 
 #everest_gradiant {
-    min-height: 34em;
-    /*    box-shadow: inset 0 5px 5px -3px black;*/
     .radial-gradient (@gradient-blue-start; @gradient-blue-end);     
 }
 
 #everest_filter {}
 
 #everest_dragon {
-    position : absolute;
-    top : 7em;
-    min-width :100%;
-    min-height:1185px; 
-    background-image: url(Images/dragon.png),url(Images/dragon_repeat.png);
-    background-repeat: no-repeat, repeat-x;
-    background-position: 50% 0%, 50% 0%;
-    background-color: transparent;    
+    a {
+        font-family: montserrat;
+        color: @button-color;   
+    }
 }
 #text_simply {
-    /*    position: absolute;
-        left:42%;*/
-    margin-left: 42%;
-    padding : 10px 10px 10px 55px;
-    width: 650px;
-    min-height: 145px;
     background-color: white;
-
+    width: 650px;
+    padding : 10px 10px 10px 55px;
+   
     h2 {
         .my-font-size(38); //38px
-        color: #4d4d4d;   
-        margin:0;
+        color: #4d4d4d;    
     }
+    
     p {
         .my-font-size(20); //20px
         .my-line-height(20); //20px
@@ -129,28 +114,22 @@
 }
 
 #button_simply {
-    /*    position:absolute;
-        left : 30%;
-        top: 80%;*/
-
-    margin-left: 140px;
-    font-weight:bold;
     .my-font-size(30); //30px
+    font-weight:bold;
     padding: 10px 20px 6px;
 }
 
 #accessibility_fast {
-    h2 {
-        margin-top: 400px;
+    h2 {  
         .my-font-size(43); //43px
-        color: #4d4d4d;   
+        color: #4d4d4d;
     }
+
     p {
         .my-font-size(20); //20px
         .my-line-height(20); //20px
         color: #666; 
-        max-width: 42.125em;
-        margin-bottom: 60px;
+  
     }
 }
 
@@ -168,9 +147,9 @@
 
     h3{
         .my-font-size(23); //23px
-        margin-bottom: 10px;
         color: #666;
         margin-top: 0;
+        margin-bottom: 10px;
     }
     ul {
         padding :0;
@@ -180,9 +159,9 @@
     li {display: inline-block;}
 
     p{      
-        color: #666;
         .my-font-size(18); //18px
         .my-line-height(22); //22px
+        color: #666;
         margin-bottom: 0;  
     }
 }
@@ -190,8 +169,8 @@
 #techno1, #techno2, #techno3 {text-align: left;}
 
 #button_technology {
-    font-weight:bold;
     .my-font-size(20); //20px
+    font-weight:bold;
     padding: 10px 20px 6px;
 }
 
@@ -208,68 +187,69 @@
 
     h3{
         .my-font-size(23); //23px      
-        margin-bottom: 5px;
         color: #666;
+        margin-bottom: 5px;
     }
+
     ul {padding :0;}
 
     li{
         padding:20px;
         display: inline-block;
     }
+
     p{
-        margin-bottom: 0;
-        color: #666;
         .my-font-size(18); //18px
         .my-line-height(22); //22px
+        color: #666;
         text-align: left;
+        margin-bottom: 0;
     }
 }
 
 #steps {
+    background: #fafafa;
 
     h2 {
-        color: #4d4d4d;
         .my-font-size(45); //45px
         .my-line-height(20); //20px 
+        color: #4d4d4d;
         margin: 0 0 30px 0;
     }
 
     p{
-        color: #666666;
         .my-font-size(20); //20px
         .my-line-height(20); //20px
+        color: #666666;
     }
 
     ol {margin: 20px 0 50px 0}
 
-    li { 
-        color: #666666;
+    li {              
         .my-font-size(17); //17px
         .my-line-height(21); //21px
-
-        text-align: center;
+        color: #666666;
     }
-
-    background: #fafafa;
 }
 
 #references { 
     padding : 40px 0 0 0;
+
     img {margin:10px 25px 10px 25px;}
+
     h2 {
-        color: #4d4d4d;
         .my-font-size(45); //45px
         .my-line-height(20); //20px
+        color: #4d4d4d;
         margin-bottom: 0;
     }
+
     p{
-        color: #666666;
         .my-font-size(20); //20px
         .my-line-height(20); //20px
+        color: #666666;
     }
 }
-.center {text-align: center;}
 
 #evaluate {
     padding : 60px 0 130px 0;
@@ -278,14 +258,6 @@
         color: @button-color;   
     }
 
-    a:active  {
-        font-family: montserrat;
-        color: @button-color;
-    }
-    a:hover {
-        font-family: montserrat;
-        color: @button-color; 
-    }
     p {margin-bottom:0;}
 }
 
@@ -314,6 +286,7 @@
 
 @media screen and (min-width: 1040px) {
     .widget {padding: 0 0.5% 5px;}
+
     #footer-tg-logo     {
         width:30%;   
     }
@@ -327,6 +300,49 @@
         width:20%;
     }
 
+    #everest {
+    background: transparent; 
+    position : relative;
+    min-height: 1185px;
+    min-width: 100%;
+} 
+    
+#everest_gradiant {min-height: 51rem;} //510px
+    
+    #everest_dragon {
+        position : absolute;
+        top : 7em;
+        min-width: 100%;
+        min-height: 1185px; 
+        background-image: url(Images/dragon.png),url(Images/dragon_repeat.png);
+        background-repeat: no-repeat, repeat-x;
+        background-position: 50% 0%, 50% 0%;
+        background-color: transparent;     
+    }
+
+ #text_simply {
+    
+    width: 650px;
+    padding : 10px 10px 10px 55px;
+    margin-left: 42%;
+
+    h2 {margin:0;}
+}
+
+#button_simply {
+    margin-top: -1.5rem; //15px
+    margin-left: 65rem; //650px  
+}   
+    
+#accessibility_fast {
+    h2 {margin: 40rem 0 1.5rem 0;}
+
+    p { 
+        max-width: 42.125em;
+        margin-bottom: 60px;
+    }
+}    
+    
     #technology {
         background-image: url(Images/technology.png),url(Images/technology_repeat.png);
         background-repeat: no-repeat,repeat-x;
@@ -426,7 +442,7 @@
         background-image: url(Images/steps_clouds.png),url(Images/steps_clouds_repeat.png);
         background-repeat: no-repeat,repeat-x;
         background-position: bottom center, bottom;
-        padding: 120px 0 200px 0;
+        padding: 12rem 0 20rem 0;
         li {display:inline-block;}
     }
     #evaluate {
@@ -450,6 +466,5 @@
     #why2, 
     #why3 {
         background-color: white;
-
     }
 }

@@ -1,8 +1,7 @@
-<?php
-
-get_header(); ?>
+<?php get_header(); ?>
 
 <section id="everest">
+
     <div id="everest_gradiant">
         <div id="filter">
         </div>
@@ -13,28 +12,24 @@ get_header(); ?>
                 <h2>L'accessibilité. Simplement.</h2>
                 <p>La voie la plus rapide pour optimiser votre accessibilité.</p>
             </div>    
-                <p class="center">
-                    <a href="#" id="button_simply" class="button"><?php _e('> Testez Tanaguru', 'wwwtg'); ?></a>
-                </p> 
-             
+            <p class="center">
+                <a href="#" id="button_simply" class="button"><?php _e('> Testez Tanaguru', 'wwwtg'); ?></a>
+            </p> 
+
         </article>
 
         <article id="accessibility_fast">
-                <h2 class="center">Accélérez vos tests d’accessibilité. Vraiment.</h2>
-                <p class="center responsive"> Tanaguru , c’est l’analyse d’une page, d’un site entier ou même d’un parcours utilisateurs,
-                    simplement, rapidement, de manière fiable et intuitive. Puissant. Vraiment.</p>
-                <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/machine.png" alt=""/>
+            <h2 class="center">Accélérez vos tests d’accessibilité. Vraiment.</h2>
+            <p class="center responsive"> Tanaguru , c’est l’analyse d’une page, d’un site entier ou même d’un parcours utilisateurs,
+                simplement, rapidement, de manière fiable et intuitive. Puissant. Vraiment.</p>
+            <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/machine.png" alt=""/>
         </article>     
-     </div>
-  
+    </div>
 
 </section>
 
-
-
- 
 <section id="technology">
-    
+
     <h2 class="center">Plusieurs types d’analyses. Des possibilités multiples.</h2>
     <ul class="center">
         <li id="techno1">
@@ -59,16 +54,16 @@ get_header(); ?>
                 whale-ship.</p>
         </li>  
     </ul>
-    
-     <p class="center">
-        <a href="" id="button_technology" class="button"><?php _e('More about our technology', 'wwwtg'); ?></a>
+
+    <p class="center">
+        <a href="#" id="button_technology" class="button"><?php _e('More about our technology', 'wwwtg'); ?></a>
     </p> 
-    
+
 </section>
 
 <section id="why" class="">
-   
-        <h2 class="center">Pourquoi Tanaguru ?</h2> 
+
+    <h2 class="center">Pourquoi Tanaguru ?</h2> 
     <ul class="center">
         <li id="why1">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/data.png" alt=""/>
@@ -92,7 +87,7 @@ get_header(); ?>
                 proved her a whale-ship.</p>
         </li>
     </ul>
-   
+
 </section>
 
 <section id="steps">
@@ -115,34 +110,35 @@ get_header(); ?>
 </section>
 
 <section id="references">
+    
     <h2 class="center">They<img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/heart.png" alt="love"/>Tanaguru</h2>
     <p class="center"><?php _e('Slogan', 'wwwtg'); ?></p>
     <p class="center">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/edf.png" alt=""/>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/smile.png" alt="" />
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/alterway.png" alt=""/>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/sg.png" alt=""/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/edf.png" alt=""/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/smile.png" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/alterway.png" alt=""/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/sg.png" alt=""/>
     </p>   
     <p class="center">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/capgemini.png" alt=""/>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/universcience.png" alt=""/>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/mairieparis.png" alt=""/>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/michelin.png" alt=""/> 
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/capgemini.png" alt=""/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/universcience.png" alt=""/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/mairieparis.png" alt=""/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/michelin.png" alt=""/> 
     </p>
     <p class="center">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/ministereculture.png" alt=""/>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/inpes.png" alt=""/>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/rff.png" alt=""/>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/agenceeau.png" alt=""/>     
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/ministereculture.png" alt=""/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/inpes.png" alt=""/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/rff.png" alt=""/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/agenceeau.png" alt=""/>     
     </p>
-    
+
 </section>
 
 <section id="evaluate">
     <p class="center">
-        <a href="" id="button_evaluate" class="button"><?php _e('Evaluate your accessibility !', 'wwwtg'); ?></a>
+        <a href="#" id="button_evaluate" class="button"><?php _e('Evaluate your accessibility !', 'wwwtg'); ?></a>
     </p>
-  </section>
+</section>
 
 
 <?php get_footer(); ?>

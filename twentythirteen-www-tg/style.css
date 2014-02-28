@@ -165,8 +165,10 @@ html {
 .site-footer {
   background-color: #3f3f3f;
   color: #ffffff;
-  font-size: 0.938em;
-  line-height: 1.25em;
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 20px;
+  line-height: 2rem;
   /* presence obligéé ici car selecteur définit comme tel dans theme parent */
 }
 .site-footer .widget a {
@@ -176,14 +178,17 @@ html {
   color: #ffffff;
 }
 .site-footer h2 {
-  font-size: 1.25em;
-  line-height: 1.25em;
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 20px;
+  line-height: 2rem;
   margin: 0 0 5px 0;
 }
 #footer-tg-logo h2 {
+  font-size: 30px;
+  font-size: 3rem;
   display: inline-block;
   vertical-align: top;
-  font-size: 1.875em;
 }
 .widget {
   margin: 0 1% 0 0;
@@ -205,8 +210,10 @@ html {
 }
 #footer2-1,
 #footer2-2 {
-  font-size: 0.813em;
-  line-height: 0.938em;
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 15px;
+  line-height: 1.5rem;
 }
 #footer2-1 {
   margin-bottom: 0.4em;
@@ -226,15 +233,10 @@ html {
   margin-right: auto;
   max-width: 100%;
 }
-#everest {
-  background: transparent;
-  position: relative;
-  min-height: 1185px;
-  min-width: 100%;
+.center {
+  text-align: center;
 }
 #everest_gradiant {
-  min-height: 34em;
-  /*    box-shadow: inset 0 5px 5px -3px black;*/
   background: #00d9f0;
   /* Old browsers */
   background: -webkit-radial-gradient(center, ellipse cover, #00d9f0 0%, #008594 100%);
@@ -252,30 +254,19 @@ html {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@begin', endColorstr='@end', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
-#everest_dragon {
-  position: absolute;
-  top: 7em;
-  min-width: 100%;
-  min-height: 1185px;
-  background-image: url(Images/dragon.png), url(Images/dragon_repeat.png);
-  background-repeat: no-repeat, repeat-x;
-  background-position: 50% 0%, 50% 0%;
-  background-color: transparent;
+#everest_dragon a {
+  font-family: montserrat;
+  color: #ffffff;
 }
 #text_simply {
-  /*    position: absolute;
-        left:42%;*/
-  margin-left: 42%;
-  padding: 10px 10px 10px 55px;
-  width: 650px;
-  min-height: 145px;
   background-color: white;
+  width: 650px;
+  padding: 10px 10px 10px 55px;
 }
 #text_simply h2 {
   font-size: 38px;
   font-size: 3.8rem;
   color: #4d4d4d;
-  margin: 0;
 }
 #text_simply p {
   font-size: 20px;
@@ -284,17 +275,12 @@ html {
   line-height: 2rem;
 }
 #button_simply {
-  /*    position:absolute;
-        left : 30%;
-        top: 80%;*/
-  margin-left: 140px;
-  font-weight: bold;
   font-size: 30px;
   font-size: 3rem;
+  font-weight: bold;
   padding: 10px 20px 6px;
 }
 #accessibility_fast h2 {
-  margin-top: 400px;
   font-size: 43px;
   font-size: 4.3rem;
   color: #4d4d4d;
@@ -305,8 +291,6 @@ html {
   line-height: 20px;
   line-height: 2rem;
   color: #666;
-  max-width: 42.125em;
-  margin-bottom: 60px;
 }
 #technology {
   background-color: #fafafa;
@@ -324,9 +308,9 @@ html {
 #technology h3 {
   font-size: 23px;
   font-size: 2.3rem;
-  margin-bottom: 10px;
   color: #666;
   margin-top: 0;
+  margin-bottom: 10px;
 }
 #technology ul {
   padding: 0;
@@ -336,11 +320,11 @@ html {
   display: inline-block;
 }
 #technology p {
-  color: #666;
   font-size: 18px;
   font-size: 1.8rem;
   line-height: 22px;
   line-height: 2.2rem;
+  color: #666;
   margin-bottom: 0;
 }
 #techno1,
@@ -349,9 +333,9 @@ html {
   text-align: left;
 }
 #button_technology {
-  font-weight: bold;
   font-size: 20px;
   font-size: 2rem;
+  font-weight: bold;
   padding: 10px 20px 6px;
 }
 #why {
@@ -382,8 +366,8 @@ html {
 #why h3 {
   font-size: 23px;
   font-size: 2.3rem;
-  margin-bottom: 5px;
   color: #666;
+  margin-bottom: 5px;
 }
 #why ul {
   padding: 0;
@@ -393,42 +377,41 @@ html {
   display: inline-block;
 }
 #why p {
-  margin-bottom: 0;
-  color: #666;
   font-size: 18px;
   font-size: 1.8rem;
   line-height: 22px;
   line-height: 2.2rem;
+  color: #666;
   text-align: left;
+  margin-bottom: 0;
 }
 #steps {
   background: #fafafa;
 }
 #steps h2 {
-  color: #4d4d4d;
   font-size: 45px;
   font-size: 4.5rem;
   line-height: 20px;
   line-height: 2rem;
+  color: #4d4d4d;
   margin: 0 0 30px 0;
 }
 #steps p {
-  color: #666666;
   font-size: 20px;
   font-size: 2rem;
   line-height: 20px;
   line-height: 2rem;
+  color: #666666;
 }
 #steps ol {
   margin: 20px 0 50px 0;
 }
 #steps li {
-  color: #666666;
   font-size: 17px;
   font-size: 1.7rem;
   line-height: 21px;
   line-height: 2.1rem;
-  text-align: center;
+  color: #666666;
 }
 #references {
   padding: 40px 0 0 0;
@@ -437,35 +420,24 @@ html {
   margin: 10px 25px 10px 25px;
 }
 #references h2 {
-  color: #4d4d4d;
   font-size: 45px;
   font-size: 4.5rem;
   line-height: 20px;
   line-height: 2rem;
+  color: #4d4d4d;
   margin-bottom: 0;
 }
 #references p {
-  color: #666666;
   font-size: 20px;
   font-size: 2rem;
   line-height: 20px;
   line-height: 2rem;
-}
-.center {
-  text-align: center;
+  color: #666666;
 }
 #evaluate {
   padding: 60px 0 130px 0;
 }
 #evaluate a {
-  font-family: montserrat;
-  color: #ffffff;
-}
-#evaluate a:active {
-  font-family: montserrat;
-  color: #ffffff;
-}
-#evaluate a:hover {
   font-family: montserrat;
   color: #ffffff;
 }
@@ -513,6 +485,44 @@ html {
   }
   #footer-social {
     width: 20%;
+  }
+  #everest {
+    background: transparent;
+    position: relative;
+    min-height: 1185px;
+    min-width: 100%;
+  }
+  #everest_gradiant {
+    min-height: 51rem;
+  }
+  #everest_dragon {
+    position: absolute;
+    top: 7em;
+    min-width: 100%;
+    min-height: 1185px;
+    background-image: url(Images/dragon.png), url(Images/dragon_repeat.png);
+    background-repeat: no-repeat, repeat-x;
+    background-position: 50% 0%, 50% 0%;
+    background-color: transparent;
+  }
+  #text_simply {
+    width: 650px;
+    padding: 10px 10px 10px 55px;
+    margin-left: 42%;
+  }
+  #text_simply h2 {
+    margin: 0;
+  }
+  #button_simply {
+    margin-top: -1.5rem;
+    margin-left: 65rem;
+  }
+  #accessibility_fast h2 {
+    margin: 40rem 0 1.5rem 0;
+  }
+  #accessibility_fast p {
+    max-width: 42.125em;
+    margin-bottom: 60px;
   }
   #technology {
     background-image: url(Images/technology.png), url(Images/technology_repeat.png);
@@ -617,7 +627,7 @@ html {
     background-image: url(Images/steps_clouds.png), url(Images/steps_clouds_repeat.png);
     background-repeat: no-repeat, repeat-x;
     background-position: bottom center, bottom;
-    padding: 120px 0 200px 0;
+    padding: 12rem 0 20rem 0;
   }
   #steps li {
     display: inline-block;
