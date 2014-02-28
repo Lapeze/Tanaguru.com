@@ -23,7 +23,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@begin', endColorstr='@end',GradientType=1 ); 
     background-repeat: @img1repeat, @img2repeat, @img3repeat, @img4repeat, @img5repeat, @img6repeat, no-repeat ;
     background-position: @img1pos, @img2pos, @img3pos, @img4pos, @img5pos, @img6pos, bottom;
-    
+
 }
 
 
@@ -39,3 +39,17 @@
     background:         linear-gradient(135deg,  @begin 0%,@end 100%); //  W3C 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@begin', endColorstr='@end',GradientType=1 ); //  IE6-9 fallback on horizontal gradient 
 }
+
+
+.my-font-size(@pxValue) {
+    @remValue: @pxValue / 10;
+    font-size: ~"@{pxValue}px"; font-size: ~"@{remValue}rem";
+}
+
+.my-line-height(@pxValue) {
+    @remValue: @pxValue / 10;
+    line-height: ~"@{pxValue}px"; line-height: ~"@{remValue}rem";
+}
+
+
+

@@ -92,7 +92,7 @@
 
 #everest_gradiant {
     min-height: 34em;
-/*    box-shadow: inset 0 5px 5px -3px black;*/
+    /*    box-shadow: inset 0 5px 5px -3px black;*/
     .radial-gradient (@gradient-blue-start; @gradient-blue-end);     
 }
 
@@ -116,17 +116,15 @@
     width: 650px;
     min-height: 145px;
     background-color: white;
-    
+
     h2 {
-        font-size: 2.375em; //43px
+        .my-font-size(38); //38px
         color: #4d4d4d;   
         margin:0;
     }
     p {
-        font-size: 1.375em; //20px
-        line-height: 1.375em; //20px
-        color: #666; 
-        margin:0;
+        .my-font-size(20); //20px
+        .my-line-height(20); //20px
     }
 }
 
@@ -134,42 +132,42 @@
     /*    position:absolute;
         left : 30%;
         top: 80%;*/
-    
+
     margin-left: 140px;
     font-weight:bold;
-    font-size: 1.875em; //30px
+    .my-font-size(30); //30px
     padding: 10px 20px 6px;
 }
 
 #accessibility_fast {
- h2 {
-     margin-top: 400px;
-     font-size: 2.687em; //43px
-     color: #4d4d4d;   
- }
- p {
-     font-size: 1.250em; //20px
-     line-height: 1.250em; //20px
-     color: #666; 
-     max-width: 42.125em;
-     margin-bottom: 60px;
- }
+    h2 {
+        margin-top: 400px;
+        .my-font-size(43); //43px
+        color: #4d4d4d;   
+    }
+    p {
+        .my-font-size(20); //20px
+        .my-line-height(20); //20px
+        color: #666; 
+        max-width: 42.125em;
+        margin-bottom: 60px;
+    }
 }
 
 #technology {
     background-color: #fafafa;
     padding : 150px 0 100px 0;
-    
+
     a {color: white;}
 
     h2 {
-        font-size: 1.75em; //28px
+        .my-font-size(28); //28px
         color: #4d4d4d;
         margin-bottom: 70px;
     }
 
     h3{
-        font-size: 1.437em; // 23px
+        .my-font-size(23); //23px
         margin-bottom: 10px;
         color: #666;
         margin-top: 0;
@@ -183,8 +181,8 @@
 
     p{      
         color: #666;
-        font-size: 1.125em; //18px
-        line-height: 1.375; //22px
+        .my-font-size(18); //18px
+        .my-line-height(22); //22px
         margin-bottom: 0;  
     }
 }
@@ -193,7 +191,7 @@
 
 #button_technology {
     font-weight:bold;
-    font-size: 1.625em; //26px
+    .my-font-size(20); //20px
     padding: 10px 20px 6px;
 }
 
@@ -202,15 +200,14 @@
     .radial-gradient (@gradient-blue-start; @gradient-blue-end);
     padding : 150px 0 180px 0;
 
-    h2 {
-        font-size: 1.75em; //28px
+    h2 {  
+        .my-font-size(28); //28px
         color: #4d4d4d;
         background: white;
     }
 
     h3{
-        font-size: 1.437em; // 23px
-
+        .my-font-size(23); //23px      
         margin-bottom: 5px;
         color: #666;
     }
@@ -223,8 +220,8 @@
     p{
         margin-bottom: 0;
         color: #666;
-        font-size: 1.125em; //18px
-        line-height: 1.375; //22px
+        .my-font-size(18); //18px
+        .my-line-height(22); //22px
         text-align: left;
     }
 }
@@ -233,26 +230,24 @@
 
     h2 {
         color: #4d4d4d;
-        font-size: 2.812em; //45px
-        line-height: 1,25em; //20px 
-        margin: 0;
+        .my-font-size(45); //45px
+        .my-line-height(20); //20px 
+        margin: 0 0 30px 0;
     }
-    
- 
-    
+
     p{
         color: #666666;
-        font-size: 1,25em; //20px 
-        line-height: 1,25em; //20px 
-        margin-top : 5px;
+        .my-font-size(20); //20px
+        .my-line-height(20); //20px
     }
-    
+
     ol {margin: 20px 0 50px 0}
-    
+
     li { 
         color: #666666;
-        font-size: 1.062em; //17px
-        line-height: 1.312em; //21px
+        .my-font-size(17); //17px
+        .my-line-height(21); //21px
+
         text-align: center;
     }
 
@@ -264,14 +259,14 @@
     img {margin:10px 25px 10px 25px;}
     h2 {
         color: #4d4d4d;
-        font-size: 2.812em; //45px
-        line-height: 1,25em; //20px 
+        .my-font-size(45); //45px
+        .my-line-height(20); //20px
         margin-bottom: 0;
     }
     p{
         color: #666666;
-        font-size: 1,25em; //20px 
-        line-height: 1,25em; //20px 
+        .my-font-size(20); //20px
+        .my-line-height(20); //20px
     }
 }
 .center {text-align: center;}
@@ -296,7 +291,7 @@
 
 #button_evaluate {
     font-weight:bold;
-    font-size: 1.625em; //26px
+    .my-font-size(26); //26px
     padding: 10px 20px 6px;
 
 }
@@ -447,8 +442,8 @@
         ol{
             width : 60%;
             margin: 30px auto 0 auto;
-          }  
-     
+        }  
+
         li {text-align: left;}
     }
     #why1, 
