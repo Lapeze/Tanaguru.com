@@ -133,27 +133,56 @@ html {
 .navbar {
   background-color: #efefef;
 }
-#masthead {
-  background: #00d9f0;
-  /* Old browsers */
-  background: -webkit-radial-gradient(center, ellipse cover, #00d9f0 0%, #008594 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -moz-radial-gradient(center, ellipse cover, #00d9f0 0%, #008594 100%);
-  /* FF3.6+ */
-  background: -ms-radial-gradient(center, ellipse cover, #00d9f0 0%, #008594 100%);
-  /* IE10+ */
-  background: -o-radial-gradient(center, ellipse cover, #00d9f0 0%, #008594 100%);
-  /* Opera 12+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #00d9f0), color-stop(100%, #008594));
-  /* Chrome,Safari4+ */
-  background: radial-gradient(ellipse at center, #00d9f0 0%, #008594 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@begin', endColorstr='@end', GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
+.red_line {
+  border-top: 0.5rem solid #e4420d;
 }
-.site-header .home-link {
-  background: url(Images/bg-noise.png) repeat top left;
-  background: url(Images/Montagnes.png) no-repeat bottom right;
+#masthead {
+  max-width: 96rem;
+  min-height: 10.5rem;
+  margin: auto;
+}
+#masthead p {
+  margin: 0;
+}
+#masthead ul {
+  text-align: right;
+  padding: 0;
+  background-color: #fff;
+}
+#logo {
+  float: left;
+  color: #4d4d4d;
+}
+#logo h2 {
+  margin: 5px 0 0 0;
+}
+#navbar {
+  font-size: 15px;
+  font-size: 1.5rem;
+  font-family: montserrat;
+  font-weight: normal;
+  color: #4d4d4d;
+  background-color: #fff;
+  margin-top: 10px;
+  width: 600px;
+  float: right;
+}
+#navbar li a {
+  padding: 10px;
+}
+/*.site-header .home-link {
+    background: url(Images/bg-noise.png) repeat top left;
+    background: url(Images/Montagnes.png) no-repeat bottom right;
+}*/
+#button_my_tanaguru {
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-size: open_sans;
+  font-weight: normal;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: 77rem;
+  border-radius: 0 0 4px 4px;
 }
 /**
  * Footer 
