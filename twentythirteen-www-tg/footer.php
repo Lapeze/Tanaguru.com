@@ -8,7 +8,6 @@
  * @subpackage Twenty_Thirteen
  * @since Twenty Thirteen 1.0
  */
-
 ?>
 
 </div><!-- #main -->
@@ -34,7 +33,7 @@
                     <a href="" title="<?php _e('Contact link title', 'wwwtg'); ?>">Contact</a>
                 </li>
                 <li>
-                   <a href="" title="<?php _e('Blog link title', 'wwwtg'); ?>">Blog</a>
+                    <a href="" title="<?php _e('Blog link title', 'wwwtg'); ?>">Blog</a>
                 </li>
             </ul>
         </aside>
@@ -67,8 +66,8 @@
                 <a href="<?php _e('Slideshare link', 'wwwtg'); ?>" title="<?php _e('Slideshare link title', 'wwwtg'); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/Social/slideshare.png" alt="<?php _e('Tanaguru on Slideshare', 'wwwtg'); ?>" /></a>
                 <a href="<?php _e('Ohloh link', 'wwwtg'); ?>" title="<?php _e('Ohloh link title', 'wwwtg'); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/Social/ohloh.png" alt="<?php _e('Tanaguru on Ohloh', 'wwwtg'); ?>" /></a>
             </p>
-               
-                
+
+
         </aside>
     </div><!-- /widget-area -->
 
@@ -81,6 +80,6 @@
 </footer><!-- #colophon -->
 </div><!-- #page -->
 
-
+<?php wp_footer(); ?>
 </body>
 </html>
