@@ -15,7 +15,7 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
     <div class="widget-area">
         <aside id="footer-tg-logo" class="widget">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo.png" alt=""/>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo-footer.png" alt=""/>
             <h2>Tanaguru</h2>
         </aside>
         <aside id="footer-tg" class="widget">

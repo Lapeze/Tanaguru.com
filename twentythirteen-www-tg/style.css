@@ -154,7 +154,7 @@ html {
   color: #4d4d4d;
 }
 #logo h2 {
-  margin: 5px 0 0 0;
+  margin: 0 0 0 0;
 }
 #navbar {
   font-size: 15px;
@@ -163,16 +163,16 @@ html {
   font-weight: normal;
   color: #4d4d4d;
   background-color: #fff;
-  margin-top: 10px;
-  width: 600px;
+  /*    margin-top: 10px;
+    width: 600px;*/
   float: right;
 }
 #navbar li a {
   padding: 10px;
 }
 /*.site-header .home-link {
-    background: url(Images/bg-noise.png) repeat top left;
-    background: url(Images/Montagnes.png) no-repeat bottom right;
+    background: url(Images/Background/bg-noise.png) repeat top left;
+    background: url(Images/Background/Montagnes.png) no-repeat bottom right;
 }*/
 #button_my_tanaguru {
   font-size: 14px;
@@ -181,7 +181,8 @@ html {
   font-weight: normal;
   padding-left: 2rem;
   padding-right: 2rem;
-  margin-left: 77rem;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 0 0 4px 4px;
 }
 /**
@@ -289,7 +290,7 @@ html {
 }
 #text_simply {
   background-color: white;
-  width: 650px;
+  min-width: 650px;
   padding: 10px 10px 10px 55px;
 }
 #text_simply h2 {
@@ -420,8 +421,8 @@ html {
 #steps h2 {
   font-size: 45px;
   font-size: 4.5rem;
-  line-height: 20px;
-  line-height: 2rem;
+  line-height: 45px;
+  line-height: 4.5rem;
   color: #4d4d4d;
   margin: 0 0 30px 0;
 }
@@ -432,15 +433,15 @@ html {
   line-height: 2rem;
   color: #666666;
 }
-#steps ol {
-  margin: 20px 0 50px 0;
-}
 #steps li {
   font-size: 17px;
   font-size: 1.7rem;
   line-height: 21px;
   line-height: 2.1rem;
   color: #666666;
+}
+#steps li img {
+  padding: 10px 0 15px 0;
 }
 #references {
   padding: 40px 0 0 0;
@@ -500,6 +501,9 @@ html {
  * -----------------------------------------------------------------------------
  */
 @media screen and (min-width: 1040px) {
+  #button_my_tanaguru {
+    margin-left: 77rem;
+  }
   .widget {
     padding: 0 0.5% 5px;
   }
@@ -529,7 +533,7 @@ html {
     top: 7em;
     min-width: 100%;
     min-height: 1185px;
-    background-image: url(Images/dragon.png), url(Images/dragon_repeat.png);
+    background-image: url(Images/Background/dragon.png), url(Images/Background/dragon_repeat.png);
     background-repeat: no-repeat, repeat-x;
     background-position: 50% 0%, 50% 0%;
     background-color: transparent;
@@ -554,7 +558,7 @@ html {
     margin-bottom: 60px;
   }
   #technology {
-    background-image: url(Images/technology.png), url(Images/technology_repeat.png);
+    background-image: url(Images/Background/technology.png), url(Images/Background/technology_repeat.png);
     background-repeat: no-repeat, repeat-x;
     background-position: top center, top;
   }
@@ -575,12 +579,12 @@ html {
   #why {
     background-color: #00d9f0;
     /* Old browsers */
-    background-image: url(Images/why_line.png), url(Images/why_line_repeat.png), url(Images/why_mountains.png), url(Images/why_mountains_repeat.png), url(Images/grid.png), url(Images/bg-noise.png), -webkit-radial-gradient(center, ellipse cover, #00d9f0 0%, #008594 100%);
-    background-image: url(Images/why_line.png), url(Images/why_line_repeat.png), url(Images/why_mountains.png), url(Images/why_mountains_repeat.png), url(Images/grid.png), url(Images/bg-noise.png), -moz-radial-gradient(center, ellipse cover, #00d9f0 0%, #008594 100%);
-    background-image: url(Images/why_line.png), url(Images/why_line_repeat.png), url(Images/why_mountains.png), url(Images/why_mountains_repeat.png), url(Images/grid.png), url(Images/bg-noise.png), -ms-radial-gradient(center, ellipse cover, #00d9f0 0%, #008594 100%);
-    background-image: url(Images/why_line.png), url(Images/why_line_repeat.png), url(Images/why_mountains.png), url(Images/why_mountains_repeat.png), url(Images/grid.png), url(Images/bg-noise.png), -o-radial-gradient(center, ellipse cover, #00d9f0 0%, #008594 100%);
-    background-image: url(Images/why_line.png), url(Images/why_line_repeat.png), url(Images/why_mountains.png), url(Images/why_mountains_repeat.png), url(Images/grid.png), url(Images/bg-noise.png), -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #00d9f0), color-stop(100%, #008594));
-    background-image: url(Images/why_line.png), url(Images/why_line_repeat.png), url(Images/why_mountains.png), url(Images/why_mountains_repeat.png), url(Images/grid.png), url(Images/bg-noise.png), radial-gradient(ellipse at center, #00d9f0 0%, #008594 100%);
+    background-image: url(Images/Background/why_line.png), url(Images/Background/why_line_repeat.png), url(Images/Background/why_mountains.png), url(Images/Background/why_mountains_repeat.png), url(Images/Background/grid.png), url(Images/Background/bg-noise.png), -webkit-radial-gradient(center, ellipse cover, #00d9f0 0%, #008594 100%);
+    background-image: url(Images/Background/why_line.png), url(Images/Background/why_line_repeat.png), url(Images/Background/why_mountains.png), url(Images/Background/why_mountains_repeat.png), url(Images/Background/grid.png), url(Images/Background/bg-noise.png), -moz-radial-gradient(center, ellipse cover, #00d9f0 0%, #008594 100%);
+    background-image: url(Images/Background/why_line.png), url(Images/Background/why_line_repeat.png), url(Images/Background/why_mountains.png), url(Images/Background/why_mountains_repeat.png), url(Images/Background/grid.png), url(Images/Background/bg-noise.png), -ms-radial-gradient(center, ellipse cover, #00d9f0 0%, #008594 100%);
+    background-image: url(Images/Background/why_line.png), url(Images/Background/why_line_repeat.png), url(Images/Background/why_mountains.png), url(Images/Background/why_mountains_repeat.png), url(Images/Background/grid.png), url(Images/Background/bg-noise.png), -o-radial-gradient(center, ellipse cover, #00d9f0 0%, #008594 100%);
+    background-image: url(Images/Background/why_line.png), url(Images/Background/why_line_repeat.png), url(Images/Background/why_mountains.png), url(Images/Background/why_mountains_repeat.png), url(Images/Background/grid.png), url(Images/Background/bg-noise.png), -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #00d9f0), color-stop(100%, #008594));
+    background-image: url(Images/Background/why_line.png), url(Images/Background/why_line_repeat.png), url(Images/Background/why_mountains.png), url(Images/Background/why_mountains_repeat.png), url(Images/Background/grid.png), url(Images/Background/bg-noise.png), radial-gradient(ellipse at center, #00d9f0 0%, #008594 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@begin', endColorstr='@end', GradientType=1);
     background-repeat: no-repeat, repeat-x, no-repeat, repeat-x, repeat, repeat, no-repeat;
     background-position: top center, top, bottom center, bottom, 50% 52%, 50% 50%, bottom;
@@ -641,8 +645,8 @@ html {
   }
   #step2 {
     width: 210px;
-    margin: 0 0 0 50px;
-    vertical-align: top;
+    margin: 0 0 0 41px;
+    /*        vertical-align: top;*/
   }
   #step3 {
     width: 180px;
@@ -653,16 +657,19 @@ html {
     margin: 0 35px 0 50px;
   }
   #steps {
-    background-image: url(Images/steps_clouds.png), url(Images/steps_clouds_repeat.png);
-    background-repeat: no-repeat, repeat-x;
-    background-position: bottom center, bottom;
+    background-image: url(Images/Background/timeline.png), url(Images/Background/steps_clouds.png), url(Images/Background/steps_clouds_repeat.png);
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-position: center 59%, bottom center, bottom;
     padding: 12rem 0 20rem 0;
   }
   #steps li {
     display: inline-block;
   }
+  #steps li img {
+    padding: 20px 0 70px 0;
+  }
   #evaluate {
-    background-image: url(Images/footer_mountains.png), url(Images/footer_mountains_repeat.png);
+    background-image: url(Images/Background/footer_mountains.png), url(Images/Background/footer_mountains_repeat.png);
     background-repeat: no-repeat, repeat-x;
     background-position: bottom center, bottom;
   }

@@ -33,7 +33,7 @@
     <h2 class="center">Plusieurs types d’analyses. Des possibilités multiples.</h2>
     <ul class="center">
         <li id="techno1">
-            <h3 class="center">Site&Page</h3>
+            <h3 class="center">Site&amp;Page</h3>
             <p>By and by, through the glass the
                 stranger's boats and manned
                 mast-heads proved her a big awesome
@@ -93,24 +93,34 @@
 <section id="steps">
     <h2 class="center">Easy. Fast. Adaptive. </h2>
     <p class="center"> Avec Tanaguru, 4 étapes suffisent pour tester un site entier, de manière personnalisable, fiable et agréable.</p>
-    <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/steps.png"" alt=""/>
+<!--    <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/steps.png" alt=""/>-->
     <ol class="center">
-        <li id="step1">Lancez un audit en le
+
+        <li id="step1">
+            <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/Pictograms/step1.png" alt=""/>
+            Lancez un audit en le
             parametrant suivant
             vos besoins.</li>
-        <li id="step2">Définissez vos priorités
-            grâce à la synthèse globale.</li>
-        <li id="step3">A vous de jouer !
-            Utilisez les résultats
+
+        <li id="step2">
+            <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/Pictograms/step2.png" alt=""/>
+            Définissez vos priorités grâce à la synthèse globale.</li>
+
+        <li id="step3">
+            <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/Pictograms/step3.png" alt=""/>
+            A vous de jouer! Utilisez les résultats
             détaillés.</li>
-        <li id="step4">Suivez l’évolution
+
+        <li id="step4">
+            <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/Pictograms/step4.png" alt=""/>
+            Suivez l’évolution
             de l’accessibilité de
             votre site.</li>
     </ol>
 </section>
 
 <section id="references">
-    
+
     <h2 class="center">They<img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/heart.png" alt="love"/>Tanaguru</h2>
     <p class="center"><?php _e('Slogan', 'wwwtg'); ?></p>
     <p class="center">

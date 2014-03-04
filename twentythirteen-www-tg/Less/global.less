@@ -32,7 +32,7 @@
 #logo {
     float: left;
     color: #4d4d4d;
-    h2 {margin:5px 0 0 0;}
+    h2 {margin: 0 0 0 0;}
 }
 
 
@@ -42,15 +42,15 @@
     font-weight: normal;
     color: #4d4d4d;
     background-color: #fff;
-    margin-top: 10px;
-    width: 600px;
+    /*    margin-top: 10px;
+        width: 600px;*/
     float: right;
     li a {padding: 10px}
 }
 
 /*.site-header .home-link {
-    background: url(Images/bg-noise.png) repeat top left;
-    background: url(Images/Montagnes.png) no-repeat bottom right;
+    background: url(Images/Background/bg-noise.png) repeat top left;
+    background: url(Images/Background/Montagnes.png) no-repeat bottom right;
 }*/
 
 #button_my_tanaguru {
@@ -59,7 +59,8 @@
     font-weight: normal;
     padding-left: 2rem;
     padding-right: 2rem;
-    margin-left: 77rem;  
+    /*    margin-left: auto; 
+        margin-right: auto;*/
     border-radius: 0 0 4px 4px;
 }
 
@@ -78,7 +79,7 @@
 
     .widget a {color: @footer-color;}    /* presence obligéé ici car selecteur définit comme tel dans theme parent */
     a {color: @footer-color;}
-    
+
     h2 {
         .my-font-size(20); //20px
         .my-line-height(20); //20px
@@ -147,14 +148,14 @@
 }
 #text_simply {
     background-color: white;
-    width: 650px;
+    min-width: 650px;
     padding : 10px 10px 10px 55px;
-   
+
     h2 {
         .my-font-size(38); //38px
         color: #4d4d4d;    
     }
-    
+
     p {
         .my-font-size(20); //20px
         .my-line-height(20); //20px
@@ -177,7 +178,7 @@
         .my-font-size(20); //20px
         .my-line-height(20); //20px
         color: #666; 
-  
+
     }
 }
 
@@ -258,9 +259,10 @@
 #steps {
     background: #fafafa;
 
+
     h2 {
         .my-font-size(45); //45px
-        .my-line-height(20); //20px 
+        .my-line-height(45); //45px 
         color: #4d4d4d;
         margin: 0 0 30px 0;
     }
@@ -271,14 +273,16 @@
         color: #666666;
     }
 
-    ol {margin: 20px 0 50px 0}
-
     li {              
         .my-font-size(17); //17px
         .my-line-height(21); //21px
         color: #666666;
+        img {padding: 10px 0 15px 0;}
+
+
     }
 }
+
 
 #references { 
     padding : 40px 0 0 0;
@@ -333,6 +337,9 @@
  */
 
 @media screen and (min-width: 1040px) {
+
+    #button_my_tanaguru {margin-left: 77rem;} 
+
     .widget {padding: 0 0.5% 5px;}
 
     #footer-tg-logo     {
@@ -349,50 +356,50 @@
     }
 
     #everest {
-    background: transparent; 
-    position : relative;
-    min-height: 1185px;
-    min-width: 100%;
-} 
-    
-#everest_gradiant {min-height: 51rem;} //510px
-    
+        background: transparent; 
+        position : relative;
+        min-height: 1185px;
+        min-width: 100%;
+    } 
+
+    #everest_gradiant {min-height: 51rem;} //510px
+
     #everest_dragon {
         position : absolute;
         top : 7em;
         min-width: 100%;
         min-height: 1185px; 
-        background-image: url(Images/dragon.png),url(Images/dragon_repeat.png);
+        background-image: url(Images/Background/dragon.png),url(Images/Background/dragon_repeat.png);
         background-repeat: no-repeat, repeat-x;
         background-position: 50% 0%, 50% 0%;
         background-color: transparent;     
     }
 
- #text_simply {
-    
-    width: 650px;
-    padding : 10px 10px 10px 55px;
-    margin-left: 42%;
+    #text_simply {
 
-    h2 {margin:0;}
-}
+        width: 650px;
+        padding : 10px 10px 10px 55px;
+        margin-left: 42%;
 
-#button_simply {
-    margin-top: -1.5rem; //15px
-    margin-left: 65rem; //650px  
-}   
-    
-#accessibility_fast {
-    h2 {margin: 40rem 0 1.5rem 0;}
-
-    p { 
-        max-width: 42.125em;
-        margin-bottom: 60px;
+        h2 {margin:0;}
     }
-}    
-    
+
+    #button_simply {
+        margin-top: -1.5rem; //15px
+        margin-left: 65rem; //650px  
+    }   
+
+    #accessibility_fast {
+        h2 {margin: 40rem 0 1.5rem 0;}
+
+        p { 
+            max-width: 42.125em;
+            margin-bottom: 60px;
+        }
+    }    
+
     #technology {
-        background-image: url(Images/technology.png),url(Images/technology_repeat.png);
+        background-image: url(Images/Background/technology.png),url(Images/Background/technology_repeat.png);
         background-repeat: no-repeat,repeat-x;
         background-position: top center, top;
     }  
@@ -470,31 +477,36 @@
     }
 
     #step1{
-        width : 180px;
+        width : 180px; //180
         margin: 0 0 0 0;
     }
     #step2{
-        width : 210px;
-        margin: 0 0 0 50px;
-        vertical-align: top;
+        width : 210px; //210
+        margin: 0 0 0 41px;
+        /*        vertical-align: top;*/
     }
     #step3{
-        width : 180px;
+        width : 180px; //180
         margin: 0 0 0 35px;
     }
     #step4{
-        width : 180px;
+        width : 180px; //180
         margin: 0 35px 0 50px;
     }
+
     #steps {
-        background-image: url(Images/steps_clouds.png),url(Images/steps_clouds_repeat.png);
-        background-repeat: no-repeat,repeat-x;
-        background-position: bottom center, bottom;
+        background-image: url(Images/Background/timeline.png), url(Images/Background/steps_clouds.png),url(Images/Background/steps_clouds_repeat.png);
+        background-repeat: no-repeat, no-repeat, repeat-x;
+        background-position: center 59%, bottom center, bottom;
         padding: 12rem 0 20rem 0;
-        li {display:inline-block;}
+        li {
+            display:inline-block;
+            img {padding: 20px 0 70px 0;}
+        }
+
     }
     #evaluate {
-        background-image: url(Images/footer_mountains.png),url(Images/footer_mountains_repeat.png);
+        background-image: url(Images/Background/footer_mountains.png),url(Images/Background/footer_mountains_repeat.png);
         background-repeat: no-repeat,repeat-x;
         background-position: bottom center, bottom;
     }  
