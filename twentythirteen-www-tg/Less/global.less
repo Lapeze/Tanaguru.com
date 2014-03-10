@@ -16,40 +16,27 @@
 .red_line {border-top: 0.5rem solid #e4420d;}
 
 #masthead {
-
-    max-width: 96rem;
     min-height: 10.5rem;
-
     margin : auto;
     p {margin: 0;}
-    ul {
-/*        text-align: right;*/
-        padding: 0;
-        background-color: #fff;
-    }
+    ul {padding: 0;}
 }
 
     #button_my_tanaguru {margin-left: 80%;} //77rem
 
 #logo {
-    float: left;
     color: #4d4d4d;
     h2 {margin: 0 0 0 0;}
 }
-
 
 #navbar {
     .my-font-size(15); //15px
     font-family: montserrat;
     font-weight: normal;
     color: #4d4d4d;
-    background-color: #fff;
-    /*    margin-top: 10px;
-        width: 600px;*/
-/*    float: right;*/
+    background-color: rgba(0, 0, 0, 0);
     li a {padding: 10px}
 }
-
 /*.site-header .home-link {
     background: url(Images/Background/bg-noise.png) repeat top left;
     background: url(Images/Background/Montagnes.png) no-repeat bottom right;
@@ -61,11 +48,10 @@
     font-weight: normal;
     padding-left: 2rem;
     padding-right: 2rem;
-    /*    margin-left: auto; 
-        margin-right: auto;*/
     border-radius: 0 0 4px 4px;
+/*    &:before {content:url(Images/my-tanaguru_left.png);}
+    &:after {content:url(Images/my-tanaguru_right.png);}*/
 }
-
 
 /**
  * Footer 
@@ -79,9 +65,9 @@
     .my-font-size(15); //15px
     .my-line-height(20); //20px
 
-    .widget a {color: @footer-color;}    /* presence obligéé ici car selecteur définit comme tel dans theme parent */
+    .widget a {color: @footer-color;} /* presence obligéé ici car selecteur définit comme tel dans theme parent */
     a {color: @footer-color;}
-
+    
     h2 {
         .my-font-size(20); //20px
         .my-line-height(20); //20px
@@ -136,9 +122,7 @@
 
 .center {text-align: center;}
 
-#everest_gradiant {
-    .radial-gradient (@gradient-blue-start; @gradient-blue-end);     
-}
+#everest_gradiant {.radial-gradient (@gradient-blue-start; @gradient-blue-end);}
 
 #everest_filter {}
 
@@ -150,7 +134,7 @@
 }
 #text_simply {
     background-color: white;
-    min-width: 650px;
+/*    min-width: 650px;*/
     padding : 10px 10px 10px 55px;
 
     h2 {
@@ -280,8 +264,6 @@
         .my-line-height(21); //21px
         color: #666666;
         img {padding: 10px 0 15px 0;}
-
-
     }
 }
 
@@ -311,7 +293,6 @@
         font-family: montserrat;
         color: @button-color;   
     }
-
     p {margin-bottom:0;}
 }
 
@@ -319,8 +300,8 @@
     font-weight:bold;
     .my-font-size(26); //26px
     padding: 10px 20px 6px;
-
 }
+
 .button {
     display:inline-block;
     vertical-align: middle;
@@ -378,7 +359,6 @@
     }
 
     #text_simply {
-
         width: 650px;
         padding : 10px 10px 10px 55px;
         margin-left: 42%;
@@ -515,6 +495,8 @@
 }
 
 @media (max-width: 1039px) {
+/*    #accessibility_simply {.radial-gradient (@gradient-blue-start; @gradient-blue-end);}*/
+    
     #steps{
         padding-bottom: 50px;
         ol{
@@ -532,8 +514,13 @@
 }
 
 @media (min-width: 644px) {
-    #masthead {
-        ul{text-align: right;}
+    #masthead {   
+        max-width: 96rem;
+    } 
+    #logo {width : 30%;}  
+    #navbar {
+        margin-top: -38px;
+        margin-left : 380px;
+        width : 60%;
     }   
-    #navbar {float: right;}
 }

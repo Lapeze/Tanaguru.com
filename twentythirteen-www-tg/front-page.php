@@ -13,9 +13,8 @@
                 <p>La voie la plus rapide pour optimiser votre accessibilité.</p>
             </div>    
             <p class="center">
-                <a href="#" id="button_simply" class="button"><?php _e('> Testez Tanaguru', 'wwwtg'); ?></a>
-            </p> 
-
+                <a href="#" id="button_simply" class="button"><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/chevron.png" alt="" /> <?php _e('Testez Tanaguru', 'wwwtg'); ?></a>
+            </p>
         </article>
 
         <article id="accessibility_fast">

@@ -137,7 +137,6 @@ html {
   border-top: 0.5rem solid #e4420d;
 }
 #masthead {
-  max-width: 96rem;
   min-height: 10.5rem;
   margin: auto;
 }
@@ -145,15 +144,12 @@ html {
   margin: 0;
 }
 #masthead ul {
-  /*        text-align: right;*/
   padding: 0;
-  background-color: #fff;
 }
 #button_my_tanaguru {
   margin-left: 80%;
 }
 #logo {
-  float: left;
   color: #4d4d4d;
 }
 #logo h2 {
@@ -165,10 +161,7 @@ html {
   font-family: montserrat;
   font-weight: normal;
   color: #4d4d4d;
-  background-color: #fff;
-  /*    margin-top: 10px;
-        width: 600px;*/
-  /*    float: right;*/
+  background-color: rgba(0, 0, 0, 0);
 }
 #navbar li a {
   padding: 10px;
@@ -184,9 +177,9 @@ html {
   font-weight: normal;
   padding-left: 2rem;
   padding-right: 2rem;
-  /*    margin-left: auto; 
-        margin-right: auto;*/
   border-radius: 0 0 4px 4px;
+  /*    &:before {content:url(Images/my-tanaguru_left.png);}
+    &:after {content:url(Images/my-tanaguru_right.png);}*/
 }
 /**
  * Footer 
@@ -293,7 +286,7 @@ html {
 }
 #text_simply {
   background-color: white;
-  min-width: 650px;
+  /*    min-width: 650px;*/
   padding: 10px 10px 10px 55px;
 }
 #text_simply h2 {
@@ -676,6 +669,7 @@ html {
   }
 }
 @media (max-width: 1039px) {
+  /*    #accessibility_simply {.radial-gradient (@gradient-blue-start; @gradient-blue-end);}*/
   #steps {
     padding-bottom: 50px;
   }
@@ -693,10 +687,15 @@ html {
   }
 }
 @media (min-width: 644px) {
-  #masthead ul {
-    text-align: right;
+  #masthead {
+    max-width: 96rem;
+  }
+  #logo {
+    width: 30%;
   }
   #navbar {
-    float: right;
+    margin-top: -38px;
+    margin-left: 380px;
+    width: 60%;
   }
 }
