@@ -33,19 +33,19 @@
     <body <?php body_class(); ?>>
         <div id="page" class="hfeed site red_line">
 
-            <header id="masthead" class="site-header" role="banner">
+            <header id="masthead" class="site-header cf" role="banner">
                 <p>
-                    <a href="#" id="button_my_tanaguru" class="button"><?php _e('my.tanaguru.com', 'wwwtg'); ?></a>
+                    <a href="#" id="button_my_tanaguru"><?php _e('my.tanaguru.com', 'wwwtg'); ?></a>
                 </p>
                 <div id="logo">
-                    <h2>
+                    <h1>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo-header.png" alt=""/>
                         Tanaguru
-                    </h2>
+                    </h1>
                 </div> 
 
                 <div id="navbar" class="navbar">
-                  
+
                     <nav id="site-navigation" class="navigation main-navigation" role="navigation">
                         <h3 class="menu-toggle"><?php _e('Menu', 'twentythirteen'); ?></h3>
                         <a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e('Skip to content', 'twentythirteen'); ?>"><?php _e('Skip to content', 'twentythirteen'); ?></a>

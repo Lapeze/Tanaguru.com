@@ -11,22 +11,59 @@
 
 // header background
 
-
-
-.red_line {border-top: 0.5rem solid #e4420d;}
+.red_line {border-top: 0.5rem solid #ef3b42;}
 
 #masthead {
-    min-height: 10.5rem;
+    /*    max-height: 96rem;*/
+    min-height: 9.5rem;
     margin : auto;
-    p {margin: 0;}
-    ul {padding: 0;}
+    p {margin: 0;
+       a {color: @button-color;}
+    }
+    ul {padding: 0;}  
 }
 
-    #button_my_tanaguru {margin-left: 80%;} //77rem
+#button_my_tanaguru {
+    .linear-vertical-gradient (@vertical-gradient-red-start; @vertical-gradient-red-end);
+    .my-font-size(14); //14px
+    color: @button-color;
+    font-size: open_sans;
+    font-family: montserrat;
+    font-weight: normal;
+    padding: 0 2rem 0.5rem 2rem;
+    border-radius: 0 0 4px 4px;
+    float: right;
+    margin-right: 10px;
+    vertical-align: middle;
+    
+       
+  
+ 
+     
+    /*    &:before {content:url(Images/my-tanaguru_left.png);}
+        &:after {content:url(Images/my-tanaguru_right.png);}*/
+}
+
+/*#button_my_tanaguru {
+background: #ef3b42;  Old browsers 
+background: -moz-linear-gradient(top, #ef3b42 0%, #d61119 100%);  FF3.6+ 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ef3b42), color-stop(100%,#d61119));  Chrome,Safari4+ 
+background: -webkit-linear-gradient(top, #ef3b42 0%,#d61119 100%);  Chrome10+,Safari5.1+ 
+background: -o-linear-gradient(top, #ef3b42 0%,#d61119 100%);  Opera 11.10+ 
+background: -ms-linear-gradient(top, #ef3b42 0%,#d61119 100%);  IE10+ 
+background: linear-gradient(to bottom, #ef3b42 0%,#d61119 100%);  W3C 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef3b42', endColorstr='#d61119',GradientType=0 );  IE6-9 
+} */
+
+
 
 #logo {
+    float: left;
     color: #4d4d4d;
-    h2 {margin: 0 0 0 0;}
+    h1 {
+        .my-font-size(30); //30px
+        margin: 25px 0 0 0;
+    }
 }
 
 #navbar {
@@ -34,6 +71,8 @@
     font-family: montserrat;
     font-weight: normal;
     color: #4d4d4d;
+    float: right;
+    margin-top: 5px;
     background-color: rgba(0, 0, 0, 0);
     li a {padding: 10px}
 }
@@ -42,16 +81,6 @@
     background: url(Images/Background/Montagnes.png) no-repeat bottom right;
 }*/
 
-#button_my_tanaguru {
-    .my-font-size(14); //14px
-    font-size: open_sans;
-    font-weight: normal;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    border-radius: 0 0 4px 4px;
-/*    &:before {content:url(Images/my-tanaguru_left.png);}
-    &:after {content:url(Images/my-tanaguru_right.png);}*/
-}
 
 /**
  * Footer 
@@ -67,7 +96,7 @@
 
     .widget a {color: @footer-color;} /* presence obligéé ici car selecteur définit comme tel dans theme parent */
     a {color: @footer-color;}
-    
+
     h2 {
         .my-font-size(20); //20px
         .my-line-height(20); //20px
@@ -130,11 +159,11 @@
     a {
         font-family: montserrat;
         color: @button-color;   
-    }
+    }  
 }
+
 #text_simply {
     background-color: white;
-/*    min-width: 650px;*/
     padding : 10px 10px 10px 55px;
 
     h2 {
@@ -321,7 +350,7 @@
 
 @media screen and (min-width: 1040px) {
 
-/*    #button_my_tanaguru {margin-left: 77rem;} //77rem*/
+    /*    #button_my_tanaguru {margin-left: 77rem;} //77rem*/
 
     .widget {padding: 0 0.5% 5px;}
 
@@ -495,8 +524,8 @@
 }
 
 @media (max-width: 1039px) {
-/*    #accessibility_simply {.radial-gradient (@gradient-blue-start; @gradient-blue-end);}*/
-    
+    /*    #accessibility_simply {.radial-gradient (@gradient-blue-start; @gradient-blue-end);}*/
+
     #steps{
         padding-bottom: 50px;
         ol{
@@ -518,9 +547,9 @@
         max-width: 96rem;
     } 
     #logo {width : 30%;}  
-    #navbar {
-        margin-top: -38px;
-        margin-left : 380px;
-        width : 60%;
+    #navbar { 
+        text-align: right;
+        width : 70%;
     }   
 }
+@media (max-width: 643px) { text-align: left;}

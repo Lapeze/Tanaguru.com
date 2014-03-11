@@ -16,6 +16,22 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 @import url("../twentythirteen/style.css");
+/**
+ * Micro clearfix from http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+}
 @font-face {
   font-family: 'montserrat';
   src: url('Fonts/montserrat-regular-webfont.eot');
@@ -134,26 +150,71 @@ html {
   background-color: #efefef;
 }
 .red_line {
-  border-top: 0.5rem solid #e4420d;
+  border-top: 0.5rem solid #ef3b42;
 }
 #masthead {
-  min-height: 10.5rem;
+  /*    max-height: 96rem;*/
+  min-height: 9.5rem;
   margin: auto;
 }
 #masthead p {
   margin: 0;
 }
+#masthead p a {
+  color: #ffffff;
+}
 #masthead ul {
   padding: 0;
 }
 #button_my_tanaguru {
-  margin-left: 80%;
+  background: #ef3b42;
+  /* Old browsers */
+  background: -webkit-linear-gradient(top, #ef3b42 0%, #d61119 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom, #ef3b42 0%, #d61119 100%);
+  /* W3C */
+  background: -moz-linear-gradient(top, #ef3b42 0%, #d61119 100%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(top, #ef3b42 0%, #d61119 100%);
+  /* IE10+ */
+  background: -o-linear-gradient(top, #ef3b42 0%, #d61119 100%);
+  /* Opera 11.10+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d61119), color-stop(100%, #d61119));
+  /* Chrome,Safari4+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@begin', endColorstr='@end', GradientType=0);
+  /* IE6-9 */
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #ffffff;
+  font-size: open_sans;
+  font-family: montserrat;
+  font-weight: normal;
+  padding: 0 2rem 0.5rem 2rem;
+  border-radius: 0 0 4px 4px;
+  float: right;
+  margin-right: 10px;
+  vertical-align: middle;
+  /*    &:before {content:url(Images/my-tanaguru_left.png);}
+        &:after {content:url(Images/my-tanaguru_right.png);}*/
 }
+/*#button_my_tanaguru {
+background: #ef3b42;  Old browsers 
+background: -moz-linear-gradient(top, #ef3b42 0%, #d61119 100%);  FF3.6+ 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ef3b42), color-stop(100%,#d61119));  Chrome,Safari4+ 
+background: -webkit-linear-gradient(top, #ef3b42 0%,#d61119 100%);  Chrome10+,Safari5.1+ 
+background: -o-linear-gradient(top, #ef3b42 0%,#d61119 100%);  Opera 11.10+ 
+background: -ms-linear-gradient(top, #ef3b42 0%,#d61119 100%);  IE10+ 
+background: linear-gradient(to bottom, #ef3b42 0%,#d61119 100%);  W3C 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef3b42', endColorstr='#d61119',GradientType=0 );  IE6-9 
+} */
 #logo {
+  float: left;
   color: #4d4d4d;
 }
-#logo h2 {
-  margin: 0 0 0 0;
+#logo h1 {
+  font-size: 30px;
+  font-size: 3rem;
+  margin: 25px 0 0 0;
 }
 #navbar {
   font-size: 15px;
@@ -161,6 +222,8 @@ html {
   font-family: montserrat;
   font-weight: normal;
   color: #4d4d4d;
+  float: right;
+  margin-top: 5px;
   background-color: rgba(0, 0, 0, 0);
 }
 #navbar li a {
@@ -170,17 +233,6 @@ html {
     background: url(Images/Background/bg-noise.png) repeat top left;
     background: url(Images/Background/Montagnes.png) no-repeat bottom right;
 }*/
-#button_my_tanaguru {
-  font-size: 14px;
-  font-size: 1.4rem;
-  font-size: open_sans;
-  font-weight: normal;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  border-radius: 0 0 4px 4px;
-  /*    &:before {content:url(Images/my-tanaguru_left.png);}
-    &:after {content:url(Images/my-tanaguru_right.png);}*/
-}
 /**
  * Footer 
  * -----------------------------------------------------------------------------
@@ -286,7 +338,6 @@ html {
 }
 #text_simply {
   background-color: white;
-  /*    min-width: 650px;*/
   padding: 10px 10px 10px 55px;
 }
 #text_simply h2 {
@@ -694,8 +745,10 @@ html {
     width: 30%;
   }
   #navbar {
-    margin-top: -38px;
-    margin-left: 380px;
-    width: 60%;
+    text-align: right;
+    width: 70%;
   }
+}
+@media (max-width: 643px) {
+  text-align: left;
 }
