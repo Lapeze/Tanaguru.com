@@ -18,7 +18,7 @@
     background:    -moz-linear-gradient(top, @begin 0%,@end 100%); /* FF3.6+ */
     background:     -ms-linear-gradient(top, @begin 0%,@end 100%); /* IE10+ */
     background:      -o-linear-gradient(top, @begin 0%,@end 100%); /* Opera 11.10+ */
-    background:         -webkit-gradient(linear, left top, left bottom, color-stop(0%,@end), color-stop(100%,@end)); /* Chrome,Safari4+ */
+    background:        -webkit-gradient(linear, left top, left bottom, color-stop(0%,@end), color-stop(100%,@end)); /* Chrome,Safari4+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@begin', endColorstr='@end',GradientType=0 ); /* IE6-9 */
 } 
 
@@ -31,7 +31,7 @@
     background:     -ms-radial-gradient(center, ellipse cover,  @begin 0%,@end 100%); /* IE10+ */
     background:      -o-radial-gradient(center, ellipse cover,  @begin 0%,@end 100%); /* Opera 12+ */
     background:        -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,@begin), color-stop(100%,@end)); /* Chrome,Safari4+ */
-    background:         radial-gradient(ellipse at center,  @begin 0%,@end 100%); /* W3C */
+    background:          radial-gradient(ellipse at center,  @begin 0%,@end 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@begin', endColorstr='@end',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
@@ -52,7 +52,6 @@
 }
 
 
-
 .linear-gradient (@begin; @end) {
     // from http://www.colorzilla.com/gradient-editor/
     background: @begin;  // Old browsers 
@@ -70,6 +69,7 @@
     @remValue: @pxValue / 10;
     font-size: ~"@{pxValue}px"; font-size: ~"@{remValue}rem";
 }
+
 
 .my-line-height(@pxValue) {
     @remValue: @pxValue / 10;
