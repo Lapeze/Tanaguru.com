@@ -9,8 +9,6 @@
 
 .navbar {background-color: #efefef;}
 
-// header background
-
 .red_line {border-top: 0.25rem solid #ef3b42;}
 
 #masthead {
@@ -19,7 +17,10 @@
     p {margin: 0;
        a {color: @button-color;}
     }
-    ul {padding: 0;}  
+    ul {padding: 0;}     
+    background-image: url(Images/my-tanaguru.png);
+    background-repeat: no-repeat;
+    background-position: top right;   
 }
 
 #button_my_tanaguru {
@@ -32,12 +33,10 @@
     padding: 0 2rem 0.5rem 2rem;
     border-radius: 0 0 4px 4px;
     float: right;
-    margin-right: 10px;
-    vertical-align: middle;       
-    /*    &:before {content:url(Images/my-tanaguru_left.png);}
-        &:after {content:url(Images/my-tanaguru_right.png);}*/
+    margin-right: 20px;
+/*  &:before {content:url(Images/mask_left.png);}
+    &:after {content:url(Images/mask_right.png);}*/
 }
-
 #logo {
     float: left;
     color: #4d4d4d;
@@ -57,11 +56,6 @@
     background-color: rgba(0, 0, 0, 0);
     li a {padding: 10px}
 }
-/*.site-header .home-link {
-    background: url(Images/Background/bg-noise.png) repeat top left;
-    background: url(Images/Background/Montagnes.png) no-repeat bottom right;
-}*/
-
 
 /**
  * Footer 
@@ -99,7 +93,8 @@
 
 #footer-tg li:before,
 #footer-and-also li:before {
-    content:">";
+/*    content:">";*/
+    content: url(Images/chevron_small.png);
     font-weight: bold;
 }
 #footer-social img {margin: 0 0 20px 15px;}
@@ -452,7 +447,7 @@
         min-height: 270px;
         width : 315px;  
         background-color: white;
-        box-shadow: inset -2px -0px 20px -10px #000;
+        box-shadow: inset -3px 0 4px -4px #000; /* inset -2px -0px 20px -10px #000; */
     }
     #why2 {
         min-height: 310px;
@@ -464,7 +459,7 @@
         min-height: 270px;
         width : 315px;    
         background-color: white;
-        box-shadow: inset 1px 0 20px -10px #000;
+        box-shadow : inset 3px 0px 4px -4px #000; /*  inset 1px 0 20px -10px #000;*/
         vertical-align: 10px;
     }
 
@@ -505,22 +500,33 @@
 }
 
 @media (max-width: 1039px) {
-    /*    #accessibility_simply {.radial-gradient (@gradient-blue-start; @gradient-blue-end);}*/
+    
+   #accessibility_simply {
+       .radial-gradient (@gradient-blue-start; @gradient-blue-end);
+       padding: 4em;
+   }
+   
+   #button_simply {margin-top: 2.5rem;}
 
+   #everest {padding: 0px 0px 50px 0px;} 
+   
+   #technology {padding: 50px 30px 70px 30px;} 
+   
     #steps{
-        padding-bottom: 50px;
+        padding: 50px 30px 70px 30px;
         ol{
             width : 60%;
             margin: 30px auto 0 auto;
         }  
 
-        li {text-align: left;}
+        li {text-align: left;}   
     }
+    
+    #why {padding: 50px 30px 50px 30px;} 
+    
     #why1, 
     #why2, 
-    #why3 {
-        background-color: white;
-    }
+    #why3 {background-color: white;}
 }
 
 @media (min-width: 644px) {

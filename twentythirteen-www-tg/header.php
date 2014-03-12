@@ -34,9 +34,10 @@
         <div id="page" class="hfeed site red_line">
 
             <header id="masthead" class="site-header cf" role="banner">
-                <p>
+                <p id="tanaguru">
                     <a href="#" id="button_my_tanaguru"><?php _e('my.tanaguru.com', 'wwwtg'); ?></a>
                 </p>
+                    
                 <div id="logo">
                     <h1>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo-header.png" alt=""/>
