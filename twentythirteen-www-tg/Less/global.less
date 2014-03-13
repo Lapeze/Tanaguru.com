@@ -197,8 +197,6 @@
 
 #everest_gradiant {.radial-gradient (@gradient-blue-start; @gradient-blue-end);}
 
-#everest_filter {}
-
 #everest_dragon {
     a {
         font-family: montserrat;
@@ -208,7 +206,8 @@
 
 #text_simply {
     background-color: white;
-    padding : 10px 10px 10px 55px;
+    padding : 10px 10px 10px 0px;
+    position : relative;
 
     h2 {
         .my-font-size(38); //38px
@@ -218,6 +217,17 @@
     p {
         .my-font-size(20); //20px
         .my-line-height(20); //20px
+    }
+    &:before {
+        content: "";
+        border-left: 68.5px solid rgba(0, 0, 0, 0);
+        border-top: 114.8px solid #FFFFFF;
+        width: 0; 
+        height: 0;
+        position: absolute;
+        top: 0;
+        left: -67.5px;
+        transform: scale(0.999);
     }
 }
 
@@ -423,6 +433,15 @@
 
     #everest_gradiant {min-height: 51rem;} //510px
 
+    #everest_filter {
+        border-bottom: 490px solid rgba(255, 255, 255, 0.3);
+        border-left: 0 solid rgba(0, 0, 0, 0);
+        border-right: 290px solid rgba(0, 0, 0, 0);
+        height: 0;
+        width: 900px;
+        transform: scale(0.999);
+    }
+    
     #everest_dragon {
         position : absolute;
         top : 7em;
@@ -435,9 +454,9 @@
     }
 
     #text_simply {
-        width: 650px;
-        padding : 10px 10px 10px 55px;
-        margin-left: 42%;
+        width: 560px;
+        padding : 10px 10px 10px 0px;
+        margin-left: 43%;
 
         h2 {margin:0;}
     }
@@ -498,6 +517,7 @@
                 left: -1em;
                 position: absolute;
                 top: 0;
+                transform: scale(0.999);
             }
 
             &:after {
@@ -509,6 +529,7 @@
                 right: -1em;
                 position: absolute;
                 top: 0;
+                transform: scale(0.999);
             }   
         }
         h3 {margin-top: 10px;}

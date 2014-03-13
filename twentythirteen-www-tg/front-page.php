@@ -3,7 +3,7 @@
 <section id="everest">
 
     <div id="everest_gradiant">
-        <div id="filter">
+        <div id="everest_filter">
         </div>
     </div>    
     <div id="everest_dragon">
