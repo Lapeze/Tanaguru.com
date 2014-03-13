@@ -34,16 +34,21 @@
         <div id="page" class="hfeed site red_line">
 
             <header id="masthead" class="site-header cf" role="banner">
-                <p id="tanaguru">
+                <p id="my_tanaguru">
                     <a href="#" id="button_my_tanaguru"><?php _e('my.tanaguru.com', 'wwwtg'); ?></a>
                 </p>
-                    
-                <div id="logo">
-                    <h1>
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo-header.png" alt=""/>
-                        Tanaguru
-                    </h1>
-                </div> 
+                                         
+    <?php if (is_front_page()) { ?>
+        <div id="logo">
+            <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo-header.png" alt=""/> Tanaguru</h1>
+        </div>
+    <?php } else { ?>
+        <div id="logo">
+            <a href="index.php"><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo-header.png" alt=""/> Tanaguru</a>
+        </div>
+    <?php } ?>   
+
+<!--                </div> -->
 
                 <div id="navbar" class="navbar">
 

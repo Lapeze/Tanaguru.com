@@ -14,13 +14,10 @@
 #masthead {
     min-height: 9.5rem;
     margin : auto;
-    p {margin: 0;
+    p {margin: 0 20px 0 0;
        a {color: @button-color;}
     }
-    ul {padding: 0;}     
-    background-image: url(Images/my-tanaguru.png);
-    background-repeat: no-repeat;
-    background-position: top right;   
+    ul {padding: 0;}       
 }
 
 #button_my_tanaguru {
@@ -31,18 +28,78 @@
     font-family: montserrat;
     font-weight: normal;
     padding: 0 2rem 0.5rem 2rem;
-    border-radius: 0 0 4px 4px;
+    border-radius: 0 0 10px 10px;
     float: right;
-    margin-right: 20px;
-/*  &:before {content:url(Images/mask_left.png);}
-    &:after {content:url(Images/mask_right.png);}*/
+    position: relative;
+
+    content:"";
+    z-index: 1;
+    &:before { //square on the left
+        content:"";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: -10px;
+        background-color: @vertical-gradient-red-start;
+        z-index: 2;
+    }
+    &:after { //square on the right
+        content:"";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        right: -10px;
+        background-color: @vertical-gradient-red-start;
+        z-index: 2;
+    } 
 }
+
+#my_tanaguru {
+    position: relative;
+    float: right;
+    
+    &:before { //circular mask on the right
+        content:"";
+        position: absolute;
+        width: 20px; 
+        height: 20px;
+        left:-20px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius:    10px;
+        border-radius:         10px;
+        background-color: #fff;
+        z-index: 3;
+    }
+    &:after { //circular mask on the left
+        content:"";
+        position: absolute;  
+        width: 20px; 
+        height: 20px;
+        right:-20px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius:    10px;
+        border-radius:         10px;
+        background-color: #fff; 
+        z-index: 3;
+    }
+}
+
 #logo {
     float: left;
-    color: #4d4d4d;
-    h1 {
+    margin: 25px 0 0 0;
+
+    a {
         .my-font-size(30); //30px
-        margin: 25px 0 0 0;
+        font-family: montserrat;
+        font-weight: bold;
+        color: #4d4d4d;
+        text-decoration: none;
+    }
+
+    h1 {
+        margin:0;
+        .my-font-size(30); //30px
+        color: #4d4d4d; 
     }
 }
 
@@ -113,6 +170,7 @@
     margin-bottom: 0;
 }
 
+
 /**
  * Front page
  * -----------------------------------------------------------------------------
@@ -169,7 +227,6 @@
         .my-font-size(20); //20px
         .my-line-height(20); //20px
         color: #666; 
-
     }
 }
 
@@ -214,7 +271,6 @@
     padding: 10px 20px 6px;
 }
 
-
 #why {
     .radial-gradient (@gradient-blue-start; @gradient-blue-end);
     padding : 150px 0 180px 0;
@@ -249,7 +305,6 @@
 
 #steps {
     background: #fafafa;
-
 
     h2 {
         .my-font-size(45); //45px
@@ -317,6 +372,12 @@
     border-bottom: 5px solid #A00 ;
     border-radius: 4px;
 }
+
+/**
+ * Tour page
+ * -----------------------------------------------------------------------------
+ */
+
 
 
 /**
@@ -397,8 +458,8 @@
     }
     #techno2 {
         padding : 0 30px 0 30px;
-        border-left: 0.1px solid #666;
-        border-right: 0.1px solid #666;
+        border-left: 0.1px solid #D1D1D1;
+        border-right: 0.1px solid #D1D1D1;
         width:330px;
     }
     #techno3 {
