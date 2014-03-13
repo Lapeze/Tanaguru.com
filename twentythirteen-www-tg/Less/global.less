@@ -103,21 +103,31 @@
     }
 }
 
-#navbar {
-    .my-font-size(15); //15px
-    font-family: montserrat;
-    font-weight: normal;
-    color: #4d4d4d;
+#navbar {   
     float: right;
     margin-top: 5px;
     background-color: rgba(0, 0, 0, 0);
-    li a {padding: 10px}
+    
+    li a {
+        .my-font-size(15); //15px
+        font-family: montserrat;
+        font-weight: normal;
+        color: #4d4d4d;
+        padding: 10px;
+    }
+    
+    li a:hover
+        {
+        background-color: transparent;
+        text-decoration: underline;
+    }
 }
 
 /**
  * Footer 
  * -----------------------------------------------------------------------------
  */
+
 #colophon {padding-bottom: 14px;}
 
 .site-footer {
