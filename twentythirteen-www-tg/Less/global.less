@@ -35,52 +35,52 @@
     content:"";
     z-index: 1;
     &:before { //square on the left
-        content:"";
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        left: -10px;
-        background-color: @vertical-gradient-red-start;
-        z-index: 2;
+               content:"";
+               position: absolute;
+               width: 10px;
+               height: 10px;
+               left: -10px;
+               background-color: @vertical-gradient-red-start;
+               z-index: 2;
     }
     &:after { //square on the right
-        content:"";
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        right: -10px;
-        background-color: @vertical-gradient-red-start;
-        z-index: 2;
+              content:"";
+              position: absolute;
+              width: 10px;
+              height: 10px;
+              right: -10px;
+              background-color: @vertical-gradient-red-start;
+              z-index: 2;
     } 
 }
 
 #my_tanaguru {
     position: relative;
     float: right;
-    
+
     &:before { //circular mask on the right
-        content:"";
-        position: absolute;
-        width: 20px; 
-        height: 20px;
-        left:-20px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius:    10px;
-        border-radius:         10px;
-        background-color: #fff;
-        z-index: 3;
+               content:"";
+               position: absolute;
+               width: 20px; 
+               height: 20px;
+               left:-20px;
+               -webkit-border-radius: 10px;
+               -moz-border-radius:    10px;
+               border-radius:         10px;
+               background-color: #fff;
+               z-index: 3;
     }
     &:after { //circular mask on the left
-        content:"";
-        position: absolute;  
-        width: 20px; 
-        height: 20px;
-        right:-20px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius:    10px;
-        border-radius:         10px;
-        background-color: #fff; 
-        z-index: 3;
+              content:"";
+              position: absolute;  
+              width: 20px; 
+              height: 20px;
+              right:-20px;
+              -webkit-border-radius: 10px;
+              -moz-border-radius:    10px;
+              border-radius:         10px;
+              background-color: #fff; 
+              z-index: 3;
     }
 }
 
@@ -107,7 +107,7 @@
     float: right;
     margin-top: 5px;
     background-color: rgba(0, 0, 0, 0);
-    
+
     li a {
         .my-font-size(15); //15px
         font-family: montserrat;
@@ -115,7 +115,7 @@
         color: #4d4d4d;
         padding: 10px;
     }
-    
+
     li a:hover
         {
         background-color: transparent;
@@ -160,7 +160,7 @@
 
 #footer-tg li:before,
 #footer-and-also li:before {
-/*    content:">";*/
+    /*    content:">";*/
     content: url(Images/chevron_small.png);
     font-weight: bold;
 }
@@ -180,7 +180,6 @@
     margin-bottom: 0;
 }
 
-
 /**
  * Front page
  * -----------------------------------------------------------------------------
@@ -197,7 +196,7 @@
 
 #everest_gradiant {.radial-gradient (@gradient-blue-start; @gradient-blue-end);}
 
-#everest_dragon {
+#accessibility_simply {
     a {
         font-family: montserrat;
         color: @button-color;   
@@ -208,6 +207,7 @@
     background-color: white;
     padding : 10px 10px 10px 0px;
     position : relative;
+    display: inline-block;
 
     h2 {
         .my-font-size(38); //38px
@@ -218,23 +218,14 @@
         .my-font-size(20); //20px
         .my-line-height(20); //20px
     }
-    &:before {
-        content: "";
-        border-left: 68.5px solid rgba(0, 0, 0, 0);
-        border-top: 114.8px solid #FFFFFF;
-        width: 0; 
-        height: 0;
-        position: absolute;
-        top: 0;
-        left: -67.5px;
-        transform: scale(0.999);
-    }
 }
 
 #button_simply {
     .my-font-size(30); //30px
     font-weight:bold;
+    width: 320px;
     padding: 10px 20px 6px;
+    position: relative;
 }
 
 #accessibility_fast {
@@ -438,10 +429,11 @@
         border-left: 0 solid rgba(0, 0, 0, 0);
         border-right: 290px solid rgba(0, 0, 0, 0);
         height: 0;
-        width: 900px;
+        width: 54%;
         transform: scale(0.999);
+        display:inline-block;
     }
-    
+
     #everest_dragon {
         position : absolute;
         top : 7em;
@@ -453,21 +445,40 @@
         background-color: transparent;     
     }
 
+    #accessibility_simply {
+        width : 200px;
+        display:inline-block;
+    }
+
     #text_simply {
         width: 560px;
-        padding : 10px 10px 10px 0px;
-        margin-left: 43%;
+        padding : 10px 10px 10px 0px;    
+        margin-left: -157px;
+        vertical-align: 280px;
+        display:inline-block;
 
         h2 {margin:0;}
+
+        &:before {
+            content: "";
+            border-left: 68.5px solid rgba(0, 0, 0, 0);
+            border-top: 114.8px solid #FFFFFF;
+            width: 0; 
+            height: 0;
+            position: absolute;
+            top: 0;
+            left: -67.5px;
+            transform: scale(0.999);
+        }
     }
 
     #button_simply {
-        margin-top: -1.5rem; //15px
-        margin-left: 65rem; //650px  
+        margin-top: -48.5rem; //485px
+        margin-left: 6rem; //60px   
     }   
 
     #accessibility_fast {
-        h2 {margin: 40rem 0 1.5rem 0;}
+        h2 {margin: 55rem 0 1.5rem 0;}
 
         p { 
             max-width: 42.125em;
@@ -592,18 +603,18 @@
 }
 
 @media (max-width: 1039px) {
-    
-   #accessibility_simply {
-       .radial-gradient (@gradient-blue-start; @gradient-blue-end);
-       padding: 4em;
-   }
-   
-   #button_simply {margin-top: 2.5rem;}
 
-   #everest {padding: 0px 0px 50px 0px;} 
-   
-   #technology {padding: 50px 30px 70px 30px;} 
-   
+    #accessibility_simply {
+        .radial-gradient (@gradient-blue-start; @gradient-blue-end);
+        padding: 4em;
+    }
+
+    #button_simply {margin-top: 2.5rem;}
+
+    #everest {padding: 0px 0px 50px 0px;} 
+
+    #technology {padding: 50px 30px 70px 30px;} 
+
     #steps{
         padding: 50px 30px 70px 30px;
         ol{
@@ -613,9 +624,9 @@
 
         li {text-align: left;}   
     }
-    
+
     #why {padding: 50px 30px 50px 30px;} 
-    
+
     #why1, 
     #why2, 
     #why3 {background-color: white;}

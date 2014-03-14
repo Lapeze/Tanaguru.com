@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section id="everest">
+<!--<section id="everest">
 
     <div id="everest_gradiant">
         <div id="everest_filter">
@@ -17,6 +17,33 @@
             </p>
         </article>
 
+        <article id="accessibility_fast">
+            <h2 class="center">Accélérez vos tests d’accessibilité. Vraiment.</h2>
+            <p class="center responsive"> Tanaguru , c’est l’analyse d’une page, d’un site entier ou même d’un parcours utilisateurs,
+                simplement, rapidement, de manière fiable et intuitive. Puissant. Vraiment.</p>
+            <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/machine.png" alt=""/>
+        </article>     
+    </div>
+
+</section>-->
+
+<section id="everest">
+
+    <div id="everest_gradiant">
+        <div id="everest_filter"></div>
+         <article id="accessibility_simply">
+            <div id="text_simply">
+                <h2>L'accessibilité. Simplement.</h2>
+                <p>La voie la plus rapide pour optimiser votre accessibilité.</p>
+            </div>    
+            <p class="center">
+                <a href="#" id="button_simply" class="button"><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/chevron.png" alt="" /> <?php _e('Testez Tanaguru', 'wwwtg'); ?></a>
+            </p>
+        </article>    
+        
+    </div>    
+    <div id="everest_dragon">
+       
         <article id="accessibility_fast">
             <h2 class="center">Accélérez vos tests d’accessibilité. Vraiment.</h2>
             <p class="center responsive"> Tanaguru , c’est l’analyse d’une page, d’un site entier ou même d’un parcours utilisateurs,
