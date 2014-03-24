@@ -2,7 +2,7 @@
 
 <section id="everest">
 
-    <div id="everest_gradiant" class="gradient">
+    <div id="everest_gradient" class="gradient">
         <div id="everest_filter"></div>
          <article id="accessibility_simply">
             <div id="text_simply">
@@ -10,7 +10,7 @@
                 <p>La voie la plus rapide pour optimiser votre accessibilité.</p>
             </div>    
             <p class="center">
-                <a href="#" id="button_simply" class="button"><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/chevron.png" alt="" /> <?php _e('Testez Tanaguru', 'wwwtg'); ?></a>
+                <a href="#" id="button_simply" class="button gradient"><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/chevron.png" alt="" /> <?php _e('Testez Tanaguru', 'wwwtg'); ?></a>
             </p>
         </article>    
         
@@ -55,7 +55,7 @@
     </ul>
 
     <p class="center">
-        <a href="#" id="button_technology" class="button"><?php _e('More about our technology', 'wwwtg'); ?></a>
+        <a href="#" id="button_technology" class="button gradient"><?php _e('More about our technology', 'wwwtg'); ?></a>
     </p> 
 
 </section>
@@ -145,7 +145,7 @@
 
 <section id="evaluate">
     <p class="center">
-        <a href="#" id="button_evaluate" class="button"><?php _e('Evaluate your accessibility !', 'wwwtg'); ?></a>
+        <a href="#" id="button_evaluate" class="button gradient"><?php _e('Evaluate your accessibility !', 'wwwtg'); ?></a>
     </p>
 </section>
 

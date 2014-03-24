@@ -43,7 +43,7 @@
         <div id="page" class="hfeed site red_line">
 
             <header id="masthead" class="site-header cf" role="banner">
-                <p id="my_tanaguru" class="gradient">
+                <p id="my_tanaguru">
                     <a href="#" id="button_my_tanaguru" class="gradient"><?php _e('my.tanaguru.com', 'wwwtg'); ?></a>
                 </p>
                                          

@@ -19,33 +19,33 @@
     background:     -ms-linear-gradient(top, @begin 0%,@end 100%); /* IE10+ */
     background:      -o-linear-gradient(top, @begin 0%,@end 100%); /* Opera 11.10+ */
     background:        -webkit-gradient(linear, left top, left bottom, color-stop(0%,@end), color-stop(100%,@end)); /* Chrome,Safari4+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@begin', endColorstr='@end',GradientType=0 ); /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@begin, endColorstr=@end,GradientType=0 ); /* IE6-9 */
 } 
 
 
 .radial-gradient (@begin; @end) {
     // from http://www.colorzilla.com/gradient-editor/ 
-    background: @begin; /* Old browsers */
+    background: @begin; /* Old browsers */ /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: -webkit-radial-gradient(center, ellipse cover,  @begin 0%,@end 100%); /* Chrome10+,Safari5.1+ */
     background:    -moz-radial-gradient(center, ellipse cover,  @begin 0%, @end 100%); /* FF3.6+ */
     background:     -ms-radial-gradient(center, ellipse cover,  @begin 0%,@end 100%); /* IE10+ */
     background:      -o-radial-gradient(center, ellipse cover,  @begin 0%,@end 100%); /* Opera 12+ */
     background:        -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,@begin), color-stop(100%,@end)); /* Chrome,Safari4+ */
     background:          radial-gradient(ellipse at center,  @begin 0%,@end 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@begin', endColorstr='@end',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@begin, endColorstr=@end,GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 
 .radial-gradient-multiple-bg (@begin; @end; @img1url; @img1repeat; @img1pos; @img2url; @img2repeat; @img2pos; @img3url; @img3repeat; @img3pos; @img4url; @img4repeat; @img4pos; @img5url; @img5repeat; @img5pos; @img6url; @img6repeat; @img6pos) {
     // from http://www.colorzilla.com/gradient-editor/ 
-    background-color: @begin; /* Old browsers */
+    background-color: @begin; /* Old browsers */ /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background-image: @img1url, @img2url , @img3url, @img4url, @img5url, @img6url, -webkit-radial-gradient(center, ellipse cover,  @begin 0%,@end 100%); 
     background-image: @img1url, @img2url , @img3url, @img4url, @img5url, @img6url,    -moz-radial-gradient(center, ellipse cover,  @begin 0%, @end 100%);
     background-image: @img1url, @img2url , @img3url, @img4url, @img5url, @img6url,    -ms-radial-gradient(center, ellipse cover,  @begin 0%,@end 100%); 
     background-image: @img1url, @img2url , @img3url, @img4url, @img5url, @img6url,     -o-radial-gradient(center, ellipse cover,  @begin 0%,@end 100%); 
     background-image: @img1url, @img2url , @img3url, @img4url, @img5url, @img6url,       -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,@begin), color-stop(100%,@end)); 
     background-image: @img1url, @img2url , @img3url, @img4url, @img5url, @img6url,        radial-gradient(ellipse at center,  @begin 0%,@end 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@begin', endColorstr='@end',GradientType=1 ); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@begin, endColorstr=@end,GradientType=1 ); 
     background-repeat: @img1repeat, @img2repeat, @img3repeat, @img4repeat, @img5repeat, @img6repeat, no-repeat ;
     background-position: @img1pos, @img2pos, @img3pos, @img4pos, @img5pos, @img6pos, bottom;
 
@@ -54,14 +54,14 @@
 
 .linear-gradient (@begin; @end) {
     // from http://www.colorzilla.com/gradient-editor/
-    background: @begin;  // Old browsers 
+    background: @begin;  // Old browsers /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: -webkit-linear-gradient(-45deg,  @begin 0%,@end 100%); //  Chrome10+,Safari5.1+ 
     background:    -moz-linear-gradient(-45deg,  @begin 0%, @end 100%); // FF3.6+ 
     background:     -ms-linear-gradient(-45deg,  @begin 0%,@end 100%); //  IE10+ 
     background:      -o-linear-gradient(-45deg,  @begin 0%,@end 100%); //  Opera 11.10+ 
     background:        -webkit-gradient(linear, left top, right bottom, color-stop(0%,@begin), color-stop(100%,@end)); //  Chrome,Safari4+ 
     background:         linear-gradient(135deg,  @begin 0%,@end 100%); //  W3C 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@begin', endColorstr='@end',GradientType=1 ); //  IE6-9 fallback on horizontal gradient 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@begin, endColorstr=@end,GradientType=1 ); //  IE6-9 fallback on horizontal gradient 
 }
 
 
