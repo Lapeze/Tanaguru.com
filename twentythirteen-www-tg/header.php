@@ -16,6 +16,15 @@
 <html class="ie ie8" <?php language_attributes(); ?>>
 <![endif]-->
 <!--[if !(IE 7) | !(IE 8)  ]><!-->
+
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
 <html <?php language_attributes(); ?>>
     <!--<![endif]-->
     <head>
@@ -34,8 +43,8 @@
         <div id="page" class="hfeed site red_line">
 
             <header id="masthead" class="site-header cf" role="banner">
-                <p id="my_tanaguru">
-                    <a href="#" id="button_my_tanaguru"><?php _e('my.tanaguru.com', 'wwwtg'); ?></a>
+                <p id="my_tanaguru" class="gradient">
+                    <a href="#" id="button_my_tanaguru" class="gradient"><?php _e('my.tanaguru.com', 'wwwtg'); ?></a>
                 </p>
                                          
     <?php if (is_front_page()) { ?>

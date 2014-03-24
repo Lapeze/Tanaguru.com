@@ -12,7 +12,7 @@
 
 .linear-vertical-gradient (@begin; @end){
     // from http://www.colorzilla.com/gradient-editor/ 
-    background: @begin; /* Old browsers */
+    background: @begin; /* Old browsers */ /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: -webkit-linear-gradient(top, @begin 0%,@end 100%); /* Chrome10+,Safari5.1+ */
     background:   linear-gradient(to bottom, @begin 0%,@end 100%); /* W3C */
     background:    -moz-linear-gradient(top, @begin 0%,@end 100%); /* FF3.6+ */
