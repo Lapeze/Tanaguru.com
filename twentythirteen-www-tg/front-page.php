@@ -26,7 +26,6 @@
     </div>
 
 </section>
-
 <section id="technology">
 
     <h2 class="center">Plusieurs types d’analyses. Des possibilités multiples.</h2>

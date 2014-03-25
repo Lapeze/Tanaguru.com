@@ -386,10 +386,76 @@
 }
 
 /**
- * Tour page
+ * Contact page
  * -----------------------------------------------------------------------------
  */
 
+#contact {
+    background-color: #FAFAFA;
+    padding: 60px 0 30px 0;
+}
+
+#contact_area {
+    max-width: 960px;
+    margin: auto;
+    h1 {
+        .my-font-size(25);
+        color: #4d4d4d;
+    
+    }
+    article {
+        .my-font-size(18);
+        .my-line-height(22);
+        color: #666;
+        display: inline-block;
+        vertical-align: top;
+        padding : 15px 50px;
+    }
+}
+
+#contact_form {
+    border-right: 0.1px solid #D1D1D1;
+    input, 
+    select, 
+    textarea {width: 85%;}
+}
+
+#nickname {display: none;}
+
+#form_button {
+    .my-font-size(20);
+    .linear-gradient (@gradient-red-start; @gradient-red-end);
+    //.linear-gradient (rgba(0,0,0,0); rgba(0,0,0,0.05)); //@@@TODO
+    font-family: montserrat;
+    font-weight: bold;
+    color: @button-color;   
+    border-bottom: 5px solid #A00 ;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+
+#team {
+    max-width: 960px;
+    margin: auto;
+    padding: 30px 0 0 0;
+    h2 {
+        .my-font-size(21);
+        .my-line-height(21);
+        color: #4d4d4d;
+        padding-left: 20px;
+    }
+    article {
+        .my-font-size(17);
+        .my-line-height(20);
+        color: #666;
+        display:inline-block;
+        vertical-align: top;
+        padding: 0 15px;
+        margin-left: 18px;
+        width: 300px;
+    }
+}
 
 
 /**
@@ -398,8 +464,6 @@
  */
 
 @media screen and (min-width: 1040px) {
-
-    /*    #button_my_tanaguru {margin-left: 77rem;} //77rem*/
 
     .widget {padding: 0 0.5% 5px;}
 
@@ -432,7 +496,7 @@
         height: 0;
         width: 54%;
         transform: scale(0.999);
-        display:inline-block;
+        display: inline-block;
     }
 
     #everest_dragon {
@@ -448,8 +512,8 @@
     }
 
     #accessibility_simply {
-        width : 200px;
-        display:inline-block;
+        width: 200px;
+        display: inline-block;
     }
 
     #text_simply {
@@ -602,6 +666,7 @@
         background-image: url(Images/Background/footer_mountains.png),url(Images/Background/footer_mountains_repeat.png);
         background-repeat: no-repeat,repeat-x;
         background-position: bottom center, bottom;
+        min-height: 250px;
     }  
 }
 
