@@ -423,14 +423,18 @@
     textarea {width: 85%;}
 }
 
-#nickname {display: none;}
+.nickname {
+    display: none;
+   p{height: 0;
+   margin: 0;}
+}
 
 abbr[title], abbr[data-original-title] {
     border-bottom: 1px dotted #999999;
     cursor: help;
 }
 .mandatory {
-    color: #FF0000;
+    color: #E60000;
 }
 
 #form_button {
@@ -536,7 +540,7 @@ abbr[title], abbr[data-original-title] {
 
     #text_simply {
         width: 560px;
-        padding : 10px 10px 10px 0px;    
+        padding : 10px 5px 10px 5px;    
         margin-left: -157px;
         vertical-align: 280px;
         display:inline-block;
@@ -546,8 +550,8 @@ abbr[title], abbr[data-original-title] {
 
         &:before {
             content: "";
-            border-left: 68.5px solid rgba(0, 0, 0, 0);
-            border-top: 114.8px solid #FFFFFF;
+            border-left: 69px solid rgba(0, 0, 0, 0);
+            border-top: 115px solid #FFFFFF;
             width: 0; 
             height: 0;
             position: absolute;
@@ -597,7 +601,7 @@ abbr[title], abbr[data-original-title] {
 
         h2 {
             width : 400px;
-            min-height: 1em;
+            min-height: 5.4rem;
             margin : auto;
             padding : 8px;
             margin-bottom: 50px; 
@@ -607,10 +611,10 @@ abbr[title], abbr[data-original-title] {
             &:before {
                 border-color: #FFFFFF #FFFFFF #FFFFFF rgba(0, 0, 0, 0);
                 border-style: solid;
-                border-width: 0.95em 0.5em;
+                border-width: 2.7rem 2rem;
                 content: " ";
                 height: 0;
-                left: -1em;
+                left: -2rem;
                 position: absolute;
                 top: 0;
                 transform: scale(0.999);
@@ -619,10 +623,10 @@ abbr[title], abbr[data-original-title] {
             &:after {
                 border-color: #FFFFFF rgba(0, 0, 0, 0) #FFFFFF #FFFFFF;
                 border-style: solid;
-                border-width: 0.95em 0.5em;
+                border-width: 2.7rem 2rem;
                 content: " ";
                 height: 0;
-                right: -1em;
+                right: -2rem;
                 position: absolute;
                 top: 0;
                 transform: scale(0.999);

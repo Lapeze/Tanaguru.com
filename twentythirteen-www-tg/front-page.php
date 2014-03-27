@@ -122,22 +122,22 @@
     <h2 class="center">They<img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/heart.png" alt="love"/>Tanaguru</h2>
     <p class="center"><?php _e('Slogan', 'wwwtg'); ?></p>
     <p class="center">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/edf.png" alt=""/>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/smile.png" alt="" />
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/alterway.png" alt=""/>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/sg.png" alt=""/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/edf.png" alt="EDF"/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/smile.png" alt="Smile" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/alterway.png" alt="Alterway"/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/sg.png" alt="Société Générale"/>
     </p>   
     <p class="center">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/capgemini.png" alt=""/>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/universcience.png" alt=""/>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/mairieparis.png" alt=""/>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/michelin.png" alt=""/> 
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/capgemini.png" alt="Capgemini"/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/universcience.png" alt="Universcience"/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/mairieparis.png" alt="Mairie de Paris"/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/michelin.png" alt="Michelin"/> 
     </p>
     <p class="center">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/ministereculture.png" alt=""/>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/inpes.png" alt=""/>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/rff.png" alt=""/>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/agenceeau.png" alt=""/>     
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/ministereculture.png" alt="Ministère de la culture"/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/inpes.png" alt="INPES Santé"/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/rff.png" alt="Réseau Ferré de France"/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/agenceeau.png" alt="Agence de L'eau"/>     
     </p>
 
 </section>
