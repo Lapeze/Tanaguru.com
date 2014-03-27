@@ -53,7 +53,7 @@
         </div>
     <?php } else { ?>
         <div id="logo">
-            <a href="index.php"><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo-header.png" alt=""/> Tanaguru</a>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo-header.png" alt=""/> Tanaguru</a>
         </div>
     <?php } ?>   
 

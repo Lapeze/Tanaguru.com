@@ -159,11 +159,7 @@
 .widget li {padding:0;}
 
 #footer-tg li:before,
-#footer-and-also li:before {
-    /*    content:">";*/
-    content: url(Images/chevron_small.png);
-    font-weight: bold;
-}
+#footer-and-also li:before {content: url(Images/chevron_small.png);}
 #footer-social img {margin: 0 0 20px 15px;}
 #footer-social a {display: inline-block;}
 
@@ -389,27 +385,34 @@
  * Contact page
  * -----------------------------------------------------------------------------
  */
-
 #contact {
+    padding: 15px 0 30px 0;
     background-color: #FAFAFA;
-    padding: 60px 0 30px 0;
+}
+
+#page_title {
+    padding: 15px 0 15px 0;
+    max-width: 960px;
+    margin: auto;
+        h1 {
+        .my-font-size(25);
+        color: #4d4d4d;
+    }
 }
 
 #contact_area {
     max-width: 960px;
     margin: auto;
-    h1 {
-        .my-font-size(25);
-        color: #4d4d4d;
     
-    }
     article {
         .my-font-size(18);
-        .my-line-height(22);
+        .my-line-height(28);
         color: #666;
         display: inline-block;
         vertical-align: top;
         padding : 15px 50px;
+       
+        a {color:#666;}
     }
 }
 
@@ -421,6 +424,14 @@
 }
 
 #nickname {display: none;}
+
+abbr[title], abbr[data-original-title] {
+    border-bottom: 1px dotted #999999;
+    cursor: help;
+}
+.mandatory {
+    color: #FF0000;
+}
 
 #form_button {
     .my-font-size(20);
@@ -443,7 +454,7 @@
         .my-font-size(21);
         .my-line-height(21);
         color: #4d4d4d;
-        padding-left: 20px;
+        margin: 15px 0 15px 0;
     }
     article {
         .my-font-size(17);
@@ -455,8 +466,15 @@
         margin-left: 18px;
         width: 300px;
     }
-}
+    ul {padding-left:20px;}
 
+    a {color:#666;}
+}
+.twitter_bullet {
+    list-style-image: url(Images/Social/twitter_bullet.png);
+}
+  
+.linkedin_bullet {list-style-image: url(Images/Social/linkedin_bullet.png);}
 
 /**
  * 11.0 Media Queries
