@@ -145,11 +145,15 @@
         margin: 0 0 5px 0;
     }
 }
+.site-footer .sidebar-container {
+    background-color: @footer-bgcolor;
+  
+    padding: 0;
+}
 
-#footer-tg-logo h2{
+#footer-tg-logo p{
     .my-font-size(30); //30px
-    display: inline-block;
-    vertical-align: top;
+    font-weight: bold;
 }
 
 .widget {
@@ -423,11 +427,14 @@
     textarea {width: 85%;}
 }
 
-.nickname {
-    display: none;
-   p{height: 0;
-   margin: 0;}
+div.wpcf7-validation-errors {
+    width : 390px;
+    border: 2px solid #E60000;
 }
+
+div.wpcf7-response-output {margin: 2em 0 1em;}
+
+.nickname {display: none;}
 
 abbr[title], abbr[data-original-title] {
     border-bottom: 1px dotted #999999;
@@ -474,9 +481,7 @@ abbr[title], abbr[data-original-title] {
 
     a {color:#666;}
 }
-.twitter_bullet {
-    list-style-image: url(Images/Social/twitter_bullet.png);
-}
+.twitter_bullet {list-style-image: url(Images/Social/twitter_bullet.png);}
   
 .linkedin_bullet {list-style-image: url(Images/Social/linkedin_bullet.png);}
 
