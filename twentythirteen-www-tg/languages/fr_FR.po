@@ -13,6 +13,9 @@ msgstr ""
 msgid "And also"
 msgstr "Et aussi"
 
+msgid "Select your language"
+msgstr "Sélectionnez votre langue"
+
 msgid "Technology link title"
 msgstr "La technologie Tanaguru"
 
