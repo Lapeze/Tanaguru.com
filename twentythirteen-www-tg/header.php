@@ -43,34 +43,24 @@
         <div id="page" class="hfeed site red_line">
 
             <header id="masthead" class="site-header cf" role="banner">
-<!--                <p id="my_tanaguru">
-                    <a href="#" id="button_my_tanaguru" class="gradient"><?php _e('my.tanaguru.com', 'wwwtg'); ?></a>
-                </p>-->
-                
+
                 <div id="signin">
                     <a href="#" id="button_signin" class="gradient"><?php _e('Sign in', 'wwwtg'); ?></a>
                 </div>
-                
+
                 <div id="signup">
-                    <a href="#" id="button_signup" class="gradient"><?php _e('Sign up', 'wwwtg'); ?></a>
+                    <a href="https://my.tanaguru.com/sign-up/sign-up.html" id="button_signup" class="gradient"><?php _e('Sign up', 'wwwtg'); ?></a>
                 </div>
 
-                
-                       
-                
-                
-                                         
-    <?php if (is_front_page()) { ?>
-        <div id="logo">
-            <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo-header.png" alt=""/> Tanaguru</h1>
-        </div>
-    <?php } else { ?>
-        <div id="logo">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo-header.png" alt=""/> Tanaguru</a>
-        </div>
-    <?php } ?>   
-
-<!--                </div> -->
+                <?php if (is_front_page()) { ?>
+                    <div id="logo">
+                        <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo-header.png" alt=""/> Tanaguru</h1>
+                    </div>
+                <?php } else { ?>
+                    <div id="logo">
+                        <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo-header.png" alt=""/> Tanaguru</a>
+                    </div>
+                <?php } ?>   
 
                 <div id="navbar" class="navbar">
 

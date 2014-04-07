@@ -20,70 +20,6 @@
     ul {padding: 0;}       
 }
 
-/*#button_my_tanaguru {
-    .linear-vertical-gradient (@vertical-gradient-red-start; @vertical-gradient-red-end);
-    .my-font-size(14); //14px
-    color: @button-color;
-    font-size: open_sans;
-    font-family: montserrat;
-    font-weight: normal;
-    padding: 0 2rem 0.5rem 2rem;
-    border-radius: 0 0 10px 10px;
-    float: right;
-    position: relative;
-
-    content:"";
-    z-index: 1;
-    &:before { //square on the left
-               content:"";
-               position: absolute;
-               width: 10px;
-               height: 10px;
-               left: -10px;
-               background-color: @vertical-gradient-red-start;
-               z-index: 2;
-    }
-    &:after { //square on the right
-              content:"";
-              position: absolute;
-              width: 10px;
-              height: 10px;
-              right: -10px;
-              background-color: @vertical-gradient-red-start;
-              z-index: 2;
-    } 
-}
-
-#my_tanaguru {
-    position: relative;
-    float: right;
-
-    &:before { //circular mask on the right
-               content:"";
-               position: absolute;
-               width: 20px; 
-               height: 20px;
-               left:-20px;
-               -webkit-border-radius: 10px;
-               -moz-border-radius:    10px;
-               border-radius:         10px;
-               background-color: #fff;
-               z-index: 3;
-    }
-    &:after { //circular mask on the left
-              content:"";
-              position: absolute;  
-              width: 20px; 
-              height: 20px;
-              right:-20px;
-              -webkit-border-radius: 10px;
-              -moz-border-radius:    10px;
-              border-radius:         10px;
-              background-color: #fff; 
-              z-index: 3;
-    }
-}*/
-
 #button_signup {
     .linear-vertical-gradient (@vertical-gradient-red-start; @vertical-gradient-red-end);
     .my-font-size(14); //14px
@@ -95,7 +31,6 @@
     border-bottom: 1px solid #D61119;
     float: right;
     position: relative;
-
     content:"";
     z-index: 1;
     &:before { //square on the left
@@ -157,7 +92,7 @@
     font-weight: normal;
     padding: 0.3rem 2.5rem 0.2rem;
     border-radius: 0 0 10px 0;
-    border-bottom: 1px solid #E06767;
+    border-bottom: @red-border;
     float: right;
     position: relative;
 
@@ -165,7 +100,7 @@
     z-index: 0;
     &:before { //square on the left
                background-color: #FFFFFF;
-               border-bottom: 1px solid #E06767;
+               border-bottom: @red-border;
                content: "";
                height: 23px;
                left: -10px;
@@ -176,10 +111,10 @@
     
     &:after { //square on the right
               background-color: rgba(0, 0, 0, 0);
-              border-left: 1px solid #E06767;
+              border-left: @red-border;
               border-radius: 11px 0 0;
               content: "";
-              height: 23px;
+              height: 24px;
               position: absolute;
               right: -19px;
               top: -1px;
@@ -193,33 +128,7 @@
     position: relative;
     float: right;
     a {color: #4D4D4D;}
-
-/*    &:before { //circular mask on the right
-               content:"";
-               position: absolute;
-               width: 20px; 
-               height: 20px;
-               left:-20px;
-               -webkit-border-radius: 10px;
-               -moz-border-radius:    10px;
-               border-radius:         10px;
-               background-color: #fff;
-               z-index: 3;
-    }*/
-/*    &:after { //circular mask on the left
-              content:"";
-              position: absolute;  
-              width: 20px; 
-              height: 20px;
-              right:-20px;
-              -webkit-border-radius: 10px;
-              -moz-border-radius:    10px;
-              border-radius:         10px;
-              background-color: #fff; 
-              z-index: 3;
-    }*/
 }
-
 
 #logo {
     float: left;
@@ -259,6 +168,7 @@
         text-decoration: underline;
     }
 }
+
 /**
  * Footer 
  * -----------------------------------------------------------------------------

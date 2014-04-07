@@ -10,6 +10,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../footer.php:32
+msgid "Sign up"
+msgstr "S'inscrire"
+
+msgid "Sign in"
+msgstr "Se connecter"
+
 msgid "And also"
 msgstr "Et aussi"
 
