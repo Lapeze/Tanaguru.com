@@ -43,9 +43,22 @@
         <div id="page" class="hfeed site red_line">
 
             <header id="masthead" class="site-header cf" role="banner">
-                <p id="my_tanaguru">
+<!--                <p id="my_tanaguru">
                     <a href="#" id="button_my_tanaguru" class="gradient"><?php _e('my.tanaguru.com', 'wwwtg'); ?></a>
-                </p>
+                </p>-->
+                
+                <div id="signin">
+                    <a href="#" id="button_signin" class="gradient"><?php _e('Sign in', 'wwwtg'); ?></a>
+                </div>
+                
+                <div id="signup">
+                    <a href="#" id="button_signup" class="gradient"><?php _e('Sign up', 'wwwtg'); ?></a>
+                </div>
+
+                
+                       
+                
+                
                                          
     <?php if (is_front_page()) { ?>
         <div id="logo">
