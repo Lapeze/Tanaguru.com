@@ -6,7 +6,7 @@
         <div id="everest_filter"></div>
          <article id="accessibility_simply">
             <div id="text_simply">
-                <h2>L'accessibilité. Simplement.</h2>
+                <h2>L'accessibilité, simplement</h2>
                 <p>La voie la plus rapide pour optimiser votre accessibilité.</p>
             </div>    
             <p class="center">
