@@ -1,0 +1,3 @@
+BJ Lazy Load
+Lazy Load
+http://premium.wpmudev.org/blog/6-lazy-load-plugins-to-make-your-wordpress-site-faster/

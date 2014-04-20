@@ -1,0 +1,53 @@
+au 20 avril 2014
+-------------------------------
+
+68 requêtes HTTP            742,0 KB
+----------------------------------------------------------
+dont    8  JavaScript        63,1 KB 
+        5  CSS               28,9 KB
+        ----------------
+      = 13 CSS/JS   /!\        92 KB
+      
+et      2 HTML      ?          
+        5 Fonts     /!\     121,0 KB
+       48 images    /!\     529,3 KB
+----------------------------------------------------------
+
+
+Paris, FR - Chrome - Cable /!\
+/////////////////////////////////////////////////////
+http://www.webpagetest.org/result/140420_11_b9dabf664782ac3db956bfabec919533/
+
+                    1er affichage    2ème affichage
+    Load Time           2.840s          0.829s
+    First Byte          0.339s          0.258s
+    Start Render        2.508s          0.802s
+    DOM Elements        193             193            
+Document Complete             
+    Time                2.840s          0.829s
+    Requests            53              4
+    Bytes In            412 KB          5 KB        
+Fully Loaded            
+    Time                2.882s          0.856s
+    Requests            54              4
+    Bytes In            412 KB          6 KB
+
+    
+Paris, FR - IE 8 - Cable  /!\
+////////////////////////////////////////////////////////
+http://www.webpagetest.org/result/140420_E2_020cd0c90300de7e3de2d19c3d2b5df6/
+ 
+                    1er affichage    2ème affichage
+    Load Time           2.749s          2.502s 
+    First Byte          0.329s          0.325s 
+    Start Render        2.508s          2.431s 
+    DOM Elements         217            217            
+Document Complete             
+    Time                2.749s          2.502s 
+    Requests            66              61
+    Bytes In            658 KB          16 KB 
+            
+Fully Loaded            
+    Time                2.764s          2.515s 
+    Requests            66               61
+    Bytes In            658 KB          16 KB
