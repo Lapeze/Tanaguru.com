@@ -1,0 +1,29 @@
+
+// Configuration de la génération du sprite
+
+//  Attention au noms de variable :
+
+//  $icones-sprite-base-class 
+//      => Dossier images   = "icones"  
+//      => Configuration    = "sprite-base-class"
+
+
+
+//Layout intelligent : la position de l'image est déterminée en fonction des autres
+$SpriteTanaguru-layout: smart;           
+
+// Ajoute les dimensions de chaque sprite
+$SpriteTanaguru-sprite-dimensions: true; 
+
+// Nom de la classe générique
+$SpriteTanaguru-sprite-base-class: ".SpriteTanaguru";  
+
+//Importation des images composant le SPRITE
+@import "SpriteTanaguru/*.png";
+
+//Génère le sprite : une classe pour chaque image
+@include all-SpriteTanaguru-sprites; 
+
+
+//Classes personnalisées -------------------------------------------------------
+
