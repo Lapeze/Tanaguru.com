@@ -1,0 +1,12 @@
+
+
+Initial :   667 Ko
+Optimisé :  479 Ko  => gain 188 Ko
+
+Optimisation avec https://kraken.io
+le 20 avril 2014
+
+en mode Lossless
+This mode will push your images to the extreme
+without changing a single pixel. Lossless option 
+is perfect when image quality is the most important factor. 
