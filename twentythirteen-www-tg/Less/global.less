@@ -56,7 +56,7 @@
 #signup {
     position: relative;
     float: right;
-    
+
     &:before { //circular mask on the right
                content:"";
                position: absolute;
@@ -108,7 +108,7 @@
                width: 10px;
                z-index: 2;
     }
-    
+
     &:after { //square on the right
               background-color: rgba(0, 0, 0, 0);
               border-left: @red-border;
@@ -193,7 +193,7 @@
 }
 .site-footer .sidebar-container {
     background-color: @footer-bgcolor;
-  
+
     padding: 0;
 }
 
@@ -263,6 +263,7 @@
     p {
         .my-font-size(20); //20px
         .my-line-height(20); //20px
+        font-weight: 300; /* Open_Sans light */
     }
 }
 
@@ -284,13 +285,14 @@
     p {
         .my-font-size(20); //20px
         .my-line-height(20); //20px
-        color: #666; 
+        color: #666;
+        font-weight: 300; /* Open_Sans light */
     }
 }
 
 #technology {
     background-color: #fafafa;
-    padding : 150px 0 100px 0;
+    padding : 150px 0 10px 0;
 
     a {color: white;}
 
@@ -311,13 +313,18 @@
         margin-bottom: 100px;
     }
 
-    li {display: inline-block;}
+    li {
+        display: inline-block;
+        min-height: 220px;
+        vertical-align: top;
+    }
 
     p{      
         .my-font-size(18); //18px
         .my-line-height(22); //22px
         color: #666;
         margin-bottom: 0;  
+        font-weight: 300; /* Open_Sans light */
     }
 }
 
@@ -358,6 +365,7 @@
         color: #666;
         text-align: left;
         margin-bottom: 0;
+        font-weight: 300; /* Open_Sans light */
     }
 }
 
@@ -444,7 +452,7 @@
     padding: 15px 0 15px 0;
     max-width: 960px;
     margin: auto;
-        h1 {
+    h1 {
         .my-font-size(25);
         color: #4d4d4d;
     }
@@ -453,7 +461,7 @@
 #contact_area {
     max-width: 960px;
     margin: auto;
-    
+
     article {
         .my-font-size(18);
         .my-line-height(28);
@@ -461,7 +469,7 @@
         display: inline-block;
         vertical-align: top;
         padding : 15px 50px;
-       
+
         a {color:#666;}
     }
 }
@@ -528,7 +536,7 @@ abbr[title], abbr[data-original-title] {
     a {color:#666;}
 }
 .twitter_bullet {list-style-image: url(Images/Social/twitter_bullet.png);}
-  
+
 .linkedin_bullet {list-style-image: url(Images/Social/linkedin_bullet.png);}
 
 /**

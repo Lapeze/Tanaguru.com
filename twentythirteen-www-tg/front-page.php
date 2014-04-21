@@ -24,8 +24,8 @@
             <h2 class="center">Accélérez vos tests d’accessibilité. Vraiment.</h2>
             <p class="center responsive">
                 Tanaguru automatise 167 tests d'accessibilité 
-                (<abbr title="Référentiel Général d'Accessibilité des Administrations">RGAA</abbr>, AccessiWeb, <span lang="en"><abbr title="Web Content Accessibility Guidelines">WCAG</abbr></span>).
-                L'évaluation d'une page, d'un site entier ou d'une application web est fiable et intuitive
+                (<abbr title="Référentiel Général d'Accessibilité des Administrations">RGAA</abbr>, AccessiWeb, <span lang="en"><abbr title="Web Content Accessibility Guidelines">WCAG</abbr></span>).<br />
+                L'évaluation d'une page, d'un site entier ou d'une application web est fiable et intuitive.
             </p>
             <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/machine.png" alt=""/>
         </article>     
@@ -34,12 +34,12 @@
 </section>
 <section id="technology">
 
-    <h2 class="center">Plusieurs types d’analyses pour tous les usages</h2>
+    <h2 class="center">Plusieurs types d’analyses, tous les usages</h2>
     <ul class="center">
         <li id="techno1">
-            <h3 class="center">Gabarits &amp; pages web</h3>
+            <h3 class="center">Gabarit &amp; page web</h3>
             <p>
-                Les gabarits en cours de création peuvent être audités avant même leur mise en production.
+                Les gabarits en cours de création peuvent être audités avant même leur mise en production.<br />
                 Les pages web sont évaluées instantanément.
             </p>
         </li> 
@@ -47,13 +47,13 @@
             <h3 class="center">Site entier</h3>
             <p>
                 Grâce à son <span lang="en">crawler</span>, Tanaguru parcours la totalité du site.
-                Site vitrine, blog ou portail institutionnel, mesurez l'accessibilité de 10000 pages en un clic !
+                Portail institutionnel, blog ou site vitrine, mesurez l'accessibilité de 10000 pages en un clic !
             </p>
         </li>  
         <li id="techno3">
             <h3 class="center">Scénario</h3>
             <p>
-                Validez les applications Javascript, les intranets, les formulaires complexes ou le parcours d'achat d'un site e-commerce.
+                Validez les applications Javascript, les intranets ou le parcours d'achat d'un site e-commerce.
                 L'audit scénario permet même de contrôler plusieurs états d'une même page.
             </p>
         </li>  
@@ -132,7 +132,7 @@
 <section id="references">
 
     <h2 class="center">They<img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/heart.png" alt="love"/>Tanaguru</h2>
-    <p class="center"><?php _e('Slogan', 'wwwtg'); ?></p>
+    <!--<p class="center"><?php _e('Slogan', 'wwwtg'); ?></p>-->
     <p class="center">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/edf.png" alt="EDF"/>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/smile.png" alt="Smile" />
