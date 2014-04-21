@@ -10,7 +10,10 @@
                 <p>La voie la plus rapide pour optimiser votre accessibilité.</p>
             </div>    
             <p class="center">
-                <a href="#" id="button_simply" class="button gradient"><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/chevron.png" alt="" /> <?php _e('Testez Tanaguru', 'wwwtg'); ?></a>
+                <a href="https://my.tanaguru.com/sign-up/sign-up.html" id="button_simply" class="button gradient">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/chevron.png" alt="" /> 
+                        <?php _e('Testez Tanaguru', 'wwwtg'); ?>
+                </a>
             </p>
         </article>    
         
@@ -19,8 +22,11 @@
        
         <article id="accessibility_fast">
             <h2 class="center">Accélérez vos tests d’accessibilité. Vraiment.</h2>
-            <p class="center responsive"> Tanaguru , c’est l’analyse d’une page, d’un site entier ou même d’un parcours utilisateurs,
-                simplement, rapidement, de manière fiable et intuitive. Puissant. Vraiment.</p>
+            <p class="center responsive">
+                Tanaguru automatise 167 tests d'accessibilité 
+                (<abbr title="Référentiel Général d'Accessibilité des Administrations">RGAA</abbr>, AccessiWeb, <span lang="en"><abbr title="Web Content Accessibility Guidelines">WCAG</abbr></span>).
+                L'évaluation d'une page, d'un site entier ou d'une application web est fiable et intuitive
+            </p>
             <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/machine.png" alt=""/>
         </article>     
     </div>
@@ -28,34 +34,34 @@
 </section>
 <section id="technology">
 
-    <h2 class="center">Plusieurs types d’analyses. Des possibilités multiples.</h2>
+    <h2 class="center">Plusieurs types d’analyses pour tous les usages</h2>
     <ul class="center">
         <li id="techno1">
-            <h3 class="center">Site&amp;Page</h3>
-            <p>By and by, through the glass the
-                stranger's boats and manned
-                mast-heads proved her a big awesome
-                whale-ship.</p>
+            <h3 class="center">Gabarits &amp; pages web</h3>
+            <p>
+                Les gabarits en cours de création peuvent être audités avant même leur mise en production.
+                Les pages web sont évaluées instantanément.
+            </p>
         </li> 
         <li id="techno2">
-            <h3 class="center">Fichiers hors-ligne</h3>
-            <p>By and by, through the glass the
-                stranger's boats and manned
-                mast-heads proved her a big awesome
-                whale-ship.</p>
+            <h3 class="center">Site entier</h3>
+            <p>
+                Grâce à son <span lang="en">crawler</span>, Tanaguru parcours la totalité du site.
+                Site vitrine, blog ou portail institutionnel, mesurez l'accessibilité de 10000 pages en un clic !
+            </p>
         </li>  
         <li id="techno3">
             <h3 class="center">Scénario</h3>
-            <p>By and by, through the glass the
-                stranger's boats and manned
-                mast-heads proved her a big awesome
-                whale-ship.</p>
+            <p>
+                Validez les applications Javascript, les intranets, les formulaires complexes ou le parcours d'achat d'un site e-commerce.
+                L'audit scénario permet même de contrôler plusieurs états d'une même page.
+            </p>
         </li>  
     </ul>
 
-    <p class="center">
+<!--    <p class="center">
         <a href="#" id="button_technology" class="button gradient"><?php _e('More about our technology', 'wwwtg'); ?></a>
-    </p> 
+    </p> -->
 
 </section>
 
@@ -66,30 +72,36 @@
         <li id="why1">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/data.png" alt=""/>
             <h3>Fiable</h3>
-            <p>By and by, through the glass the
-                stranger's boats and manned mastheads
-                proved her a whale-ship.</p>
+            <p>
+                Les résultats de Tanaguru sont fiables. 
+                En cas de doute, il vous informe au lieu de donner un résultat faux.
+                Tanaguru vous fourni en plus tous les éléments nécessaires à votre prise de décision.
+            </p>
         </li><!--
         --><li id="why2">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/gears.png" alt=""/>
-            <h3>Automatisable</h3>
-            <p>By and by, through the glass the
-                stranger's boats and manned mastheads
-                proved her a whale-ship.</p>
+            <h3>Automatisé</h3>
+            <p>
+                Vous en avez marre de compter les <code>alt</code> à la main ? Nous aussi ! 
+                Repousser les limites de l'automatisation est notre motivation. 
+                Offrir des gains de productivité fait partie du code génétique de Tanaguru.
+            </p>
         </li><!--
         --><li id="why3">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/flipflops.png" alt=""/>
             <h3>Facile</h3>
-            <p>By and by, through the glass the
-                stranger's boats and manned mastheads
-                proved her a whale-ship.</p>
+            <p>
+                Les normes d'accessibilité peuvent être complexes.
+                Tanaguru apporte les marche-pieds pour bien initier sa mise en conformité.
+                Son interface est elle-même accessible.
+            </p>
         </li>
     </ul>
 
 </section>
 
 <section id="steps">
-    <h2 class="center">Easy. Fast. Adaptive. </h2>
+    <h2 class="center">Simple, rapide, adapté </h2>
     <p class="center"> Avec Tanaguru, 4 étapes suffisent pour tester un site entier, de manière personnalisable, fiable et agréable.</p>
 <!--    <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/steps.png" alt=""/>-->
     <ol class="center">
@@ -144,7 +156,7 @@
 
 <section id="evaluate">
     <p class="center">
-        <a href="#" id="button_evaluate" class="button gradient"><?php _e('Evaluate your accessibility !', 'wwwtg'); ?></a>
+        <a href="https://my.tanaguru.com/sign-up/sign-up.html" id="button_evaluate" class="button gradient"><?php _e('Evaluate your accessibility !', 'wwwtg'); ?></a>
     </p>
 </section>
 
