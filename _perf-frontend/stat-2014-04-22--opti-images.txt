@@ -1,0 +1,23 @@
+au 22 avril 2014 : après optimisation des images
+---------------------------------------------------
+
+68 requêtes HTTP            609,7 KB       avant : 742,0 KB
+----------------------------------------------------------
+dont    48 images    /!\     391,7 KB      avant : 529,3 KB
+                                        => Gain : 137,6 Ko
+----------------------------------------------------------
+
+
+Paris, FR - Chrome - Cable /!\
+/////////////////////////////////////////////////////
+avant :     http://www.webpagetest.org/result/140420_11_b9dabf664782ac3db956bfabec919533/
+après :     http://www.webpagetest.org/result/140422_Z3_aba86511a5f275d63bdb00ac70fcbd2d/
+
+=> rien de visible
+    
+Paris, FR - IE 8 - Cable  /!\
+////////////////////////////////////////////////////////
+avant :     http://www.webpagetest.org/result/140420_E2_020cd0c90300de7e3de2d19c3d2b5df6/
+après :     http://www.webpagetest.org/result/140422_VK_97f85d7e0aae70f4a7ecbc5814ad68cc/
+
+=> rien de visible

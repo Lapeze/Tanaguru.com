@@ -1,0 +1,33 @@
+au 23 avril 2014
+-------------------------------
+
+Avant activation du plugin
+    ----------------------------------------------------------
+    68 requêtes HTTP            609,7 KB      
+    dont    8  JavaScript        63,1 KB 
+            5  CSS               28,9 KB
+            ----------------
+          = 13 CSS/JS   /!\        92 KB 
+    ----------------------------------------------------------
+
+Après activation du plugin                     gain : 8 requêtes
+    ----------------------------------------------------------
+    60 requêtes HTTP            609,7 KB      
+    dont    2  JavaScript        61,6 KB        gain : 6 requêtes
+            3  CSS               28,5 KB        gain : 2 requêtes
+            ----------------
+          = 5 CSS/JS   /!\        92 KB 
+    ----------------------------------------------------------
+  
+    
+
+Paris, FR - Chrome - Cable /!\
+/////////////////////////////////////////////////////
+avant :     http://www.webpagetest.org/result/140422_Z3_aba86511a5f275d63bdb00ac70fcbd2d/
+après :     http://www.webpagetest.org/result/140422_6D_f3800eaf4db2b06b827e6e93406852c8/
+
+   
+Paris, FR - IE 8 - Cable  /!\
+////////////////////////////////////////////////////////
+avant :    http://www.webpagetest.org/result/140422_VK_97f85d7e0aae70f4a7ecbc5814ad68cc/
+après :    http://www.webpagetest.org/result/140422_ZC_e4d49d3d942de1ceeae78d65f6a9132d/
