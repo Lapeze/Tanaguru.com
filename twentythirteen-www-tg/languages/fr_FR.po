@@ -9,7 +9,17 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../footer.php:32
+# ------------------------------------------------------------------------------
+# Front-page
+# front-page.php
+
+msgid "References little phrase"
+msgstr "Ils nous font confiance et nous en sommes très fiers, merci"
+
+# ------------------------------------------------------------------------------
+# Footer
+# footer.php
+
 msgid "Sign up"
 msgstr "S'inscrire"
 

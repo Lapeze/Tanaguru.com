@@ -25,7 +25,7 @@
             <p class="center responsive">
                 Tanaguru automatise 167 tests d'accessibilité 
                 (<abbr title="Référentiel Général d'Accessibilité des Administrations">RGAA</abbr>, AccessiWeb, <span lang="en"><abbr title="Web Content Accessibility Guidelines">WCAG</abbr></span>).<br />
-                L'évaluation d'une page, d'un site entier ou d'une application web est fiable et intuitive.
+                L'évaluation d'une page, d'un site entier ou d'une application web est fiable, intuitive et elle-même accessible.
             </p>
             <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/machine.png" alt=""/>
         </article>     
@@ -73,9 +73,9 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/data.png" alt=""/>
             <h3>Fiable</h3>
             <p>
-                Les résultats de Tanaguru sont fiables. 
+                Les résultats de Tanaguru sont fiables.
                 En cas de doute, il vous informe au lieu de donner un résultat faux.
-                Tanaguru vous fourni en plus tous les éléments nécessaires à votre prise de décision.
+                Tanaguru vous fourni tous les éléments nécessaires à votre prise de décision.
             </p>
         </li><!--
         --><li id="why2">
@@ -84,7 +84,7 @@
             <p>
                 Vous en avez marre de compter les <code>alt</code> à la main ? Nous aussi ! 
                 Repousser les limites de l'automatisation est notre motivation. 
-                Offrir des gains de productivité fait partie du code génétique de Tanaguru.
+                Offrir des gains de productivité fait partie du code (génétique) de Tanaguru.
             </p>
         </li><!--
         --><li id="why3">
@@ -93,7 +93,6 @@
             <p>
                 Les normes d'accessibilité peuvent être complexes.
                 Tanaguru apporte les marche-pieds pour bien initier sa mise en conformité.
-                Son interface est elle-même accessible.
             </p>
         </li>
     </ul>
@@ -132,7 +131,7 @@
 <section id="references">
 
     <h2 class="center">They<img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/heart.png" alt="love"/>Tanaguru</h2>
-    <!--<p class="center"><?php _e('Slogan', 'wwwtg'); ?></p>-->
+    <p class="center"><?php _e('References little phrase', 'wwwtg'); ?></p>
     <p class="center">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/edf.png" alt="EDF"/>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/References/smile.png" alt="Smile" />
