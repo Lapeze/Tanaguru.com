@@ -81,7 +81,8 @@
     </p>
 </footer><!-- #colophon -->
 </div><!-- #page -->
-
+<!-- DATA_FOOTER -->
 <?php wp_footer(); ?>
+<!-- /DATA_FOOTER -->
 </body>
 </html>
