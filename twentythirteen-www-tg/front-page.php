@@ -116,7 +116,11 @@
 
 <section id="references">
 
-    <h2 class="center">They <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/heart.png" alt="love"/> Tanaguru</h2>
+    <h2 class="center">
+        <?php _e('References slogan subject', 'wwwtg'); ?> 
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/heart.png" alt="<?php _e('References slogan verb', 'wwwtg'); ?>"/> 
+        Tanaguru
+    </h2>
 
     <p class="center"><?php _e('References Little Phrase', 'wwwtg'); ?></p>
 

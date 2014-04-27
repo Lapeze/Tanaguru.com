@@ -6,13 +6,12 @@ msgstr ""
 "Last-Translator: Matthieu Faure <mfaure@open-s.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 # ------------------------------------------------------------------------------
 # Front-page
 # front-page.php
-
 msgid "Everest Simply Title"
 msgstr "L'accessibilité, simplement"
 
@@ -23,7 +22,7 @@ msgid "Everest Fast Title"
 msgstr "Accélérez vos tests d’accessibilité. Vraiment."
 
 msgid "Everest Fast Little Phrase"
-msgstr "Tanaguru automatise 167 tests d'accessibilité (<abbr title='Référentiel Général d'Accessibilité des Administrations'>RGAA</abbr>, AccessiWeb, <span lang='en'><abbr title='Web Content Accessibility Guidelines'>WCAG</abbr></span>).<br /> L'évaluation d'une page, d'un site entier ou d'une application web est fiable, intuitive et elle-même accessible."
+msgstr "Tanaguru automatise 167 tests d'accessibilité (<abbr title=\"Référentiel Général d'Accessibilité des Administrations\">RGAA</abbr>, AccessiWeb, <span lang=\"en\"><abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr></span>).<br /> L'évaluation d'une page, d'un site entier ou d'une application web est fiable, intuitive et elle-même accessible."
 
 msgid "Button Test Tanaguru"
 msgstr "Tester Tanaguru"
@@ -44,7 +43,7 @@ msgid "Techno1 Feature"
 msgstr "Les gabarits en cours de création peuvent être audités avant même leur mise en production.<br />Les pages web sont évaluées instantanément."
 
 msgid "Techno2 Feature"
-msgstr "Grâce à son <span lang='en'>crawler</span>, Tanaguru parcours la totalité du site. Portail institutionnel, blog ou site vitrine, mesurez l'accessibilité de 10000 pages en un clic !"
+msgstr "Grâce à son <span lang=\"en\">crawler</span>, Tanaguru parcours la totalité du site. Portail institutionnel, blog ou site vitrine, mesurez l'accessibilité de 10000 pages en un clic !"
 
 msgid "Techno3 Feature"
 msgstr "Validez les applications Javascript, les intranets ou le parcours d'achat d'un site e-commerce. L'audit scénario permet même de contrôler plusieurs états d'une même page."
@@ -83,10 +82,16 @@ msgid "Step2 Description"
 msgstr "Définissez vos priorités grâce à la synthèse globale."
 
 msgid "Step3 Description"
-msgstr "A vous de jouer! Utilisez les résultats détaillés."
+msgstr "À vous de jouer&nbsp;! Utilisez les résultats détaillés."
 
 msgid "Step4 Description"
 msgstr "Suivez l’évolution de l’accessibilité de votre site."
+
+msgid "References slogan subject"
+msgstr "Ils"
+
+msgid "References slogan verb"
+msgstr "aiment"
 
 msgid "References Little Phrase"
 msgstr "Ils nous font confiance et nous en sommes très fiers, merci"
@@ -97,7 +102,6 @@ msgstr "Evaluer votre accessibilité !"
 # ------------------------------------------------------------------------------
 # Header
 # header.php
-
 msgid "Sign up"
 msgstr "S'inscrire"
 
@@ -107,8 +111,6 @@ msgstr "Se connecter"
 # ------------------------------------------------------------------------------
 # Footer
 # footer.php
-
-
 msgid "And also"
 msgstr "Et aussi"
 
