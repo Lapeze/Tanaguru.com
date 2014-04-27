@@ -23,10 +23,7 @@ msgid "Everest Fast Title"
 msgstr "Accélérez vos tests d’accessibilité. Vraiment."
 
 msgid "Everest Fast Little Phrase"
-msgstr "Tanaguru automatise 167 tests d'accessibilité 
-(<abbr title=\"Référentiel Général d'Accessibilité des Administrations\">RGAA</abbr>, 
-AccessiWeb, <span lang=\"en\"><abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr></span>).<br /> 
-L'évaluation d'une page, d'un site entier ou d'une application web est fiable, intuitive et elle-même accessible."
+msgstr "Tanaguru automatise 167 tests d'accessibilité (<abbr title=\"Référentiel Général d'Accessibilité des Administrations\">RGAA</abbr>, AccessiWeb, <span lang=\"en\"><abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr></span>).<br /> L'évaluation d'une page, d'un site entier ou d'une application web est fiable, intuitive et elle-même accessible."
 
 msgid "Button Test Tanaguru"
 msgstr "Tester Tanaguru"
