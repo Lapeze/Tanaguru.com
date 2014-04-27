@@ -9,9 +9,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# ------------------------------------------------------------------------------
+# ==============================================================================
 # Front-page
 # front-page.php
+
 msgid "Everest Simply Title"
 msgstr "Accessibility, made simple"
 
@@ -19,13 +20,17 @@ msgid "Everest Simply Little Phrase"
 msgstr "The fastest way to optimize your accessibility."
 
 msgid "Everest Fast Title"
-msgstr "Speed your accessibility testing. Really"
+msgstr "Speed your accessibility testing. Really."
 
 msgid "Everest Fast Little Phrase"
-msgstr "Tanaguru automates 167 accessibility tests (<abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr></span>, Section 508, AccessiWeb). Evaluating a page, an entire site or a web application is reliable, intuitive and self accessible."
+msgstr "Tanaguru automates 167 accessibility tests (<abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr></span>, 
+Section 508, AccessiWeb).<br /> Evaluating a page, an entire site or a web application is reliable, intuitive and self accessible."
 
 msgid "Button Test Tanaguru"
 msgstr "Try Tanaguru"
+
+# ------------------------------------------------------------------------------
+# Technology
 
 msgid "Technology Title"
 msgstr "Several types of analysis, any usages"
@@ -40,13 +45,16 @@ msgid "Techno3 Title"
 msgstr "Scenario"
 
 msgid "Techno1 Feature"
-msgstr "Templates being created can be audited before deployment<br /> Web pages are instantly evaluated."
+msgstr "Templates being created can be audited before deployment.<br /> Web pages are instantly evaluated."
 
 msgid "Techno2 Feature"
 msgstr "Thanks to his crawler, Tanaguru browses the site in its entirety. Public portal, blog or corporate website, measure accessibility of 10'000 pages in one click !"
 
 msgid "Techno3 Feature"
 msgstr "Validate Javascript applications, intranets or user process on an e-commerce site. Scenario audit even lets you control different states of the same page."
+
+# ------------------------------------------------------------------------------
+# Why Tanaguru
 
 msgid "Why Title"
 msgstr "Why Tanaguru ?"
@@ -69,11 +77,17 @@ msgstr "You are tired of counting <code>alt</code> manually ? So do we ! Pushing
 msgid "Why3 Description"
 msgstr "Accessibility standards may be complex. Tanaguru brings you the stepping stones to your accessibility conformance."
 
+# ------------------------------------------------------------------------------
+# Steps
+
 msgid "Steps Title"
 msgstr "Simple, fast, adaptive"
 
 msgid "Steps Little Phrase"
 msgstr "With Tanaguru, 4 steps are enough to test a whole site, in a customized, easy and convenient manner."
+
+msgid "Step1 Description"
+msqstr "Tailor your audit and launch it."
 
 msgid "Step2 Description"
 msgstr "Define your priorities with the global synthesis."
@@ -96,7 +110,7 @@ msgstr "They trust us and we are very proud of it, thanks"
 msgid "Evaluate your accessibility !"
 msgstr "Evaluate your accessibility !"
 
-# ------------------------------------------------------------------------------
+# ==============================================================================
 # Header
 # header.php
 msgid "Sign up"
@@ -105,7 +119,7 @@ msgstr "Sign up"
 msgid "Sign in"
 msgstr "Sign in"
 
-# ------------------------------------------------------------------------------
+# ==============================================================================
 # Footer
 # footer.php
 msgid "And also"
