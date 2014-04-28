@@ -23,8 +23,7 @@ msgid "Everest Fast Title"
 msgstr "Speed your accessibility testing. Really."
 
 msgid "Everest Fast Little Phrase"
-msgstr "Tanaguru automates 167 accessibility tests (<abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr></span>, 
-Section 508, AccessiWeb).<br /> Evaluating a page, an entire site or a web application is reliable, intuitive and self accessible."
+msgstr "Tanaguru automates 167 accessibility tests (<abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr></span>, Section 508, AccessiWeb).<br /> Evaluating a page, an entire site or a web application is reliable, intuitive and self accessible."
 
 msgid "Button Test Tanaguru"
 msgstr "Try Tanaguru"
@@ -87,7 +86,7 @@ msgid "Steps Little Phrase"
 msgstr "With Tanaguru, 4 steps are enough to test a whole site, in a customized, easy and convenient manner."
 
 msgid "Step1 Description"
-msqstr "Tailor your audit and launch it."
+msgstr "Tailor your audit and launch it."
 
 msgid "Step2 Description"
 msgstr "Define your priorities with the global synthesis."
