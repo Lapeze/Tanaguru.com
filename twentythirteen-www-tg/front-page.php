@@ -12,7 +12,7 @@
             </div>    
             <p class="center">
                 <a href="https://my.tanaguru.com/sign-up/sign-up.html" id="button_simply" class="button gradient">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/chevron.png" alt="" /> 
+                    <span id="chevron" class="sprite-chevron"></span>  
                     <?php _e('Button Test Tanaguru', 'wwwtg'); ?>
                 </a>
             </p>
@@ -62,19 +62,19 @@
 
     <ul class="center">
         <li id="why1">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/data.png" alt=""/>
+            <div class="sprite-center sprite-data"></div>
             <h3><?php _e('Why1 Title', 'wwwtg'); ?></h3>
             <p><?php _e('Why1 Description', 'wwwtg'); ?></p>
         </li><!--
              
         --><li id="why2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/gears.png" alt=""/>
+            <div class="sprite-center sprite-gears"></div>
             <h3><?php _e('Why2 Title', 'wwwtg'); ?></h3>
             <p><?php _e('Why2 Description', 'wwwtg'); ?></p>
         </li><!--
              
         --><li id="why3">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/flipflops.png" alt=""/>
+            <div class="sprite-center sprite-flipflops"></div>
             <h3><?php _e('Why3 Title', 'wwwtg'); ?></h3>
             <p><?php _e('Why3 Description', 'wwwtg'); ?></p>
         </li>
@@ -91,22 +91,22 @@
     <ol class="center">
 
         <li id="step1">
-            <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/Pictograms/step1.png" alt=""/>
+            <div class="sprite-center sprite-steps sprite-step1"></div>
             <?php _e('Step1 Description', 'wwwtg'); ?>
         </li>
 
         <li id="step2">
-            <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/Pictograms/step2.png" alt=""/>
+            <div class="sprite-center sprite-steps sprite-step2"></div>
             <?php _e('Step2 Description', 'wwwtg'); ?>
         </li>
 
         <li id="step3">
-            <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/Pictograms/step3.png" alt=""/>
+            <div class="sprite-center sprite-steps sprite-step3"></div>
             <?php _e('Step3 Description', 'wwwtg'); ?>
         </li>
 
         <li id="step4">
-            <img class="tg-img-deco responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/Pictograms/step4.png" alt=""/>
+            <div class="sprite-center sprite-steps sprite-step4"></div>
             <?php _e('Step4 Description', 'wwwtg'); ?>
         </li>
 
