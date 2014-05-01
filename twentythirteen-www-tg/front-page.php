@@ -12,7 +12,7 @@
             </div>    
             <p class="center">
                 <a href="https://my.tanaguru.com/sign-up/sign-up.html" id="button_simply" class="button gradient">
-                    <span id="chevron" class="sprite-chevron"></span>  
+                    <span id="chevron" class="sprite-Front-page-chevron"></span>  
                     <?php _e('Button Test Tanaguru', 'wwwtg'); ?>
                 </a>
             </p>
@@ -62,19 +62,19 @@
 
     <ul class="center">
         <li id="why1">
-            <div class="sprite-center sprite-data"></div>
+            <div class="sprite-center sprite-Front-page-data"></div>
             <h3><?php _e('Why1 Title', 'wwwtg'); ?></h3>
             <p><?php _e('Why1 Description', 'wwwtg'); ?></p>
         </li><!--
              
         --><li id="why2">
-            <div class="sprite-center sprite-gears"></div>
+            <div class="sprite-center sprite-Front-page-gears"></div>
             <h3><?php _e('Why2 Title', 'wwwtg'); ?></h3>
             <p><?php _e('Why2 Description', 'wwwtg'); ?></p>
         </li><!--
              
         --><li id="why3">
-            <div class="sprite-center sprite-flipflops"></div>
+            <div class="sprite-center sprite-Front-page-flipflops"></div>
             <h3><?php _e('Why3 Title', 'wwwtg'); ?></h3>
             <p><?php _e('Why3 Description', 'wwwtg'); ?></p>
         </li>
@@ -91,22 +91,22 @@
     <ol class="center">
 
         <li id="step1">
-            <div class="sprite-center sprite-steps sprite-step1"></div>
+            <div class="sprite-center sprite-steps sprite-Front-page-step1"></div>
             <?php _e('Step1 Description', 'wwwtg'); ?>
         </li>
 
         <li id="step2">
-            <div class="sprite-center sprite-steps sprite-step2"></div>
+            <div class="sprite-center sprite-steps sprite-Front-page-step2"></div>
             <?php _e('Step2 Description', 'wwwtg'); ?>
         </li>
 
         <li id="step3">
-            <div class="sprite-center sprite-steps sprite-step3"></div>
+            <div class="sprite-center sprite-steps sprite-Front-page-step3"></div>
             <?php _e('Step3 Description', 'wwwtg'); ?>
         </li>
 
         <li id="step4">
-            <div class="sprite-center sprite-steps sprite-step4"></div>
+            <div class="sprite-center sprite-steps sprite-Front-page-step4"></div>
             <?php _e('Step4 Description', 'wwwtg'); ?>
         </li>
 
