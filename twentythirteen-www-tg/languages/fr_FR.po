@@ -97,6 +97,9 @@ msgstr "À vous de jouer&nbsp;! Utilisez les résultats détaillés."
 msgid "Step4 Description"
 msgstr "Suivez l’évolution de l’accessibilité de votre site."
 
+# ------------------------------------------------------------------------------
+# References
+
 msgid "References slogan subject"
 msgstr "Ils"
 
@@ -104,7 +107,7 @@ msgid "References slogan verb"
 msgstr "aiment"
 
 msgid "References Little Phrase"
-msgstr "Ils nous font confiance et nous en sommes très fiers, merci"
+msgstr "Ils nous font confiance et nous en sommes très fiers, merci."
 
 msgid "Evaluate your accessibility !"
 msgstr "Evaluer votre accessibilité !"
