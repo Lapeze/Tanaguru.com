@@ -5,4 +5,6 @@
 
 glue --source ../Images/Front-page/ --less ../ --img ../Images/
 
+echo ""
 echo "... and don't forget to optimze the result image with http://kraken.io/ (lostless)"
+echo ""
