@@ -40,7 +40,7 @@
         <?php wp_head(); ?>
         <!-- /DATA_HEAD -->
         <?php if ( is_page( 'Contact') ) { ?>
-            <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/Contact.css" type="text/css" media="screen" />"
+            <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/Contact.css" type="text/css" media="screen" />
         <?php } ?>
     </head>
 
