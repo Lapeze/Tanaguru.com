@@ -206,7 +206,7 @@ msgid "Linkedin link title"
 msgstr "Tanaguru on Linkedin"
 
 msgid "Linkedin link"
-msgstr "http://www.linkedin.com/company/open-s/products?trk=tabs_biz_product"
+msgstr "https://www.linkedin.com/company/open-s"
 
 msgid "Tanaguru on Slideshare"
 msgstr "Tanaguru on Slideshare"
