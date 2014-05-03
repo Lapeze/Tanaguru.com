@@ -76,6 +76,9 @@
 
                     </nav><!-- #site-navigation -->
                 </div><!-- #navbar -->
+                <div id="nav2">
+                    <?php get_sidebar('main'); ?>
+                </div>
             </header><!-- #masthead -->
 
             <div id="main" class="site-main">
