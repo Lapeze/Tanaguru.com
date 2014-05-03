@@ -16,13 +16,11 @@
         <aside id="footer-tg-logo" class="widget">
             <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo-footer.png" alt=""/>
                 Tanaguru</p>
-            <div> <?php _e('Select your language', 'wwwtg'); ?> :
-                <?php get_sidebar('main'); ?></div>
         </aside>
         <aside id="footer-tg" class="widget">
             <h2>Tanaguru</h2>
             <ul>
-                <li>
+<!--                <li>
                     <a href="" title="<?php _e('Technology link title', 'wwwtg'); ?>"><?php _e('Technology link text', 'wwwtg'); ?></a>
                 </li>
                 <li>
@@ -30,12 +28,12 @@
                 </li>
                 <li>
                     <a href="" title="<?php _e('Offer link title', 'wwwtg'); ?>"><?php _e('Offer link text', 'wwwtg'); ?></a>
-                </li>
+                </li>-->
                 <li>
                     <a href="" title="<?php _e('Contact link title', 'wwwtg'); ?>">Contact</a>
                 </li>
                 <li>
-                    <a href="" title="<?php _e('Blog link title', 'wwwtg'); ?>">Blog</a>
+                    <a href="http://blog.tanaguru.com/">Blog</a>
                 </li>
             </ul>
         </aside>
@@ -43,19 +41,16 @@
             <h2><?php _e('And also', 'wwwtg'); ?></h2>
             <ul>
                 <li>
-                    <a href="<?php _e('KBAccess URL', 'wwwtg'); ?>" title="<?php _e('KBAccess link title', 'wwwtg'); ?>">KBAccess</a>
+                    <a href="<?php _e('Contrast-Finder URL', 'wwwtg'); ?>" title="<?php _e('Contrast-Finder link title', 'wwwtg'); ?>">Contrast-Finder</a>
                 </li>
                 <li>
-                    <a href="<?php _e('Contrast-Finder URL', 'wwwtg'); ?>" title="<?php _e('Contrast-Finder link title', 'wwwtg'); ?>">Contrast-Finder</a>
+                    <a href="<?php _e('KBAccess URL', 'wwwtg'); ?>" title="<?php _e('KBAccess link title', 'wwwtg'); ?>">KBAccess</a>
                 </li>
                 <li>
                     <a href="<?php _e('Observatory URL', 'wwwtg'); ?>"><?php _e('Observatory link text', 'wwwtg'); ?></a>
                 </li>
                 <li>
                     <a href="<?php _e('Open-S URL', 'wwwtg'); ?>">Open-S</a>
-                </li>
-                <li>
-                    <a href="<?php _e('Press link', 'wwwtg'); ?>"><?php _e('Press link text', 'wwwtg'); ?></a>
                 </li>
             </ul>
         </aside>
