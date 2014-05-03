@@ -1,11 +1,18 @@
 /**
- * Header
+ * Override Parent Theme
  * -----------------------------------------------------------------------------
  */
 
 // kill max-width 1600 
 .site,
 .navbar {max-width:none;}
+
+a {text-decoration: underline;}
+
+/**
+ * Header
+ * -----------------------------------------------------------------------------
+ */
 
 .navbar {background-color: #efefef;}
 
@@ -14,10 +21,17 @@
 #masthead {
     min-height: 9.5rem;
     margin : auto;
+    
     p {margin: 0 20px 0 0;
        a {color: @button-color;}
     }
+    
     ul {padding: 0;}       
+    
+    a {
+        text-decoration: none;
+        &:hover {text-decoration: underline;}
+    }
 }
 
 #button_signup {
@@ -139,7 +153,6 @@
         font-family: montserrat;
         font-weight: bold;
         color: #4d4d4d;
-        text-decoration: none;
     }
 
     h1 {
@@ -173,6 +186,9 @@
  * Footer 
  * -----------------------------------------------------------------------------
  */
+
+footer a {text-decoration: none;}
+footer a:hover {text-decoration: underline;}
 
 #colophon {padding-bottom: 14px;}
 
@@ -230,6 +246,11 @@
  * Front page
  * -----------------------------------------------------------------------------
  */
+
+body.home a {
+    text-decoration: none;
+    &:hover {text-decoration: underline;}
+}
 
 .responsive {
     display: block;
