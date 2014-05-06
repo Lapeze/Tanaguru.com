@@ -19,3 +19,13 @@ function child_overwrite_styles() {
     wp_dequeue_style('twentythirteen-fonts');           // Remove a CSS file that was enqueued with wp_enqueue_style().
     wp_deregister_style('twentythirteen-fonts');     // Remove a CSS file that was registered with wp_register_style().  
 }
+
+/*
+ * Remove or add Javascript files
+ */
+add_action('wp_print_scripts', 'child_overwrite_scripts', 100);
+
+function child_overwrite_scripts() {
+    // Remove JS from parent theme
+    wp_dequeue_script( 'jquery-masonry' );
+}
