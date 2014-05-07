@@ -24,6 +24,7 @@ a {text-decoration: underline;}
 
 #masthead {
     min-height: 9.5rem;
+    padding: 0 1rem;
     margin : auto;
 
     p {margin: 0 20px 0 0;
@@ -206,11 +207,11 @@ a {text-decoration: underline;}
         background-color: inherit;
         padding: 0 0 5px
     }
-    
+
     .widget_polylang {
         padding-left: 5px;
     }
-    
+
     .widget_nav_menu li {
         display: inline-block;
     }
@@ -313,7 +314,7 @@ body.home a {
 
 #text_simply {
     background-color: white;
-    padding : 10px 10px 10px 0px;
+    padding : 10px 20px; // 10px 0px;
     position : relative;
     display: inline-block;
 
@@ -324,7 +325,7 @@ body.home a {
 
     p {
         .my-font-size(20); //20px
-        .my-line-height(20); //20px
+        .my-line-height(20); //25px
         font-weight: 300; /* Open_Sans light */
     }
 }
@@ -332,7 +333,7 @@ body.home a {
 #button_simply {
     .my-font-size(30); //30px
     font-weight:bold;
-    width: 325px;
+
     padding: 10px 20px 6px;
     position: relative;
     z-index: 7;
@@ -344,6 +345,7 @@ body.home a {
 }
 
 #accessibility_fast {
+    padding: 10px 20px 0;
     h2 {  
         .my-font-size(43); //43px
         color: #4d4d4d;
@@ -351,7 +353,7 @@ body.home a {
 
     p {
         .my-font-size(20); //20px
-        .my-line-height(20); //20px
+        .my-line-height(24); //24px
         color: #666;
         font-weight: 300; /* Open_Sans light */
     }
@@ -359,7 +361,7 @@ body.home a {
 
 #technology {
     background-color: #fafafa;
-    padding : 150px 0 10px 0;
+    padding : 150px 0 60px 0;
 
     a {color: white;}
 
@@ -377,7 +379,7 @@ body.home a {
     }
     ul {
         padding :0;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     li {
@@ -441,7 +443,7 @@ body.home a {
 
     h2 {
         .my-font-size(45); //45px
-        .my-line-height(20); //20px 
+        .my-line-height(45); //45px 
         color: #4d4d4d;
         margin: 0 0 30px 0;
     }
@@ -465,7 +467,7 @@ body.home a {
 
 
 #references { 
-    padding : 40px 0 0 0;
+    padding : 40px 10px 0 10px;
 
     h2 {
         .my-font-size(45); //45px
@@ -482,7 +484,7 @@ body.home a {
 }
 
 #evaluate {
-    padding : 60px 0 130px 0;
+    padding : 60px 30px 130px;
     a {
         font-family: montserrat;
         color: @button-color;   
@@ -512,12 +514,14 @@ body.home a {
  * -----------------------------------------------------------------------------
  */
 #contact {
-    padding: 15px 0 30px 0;
+    padding: 40px 10px;
     background-color: #FAFAFA;
 }
 
+/*#page_title_gradient {.radial-gradient (@gradient-blue-start; @gradient-blue-end);}*/
+
 #page_title {
-    padding: 15px 0 15px 0;
+    padding: 15px 10px 15px 10px;
     max-width: 960px;
     margin: auto;
     h1 {
@@ -532,13 +536,14 @@ body.home a {
 
     article {
         .my-font-size(18);
-        .my-line-height(28);
+        .my-line-height(29);
         color: #666;
         display: inline-block;
         vertical-align: top;
-        padding : 15px 50px;
+        padding : 10px 40px;
 
         a {color:#666;}
+        dd {.my-line-height(23);}
     }
 }
 
@@ -704,7 +709,7 @@ abbr[title], abbr[data-original-title] {
     }   
 
     #accessibility_fast {
-        h2 {margin: 55rem 0 1.5rem 0;}
+        h2 {margin: 54rem 0 1.5rem 0;}
 
         p { 
             max-width: 42.125em;
@@ -833,14 +838,26 @@ abbr[title], abbr[data-original-title] {
 
     #accessibility_simply {
         .radial-gradient (@gradient-blue-start; @gradient-blue-end);
-        padding: 4em;
+        padding: 2rem;
+        h2 {.my-font-size(32);}
+    }
+
+    #accessibility_fast {
+        h2 {.my-font-size(35);} 
     }
 
     #button_simply {margin-top: 2.5rem;}
 
     #everest {padding: 0px 0px 50px 0px;} 
 
-    #technology {padding: 50px 30px 70px 30px;} 
+    #technology {
+        padding: 50px 30px 70px 30px;
+        h2 {margin-bottom: 45px;}
+    } 
+
+    #techno1,
+    #techno2,
+    #techno3 {margin-top: 25px;}
 
     #steps{
         padding: 50px 30px 70px 30px;
@@ -849,7 +866,10 @@ abbr[title], abbr[data-original-title] {
             margin: 30px auto 0 auto;
         }  
 
-        li {text-align: left;}   
+        li {
+            text-align: left; 
+            margin-top: 25px;
+        }   
     }
 
     #why {padding: 50px 30px 50px 30px;} 
@@ -857,6 +877,8 @@ abbr[title], abbr[data-original-title] {
     #why1, 
     #why2, 
     #why3 {background-color: white;}
+
+    #evaluate {padding : 35px 30px 65px;}
 }
 
 @media (min-width: 644px) {
@@ -870,3 +892,19 @@ abbr[title], abbr[data-original-title] {
     }   
 }
 @media (max-width: 643px) { text-align: left;}
+
+@media (min-width: 480px) {
+    #button_simply {width: 325px;}
+}
+
+@media (max-width: 353px) {
+    #button_simply {width: 240px;}
+}
+
+@media (max-width: 953px) {
+    #contact_area {
+        article {padding : 20px 5px;}
+    }
+    #contact {padding: 10px 10px;}
+    #contact_form {border-right: none;}
+}
