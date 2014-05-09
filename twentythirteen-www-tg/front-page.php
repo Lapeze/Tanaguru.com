@@ -125,7 +125,7 @@
 
     <p class="center"><?php _e('References Little Phrase', 'wwwtg'); ?></p>
 
-    <p class="center responsive"><img class="responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/references.png" alt="EDF, Smile, Adullact, Alter Way, Société Générale, Capgemini, Universcience, Mairie de Paris, Michelin, Ministère de la Culture, Inpes, Réseau Férré de France, Agence de l'Eau"/></p>   
+    <p class="center responsive" lang="fr"><img class="responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/Images/references.png" alt="EDF, Smile, Adullact, Alter Way, Société Générale, Capgemini, Universcience, Mairie de Paris, Michelin, Ministère de la Culture, Inpes, Réseau Férré de France, Agence de l'Eau"/></p>   
 
 </section>
 
