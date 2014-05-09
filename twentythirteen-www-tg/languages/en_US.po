@@ -233,13 +233,13 @@ msgid "Legal text link"
 msgstr "Legal"
 
 msgid "Legal link"
-msgstr "Link_to_legal_page"
+msgstr "http://www.tanaguru.com/en/legal/"
 
 msgid "Credits text link"
 msgstr "Credits"
 
 msgid "Credits link"
-msgstr "Link_to_credits_page"
+msgstr "http://www.tanaguru.com/en/credits-2/"
 
 msgid "Accessibility text link"
 msgstr "Accessibility statement"

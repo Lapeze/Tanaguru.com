@@ -235,13 +235,13 @@ msgid "Legal text link"
 msgstr "Mentions légales"
 
 msgid "Legal link"
-msgstr "Link_to_legal_page"
+msgstr "http://www.tanaguru.com/fr/mentions-legales/"
 
 msgid "Credits text link"
 msgstr "Crédits"
 
 msgid "Credits link"
-msgstr "Link_to_credits_page"
+msgstr "http://www.tanaguru.com/fr/credits/"
 
 msgid "Accessibility text link"
 msgstr "Aide et Accessibilité"
