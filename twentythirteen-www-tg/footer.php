@@ -14,8 +14,10 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
     <div class="widget-area">
         <aside id="footer-tg-logo" class="widget">
-            <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo-footer.png" alt=""/>
-                Tanaguru</p>
+            <p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAEJElEQVR42rVYTUhUURR+vnmiNBkE6kpMLAM3xoBSRWGBQe2CJAgFg7GNVJsKLDAgICRyY+UqIUGRIiFaC+VGFAXJjYAlIq10Vr6ZUJ0Z+77hnThd3n1jfwc+zrn3nr977t+bKenr63NKSkocEnlpaanjeV4BsViswF3XpVwB+STUzgCngKNAFeDu7e3lwTeAr/AxAz6dzWZnc7mcn8/nHcgO5AIXsJ8EW8ejIA0mQR6QJHcI6IHRtZ2dnQTHLXQYOA5cDmwXwN4CQ5A3RUnHkxgeBR2UUNSFrB+hr16MDH3bBEgJ9CXAb6L/MfiI6Jr2nloKPVgO5Re7u7tJGkWQBI/qrwdeo30OuAV5y4znhZSpEuv3Dmg1+sXQQlY96UtCPAa0AyldPU8ZSec4KtAqCprbyqmDaw4y7TmxceCiTtJTjrhjX4G1hZSWYzrgNvrmwNeC8pYDtUAL+sucaKJ/xumW5DyUXQJ1gCWLOFgHnuHITiKpz8xbjbnwcQL+GOQeUB3hh3E+IokxNpgEE6iA3G/seHODjUF+CKxZNmIe/QsB3qDrCXiHoaP99kP+APguywz0oFEDUObFQi6g4XOgE7Zr4kxAMjn1YNcZ2IkP+iUXvzWMS9mFwUEMdFEhgBiJ4QTad/TstWxWTuvQDpiALH7NhLoYn5VoARo5oCDKG7wtJQD2ggQ1A+oTQj1pE5zthvJLiNzI+C4a580ElMEAsC7GuLY5AwYxE5DgHKeeDkT7AVsMxmcSzZbBDHy/lzad4/4gN+8EgewnSVYfa/rJWOI087JqCDkN5IvgX8z1ZiJEPB7nC8tgfGELL2Mmk9EJ6iWhn0X0nwY3qYGVqATC1ncVyFmWyUmn00yGiRS47/v6edZgVw5YtVSikm8HwYZ5DX+37H4pPWdO6P6o9wT+Qsnz4CxrOWYH1KzC3gkuhT4RlG1JiL8wyrp80cwSBlQHOWaZoZSeY9KOOrYx8DrLXZNiEst6UCXUxKfXtidCSN8vZiJ8wpv0ZJW8zI05bylTHLiiAwgsFDVGP3HL+Dwr8clwpPndqNfQ8mloJltNP6JjVonxXX4XQFjShsqgCuJL9hehqCoNAVXGCRS+BMxxOdLAiBFcZ9wONmiZfbHEBoGr2p/mjMv4rmQLh98i1vU2MArU7nMP1MLfKO0i9g7jDVGQJHwM9DrR1MHSAfeBBGCWgUub4Dj15IMmgnqh71PwVFnHYHgBPBnx9VwNPAW2g4R++caEbgt4mVOchhlPf+jqsnYDR4C2IuvOQGedP6NJxtFxXQoGXQemnP9DU/Rv7ic3RDEFXApK9i9pOPCbMgdci8FWsDQ3gJW/DL4S+Omm3zAFt8hZHwH4S/wB+MJvBqc+7RKBHyt5+7gNN/kbgTcnEPr/BPDz/wlgBpgGZgF/P79nfwBtSj06JhzokwAAAABJRU5ErkJggg==" alt=""/>
+                Tanaguru
+            </p>
         </aside>
         <aside id="footer-tg" class="widget">
             <h2>Tanaguru</h2>
