@@ -14,11 +14,24 @@ a {text-decoration: underline;}
 }
 
 /**
- * Header
- * -----------------------------------------------------------------------------
+ * 2.0 Repeatable Patterns
+ * ----------------------------------------------------------------------------
  */
 
-.navbar {background-color: #efefef;}
+/**
+ * 3.0 Basic Structure
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 4.0 Header
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 4.1 Site Header
+ * ----------------------------------------------------------------------------
+ */
 
 .red_line {border-top: 0.25rem solid #ef3b42;}
 
@@ -42,6 +55,7 @@ a {text-decoration: underline;}
 #button_signup {
     .linear-vertical-gradient (@vertical-gradient-red-start; @vertical-gradient-red-end);
     .my-font-size(14); //14px
+    .my-line-height(21); //21px
     color: @button-color;
     font-family: montserrat;
     font-weight: normal;
@@ -107,6 +121,7 @@ a {text-decoration: underline;}
     a {color: #4D4D4D;}
     background-color: #fff;
     .my-font-size(14); //14px
+    .my-line-height(21); //21px
     font-family: montserrat;
     font-weight: normal;
     padding: 0.3rem 2.5rem 0.2rem;
@@ -155,6 +170,7 @@ a {text-decoration: underline;}
 
     a {
         .my-font-size(30); //30px
+        .my-line-height(45); //45px
         font-family: montserrat;
         font-weight: bold;
         color: #4d4d4d;
@@ -163,9 +179,17 @@ a {text-decoration: underline;}
     h1 {
         margin:0;
         .my-font-size(30); //30px
+        .my-line-height(39); //39px
         color: #4d4d4d; 
     }
 }
+
+/**
+ * 4.2 Navigation
+ * ----------------------------------------------------------------------------
+ */
+
+.navbar {background-color: #efefef;}
 
 #navbar {   
     float: right;
@@ -174,6 +198,7 @@ a {text-decoration: underline;}
 
     li a {
         .my-font-size(15); //15px
+        .my-line-height(15); //15px
         font-family: montserrat;
         font-weight: normal;
         color: #4d4d4d;
@@ -193,6 +218,7 @@ a {text-decoration: underline;}
 
     li a { 
         .my-font-size(13); //13px
+        .my-line-height(19.5); //19.5px
         font-weight: 300;
         color: #4d4d4d;
         padding: 5px 0px 5px 5px;
@@ -217,11 +243,98 @@ a {text-decoration: underline;}
     }
 }
 
+/**
+ * 5.0 Content
+ * ----------------------------------------------------------------------------
+ */
+
+#main {
+    //.my-font-size(18); // 18px
+    //.my-line-height(29); // 29px
+}
+
+.hentry {
+    padding: 0;
+}
+
+.entry-header,
+.entry-content,
+.entry-summary,
+.entry-meta {
+    max-width: none;
+}
+
 
 
 /**
- * Footer 
- * -----------------------------------------------------------------------------
+ * 5.1 Entry Header
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-header {
+    margin: 0;
+}
+
+/**
+ * 5.2 Entry Meta
+ * ----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 5.3 Entry Content
+ * ----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 5.7 Post/Paging Navigation
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 5.8 Author Bio
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 5.9 Archives
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 5.10 Search Results/No posts
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 5.11 404
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 5.12 Comments
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 5.13 Multisite
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 6.0 Sidebar
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 6.1 Widgets
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 7.0 Footer
+ * ----------------------------------------------------------------------------
  */
 
 footer a {text-decoration: none;}
@@ -252,6 +365,7 @@ footer a:hover {text-decoration: underline;}
 
 #footer-tg-logo p{
     .my-font-size(30); //30px
+    .my-line-height(20); //20px
     font-weight: bold;
 }
 
@@ -279,10 +393,9 @@ footer a:hover {text-decoration: underline;}
     margin-bottom: 0;
 }
 
-
 /**
- * 11.0 Media Queries
- * -----------------------------------------------------------------------------
+ * 8.0 Media Queries
+ * ----------------------------------------------------------------------------
  */
 
 @media screen and (min-width: 1040px) {
@@ -326,3 +439,7 @@ footer a:hover {text-decoration: underline;}
 @media (max-width: 353px) {
 }
 
+/**
+ * 9.0 Print
+ * ----------------------------------------------------------------------------
+ */
