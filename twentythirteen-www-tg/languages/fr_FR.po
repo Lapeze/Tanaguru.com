@@ -129,9 +129,6 @@ msgstr "Se connecter"
 msgid "And also"
 msgstr "Et aussi"
 
-msgid "Select your language"
-msgstr "Sélectionnez votre langue"
-
 msgid "Technology link title"
 msgstr "La technologie Tanaguru"
 
@@ -152,6 +149,9 @@ msgstr "Offres"
 
 msgid "Offer link"
 msgstr "Link_to_Offer_Page"
+
+msgid "Contact link"
+msgstr "http://www.tanaguru.com/fr/contact/"
 
 msgid "KBAccess link title"
 msgstr "KBAccess - bons et mauvais exemples d'accessibilité en mode collaboratif"

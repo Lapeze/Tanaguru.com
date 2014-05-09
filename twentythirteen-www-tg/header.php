@@ -50,7 +50,7 @@
             <header id="masthead" class="site-header cf" role="banner">
 
                 <div id="signin">
-                    <a href="#" id="button_signin" class="gradient"><?php _e('Sign in', 'wwwtg'); ?></a>
+                    <a href="https://my.tanaguru.com/" id="button_signin" class="gradient"><?php _e('Sign in', 'wwwtg'); ?></a>
                 </div>
 
                 <div id="signup">

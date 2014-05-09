@@ -30,7 +30,7 @@
                     <a href="" title="<?php _e('Offer link title', 'wwwtg'); ?>"><?php _e('Offer link text', 'wwwtg'); ?></a>
                 </li>-->
                 <li>
-                    <a href="" title="<?php _e('Contact link title', 'wwwtg'); ?>">Contact</a>
+                    <a href="<?php _e('Contact link', 'wwwtg'); ?>">Contact</a>
                 </li>
                 <li>
                     <a href="http://blog.tanaguru.com/">Blog</a>
