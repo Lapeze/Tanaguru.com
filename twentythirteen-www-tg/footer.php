@@ -85,14 +85,29 @@
 
     <p id="footer2-1"><?php _e('Tanaguru free software by Open-S', 'wwwtg'); ?></p>
     <p id="footer2-2">
-        <a href="<?php _e('Legal link', 'wwwtg'); ?>"><?php _e('Legal text link', 'wwwtg'); ?></a> | 
-        <a href="<?php _e('Credits link', 'wwwtg'); ?>"><?php _e('Credits text link', 'wwwtg'); ?></a> |
-        <a href="<?php _e('Accessibility link', 'wwwtg'); ?>"><?php _e('Accessibility text link', 'wwwtg'); ?></a>
+        <a href="<?php _e('Legal link', 'wwwtg'); ?>"><?php _e('Legal text link', 'wwwtg'); ?></a>
+         | <a href="<?php _e('Credits link', 'wwwtg'); ?>"><?php _e('Credits text link', 'wwwtg'); ?></a>
+<!--        |  <a href="<?php _e('Accessibility link', 'wwwtg'); ?>"><?php _e('Accessibility text link', 'wwwtg'); ?></a>-->
     </p>
 </footer><!-- #colophon -->
 </div><!-- #page -->
 <!-- DATA_FOOTER -->
 <?php wp_footer(); ?>
 <!-- /DATA_FOOTER -->
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://stats.open-s.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://stats.open-s.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
 </body>
 </html>
