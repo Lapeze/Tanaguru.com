@@ -31,7 +31,9 @@ add_action('wp_print_scripts', 'child_overwrite_scripts', 100);
 
 function child_overwrite_scripts() {
     // Remove JS from parent theme
-    wp_dequeue_script('jquery-masonry');
+    if (!is_admin()) {
+        wp_dequeue_script('jquery-masonry');
+    }
     // Remove JS from Contact-Form-7 if not on page Contact
     if (!is_page('Contact')) {
         wp_deregister_script('contact-form-7');
