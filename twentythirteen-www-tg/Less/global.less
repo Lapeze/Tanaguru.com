@@ -7,7 +7,10 @@
 .site,
 .navbar {max-width:none;}
 
-a {text-decoration: underline;}
+a {text-decoration: underline;
+   &:hover, 
+       &:focus {text-decoration: underline;}
+}
 
 .main-navigation {
     min-height: inherit;
@@ -39,17 +42,9 @@ a {text-decoration: underline;}
     min-height: 9.5rem;
     padding: 0 1rem;
     margin : auto;
-
-    p {margin: 0 20px 0 0;
-       a {color: @button-color;}
-    }
-
+    a {color: @button-color;}
+    p {margin: 0 20px 0 0;}
     ul {padding: 0;}       
-
-    a {
-        text-decoration: none;
-        &:hover {text-decoration: underline;}
-    }
 }
 
 #button_signup {
@@ -118,7 +113,7 @@ a {text-decoration: underline;}
 
 #button_signin {
     margin-right: 20px;
-    a {color: #4D4D4D;}
+    a {color: @grey-darker;}
     background-color: #fff;
     .my-font-size(14); //14px
     .my-line-height(21); //21px
@@ -161,7 +156,7 @@ a {text-decoration: underline;}
 #signin {
     position: relative;
     float: right;
-    a {color: #4D4D4D;}
+    a {color: @grey-darker;}
 }
 
 #logo {
@@ -173,14 +168,14 @@ a {text-decoration: underline;}
         .my-line-height(45); //45px
         font-family: montserrat;
         font-weight: bold;
-        color: #4d4d4d;
+        color: @grey-darker;
     }
 
     h1 {
         margin:0;
         .my-font-size(30); //30px
         .my-line-height(39); //39px
-        color: #4d4d4d; 
+        color: @grey-darker; 
     }
 }
 
@@ -189,6 +184,8 @@ a {text-decoration: underline;}
  * ----------------------------------------------------------------------------
  */
 
+header {a {text-decoration: none;}}
+
 .navbar {background-color: #efefef;}
 
 #navbar {   
@@ -196,18 +193,18 @@ a {text-decoration: underline;}
     margin-top: 5px;
     background-color: rgba(0, 0, 0, 0);
 
-    li a {
+    a {
         .my-font-size(15); //15px
         .my-line-height(15); //15px
         font-family: montserrat;
         font-weight: normal;
-        color: #4d4d4d;
+        color: @grey-darker;
         padding: 10px 0px 3px 10px;
-    }
-
-    li a:hover {
-        background-color: transparent;
-        text-decoration: underline;
+        &:hover,
+            &:focus {
+            background-color: transparent;
+            text-decoration: underline;
+        }
     }
 }
 
@@ -220,7 +217,7 @@ a {text-decoration: underline;}
         .my-font-size(13); //13px
         .my-line-height(19.5); //19.5px
         font-weight: 300;
-        color: #4d4d4d;
+        color: @grey-darker;
         padding: 5px 0px 5px 5px;
     }
 
@@ -335,8 +332,7 @@ a {text-decoration: underline;}
  * ----------------------------------------------------------------------------
  */
 
-footer a {text-decoration: none;}
-footer a:hover {text-decoration: underline;}
+footer {li a {text-decoration: none;}}
 
 #colophon {padding-bottom: 14px;}
 

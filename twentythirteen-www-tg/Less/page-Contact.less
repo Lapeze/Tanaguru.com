@@ -15,13 +15,13 @@
     article {
         .my-font-size(18); // 18px
         .my-line-height(29); // 29px
-        color: #666;
+        color: @grey-lighter;
         display: inline-block;
         vertical-align: top;
         padding : 10px 40px;
         max-width : 540px;
 
-        a {color:#666;}
+        a {color:@grey-lighter;}
         dd {.my-line-height(23);}
     }
 }
@@ -33,7 +33,8 @@
     textarea {width: 90%;}
 }
 
-div.wpcf7-validation-errors {
+div.wpcf7-validation-errors,
+div.wpcf7-mail-sent-ng {
     width : 90%;
     border: 2px solid #E60000;
 }
@@ -74,7 +75,7 @@ abbr[title], abbr[data-original-title] {
     h2 {
         .my-font-size(21);
         .my-line-height(21);
-        color: #4d4d4d;
+        color: @grey-darker;
         margin: 15px 0 15px 0;
         span {
             .my-font-size(14);
@@ -85,7 +86,7 @@ abbr[title], abbr[data-original-title] {
     article {
         .my-font-size(17);
         .my-line-height(20);
-        color: #666;
+        color: @grey-lighter;
         display:inline-block;
         vertical-align: top;
         padding: 0 15px;
@@ -94,7 +95,7 @@ abbr[title], abbr[data-original-title] {
     }
     ul {padding-left:20px;}
 
-    a {color:#666;}
+    a {color:@grey-lighter;}
 
     .portrait {
         float: left;
