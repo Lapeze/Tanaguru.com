@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section id="everest">
+<div id="everest">
 
     <div id="everest_gradient" class="gradient">
 
@@ -28,7 +28,7 @@
         </article>
     </div>
 
-</section>
+</div>
 <section id="technology">
 
     <h2 class="center"><?php _e('Technology Title', 'wwwtg'); ?></h2>
@@ -129,12 +129,12 @@
 
 </section>
 
-<section id="evaluate">
+<div id="evaluate">
 
     <p class="center">
         <a href="https://my.tanaguru.com/sign-up/sign-up.html" id="button_evaluate" class="button gradient"><?php _e('Evaluate your accessibility !', 'wwwtg'); ?></a>
     </p>
 
-</section>
+</div>
 
 <?php get_footer(); ?>

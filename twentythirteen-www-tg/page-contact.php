@@ -16,6 +16,6 @@ get_header();
     <?php endwhile; ?>
 </div>
 
-<section id="evaluate"></section>
+<div id="evaluate"></div>
 
 <?php get_footer(); ?>
