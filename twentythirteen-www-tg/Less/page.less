@@ -1,7 +1,6 @@
 #page_title_gradient {
     min-height: 125px;
     .radial-gradient (@gradient-blue-start; @gradient-blue-end);
-
 }
 
 #page_title_filter {
@@ -20,24 +19,22 @@
     display: inline-block;
     position: relative;
     vertical-align : 47px;
-/*    margin : 10px 10px ;
-    padding : 10px 15px;*/
-            margin : 0 0 0 -20px;
-        padding : 10px 25px 10px 2px;
-    
+    margin : 0 0 0 -20px;
+    padding : 10px 25px 10px 2px;
+
     background-color: #fff;
     border-radius: 0 3px 3px 0;
-        &:before {
-            content: "";
-            border-left: 32px solid rgba(0, 0, 0, 0);
-            border-top: 53px solid #FFFFFF;
-            width: 2px; 
-            height: 0;
-            position: absolute;
-            top: 0;
-            left: -33px;
-            transform: scale(0.999);
-        }
+    &:before {
+        content: "";
+        border-left: 32px solid rgba(0, 0, 0, 0);
+        border-top: 53px solid #FFFFFF;
+        width: 2px; 
+        height: 0;
+        position: absolute;
+        top: 0;
+        left: -33px;
+        transform: scale(0.999);
+    }
 
     h1 {
         .my-font-size(25);
@@ -55,8 +52,8 @@
         left : 0px;
         margin :0;
         padding: 10px;
-/*width: 140px;*/
-                 
+        min-width: 180px;
+        text-align: center;
+
     }
-    #page_title_gradient {position : relative;}
 }

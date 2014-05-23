@@ -20,8 +20,8 @@
     display: inline-block;
     vertical-align: top;
     padding : 10px 40px;
-    max-width : 540px;
-    a {color:@grey-lighter;}
+    max-width : 500px;
+    /*    a {color:@grey-lighter;}*/
     dd {.my-line-height(23);}
 }
 
@@ -32,10 +32,11 @@
     textarea {width: 90%;}
 }
 
+div.wpcf7-mail-sent-ok,
 div.wpcf7-validation-errors,
-div.wpcf7-mail-sent-ng {
+div.wpcf7-mail-sent-ng,
+button {
     width : 90%;
-    border: 2px solid #E60000;
 }
 
 div.wpcf7-response-output {margin: 2em 0 1em;}
@@ -58,7 +59,7 @@ abbr[title], abbr[data-original-title] {
     font-family: montserrat;
     font-weight: bold;
     color: @button-color;   
-    border-bottom: 5px solid #A00 ;
+    border-bottom: 5px solid #A00;
     border-radius: 4px;
     vertical-align: middle;
 }
@@ -70,7 +71,7 @@ abbr[title], abbr[data-original-title] {
     padding: 30px 0 0 0;
     .my-font-size(10); //10px
     .my-line-height(15); //15px
-    
+
     h2 {
         .my-font-size(21);
         .my-line-height(21);
