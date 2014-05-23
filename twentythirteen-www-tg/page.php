@@ -28,13 +28,14 @@ get_header();
                         </div>
                     <?php endif; ?>
 
-                    <div id='page_title_gradient'>
-                        <div id="page_title">
-                            <h1 class="entry-title"><?php the_title(); ?></h1>
+                </header><!-- .entry-header -->
+                
+                    <div>
+                        <div id='page_title_gradient'>
+                            <div id="page_title_filter"></div>    
+                            <div id="page_title"><h1 class="entry-title"><?php the_title(); ?></h1></div>
                         </div>
                     </div>
-
-                </header><!-- .entry-header -->
 
                 <div class="entry-content">
                     <?php the_content(); ?>
