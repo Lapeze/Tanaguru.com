@@ -68,7 +68,7 @@ msgid "Why3 Title"
 msgstr "Facile"
 
 msgid "Why1 Description"
-msgstr "Les résultats de Tanaguru sont fiables. En cas de doute, il vous informe au lieu de donner un résultat faux. Tanaguru vous fourni tous les éléments nécessaires à votre prise de décision."
+msgstr "Les résultats de Tanaguru sont fiables. En cas de doute, il vous informe au lieu de donner un résultat faux. Tanaguru vous fournit tous les éléments nécessaires à votre prise de décision."
 
 msgid "Why2 Description"
 msgstr "Vous en avez marre de compter les <code>alt</code> à la main ? Nous aussi ! Repousser les limites de l'automatisation est notre motivation. Offrir des gains de productivité fait partie du code (génétique) de Tanaguru."

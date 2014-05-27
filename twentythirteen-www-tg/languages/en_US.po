@@ -47,7 +47,7 @@ msgid "Techno1 Feature"
 msgstr "Templates being created can be audited before deployment.<br /> Web pages are instantly evaluated."
 
 msgid "Techno2 Feature"
-msgstr "Thanks to his crawler, Tanaguru browses the site in its entirety. Public portal, blog or corporate website, measure accessibility of 10'000 pages in one click !"
+msgstr "Thanks to its crawler, Tanaguru browses the site in its entirety. Whatever your web, public portal, blog or corporate website, measure accessibility of 10'000 pages in one click !"
 
 msgid "Techno3 Feature"
 msgstr "Validate Javascript applications, intranets or user process on an e-commerce site. Scenario audit even lets you control different states of the same page."
