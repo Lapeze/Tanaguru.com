@@ -3,6 +3,17 @@
  * -----------------------------------------------------------------------------
  */
 
+#anchor { 
+    li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 0 10px;
+    }
+    ul {margin: 0;}
+    max-width: 450px;
+    margin: auto;
+}
+
 #services,
 #training,
 #saas {
@@ -51,8 +62,15 @@
 
 .project {border-radius: 5px 5px 0 0;}
 
+.grey_row {background-color: #EEE;}
+
 .top_cell {
-    border-top: 20px solid #fff;
+    border-top: 15px solid #FFF;
+    height: 60px;
+}
+
+.top_cell_grey {
+    border-top: 15px solid #EEE;
     height: 60px;
 }
 
@@ -67,12 +85,16 @@
 
 .padding_cell {
     padding-top: 0;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 
 .left_shadow {box-shadow: -3px 0 4px -4px #000000 inset;}
 .righ_shadow {box-shadow: 3px 0 4px -4px #000000 inset;}
+
+
+.left_shadow_grey {box-shadow: -3.5px 0 4px -4px #000000 inset;}
+.righ_shadow_grey {box-shadow: 3.5px 0 4px -4px #000000 inset;}
 
 tr,
 th,
@@ -83,10 +105,13 @@ table {
     font-weight: normal;
 }
 
+th {padding: 0 10px 0 10px;}
+
 td {
     width : 150px;
     height : 40px;
     text-align: center;
+    padding: 6px 10px 6px 6px;
 }
 
 .n_a:before {
