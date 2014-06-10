@@ -28,7 +28,6 @@
         .my-font-size(23); 
         .my-line-height(30); 
     }
-    li {list-style-type: none;}
     a {
         color: #fff;
         text-decoration: none;
@@ -42,15 +41,6 @@
     font-weight:bold;
     padding: 10px 20px 6px;
     margin-bottom: 30px;
-}
-
-.small_button {
-    display:inline-block;
-    vertical-align: middle;
-    font-family: montserrat;
-    color: @button-color;   
-    border-radius: 3px;
-    text-decoration: none;
 }
 
 .type {
@@ -127,16 +117,15 @@ td {
     .my-line-height(26);
 }
 
-.small_number_cell {
-    .my-font-size(16); 
-    .my-line-height(18);
+.small_font_cell {
+    .my-font-size(13); 
+    .my-line-height(15);
 }
 
 .symbol_cell {
     .my-font-size(32); 
     .my-line-height(34);
 }
-
 
 table {
     .my-font-size(18); //18px
@@ -153,15 +142,22 @@ table {
     padding: 5px 10px 3px;
 }
 
+.small_button {
+    display:inline-block;
+    vertical-align: middle;
+    font-family: montserrat;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
 .table_try_it {
     .my-font-size(14);
     .my-line-height(20);
     .linear-gradient (#666; #666);
-    border-bottom: 2px solid #666;
+    border-bottom: 2px solid #666; 
     font-weight:bold;
     padding: 5px 10px 3px;
 }
-
 
 /**
  * 11.0 Media Queries
