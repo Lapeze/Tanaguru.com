@@ -83,8 +83,8 @@
 .righ_shadow {box-shadow: 3px 0 4px -4px #000000 inset;}
 
 
-.left_shadow_grey {box-shadow: -3.5px 0 4px -4px #000000 inset;}
-.righ_shadow_grey {box-shadow: 3.5px 0 4px -4px #000000 inset;}
+.left_shadow_grey {box-shadow: -1.5px 0 4px -4px #000000 inset;}
+.righ_shadow_grey {box-shadow: 2.5px 0 4px -4px #000000 inset;}
 
 tr,
 th,
@@ -133,14 +133,6 @@ table {
     margin: 35px 0 0 0;
 }
 
-.table_contact_us {
-    .my-font-size(14);
-    .my-line-height(20);
-    .linear-gradient (@gradient-red-start; @gradient-red-end);
-    border-bottom: 2px solid #A00 ;
-    font-weight:bold;
-    padding: 5px 10px 3px;
-}
 
 .small_button {
     display:inline-block;
@@ -148,13 +140,33 @@ table {
     font-family: montserrat;
     border-radius: 3px;
     text-decoration: none;
+    min-width: 135px;
 }
 
-.table_try_it {
+#button_cell_color {
+    padding: 30px 0 0 0;
+    height: 60px;
+    a {
+        color: #4d4d4d;
+        text-decoration: none;
+        &:hover {text-decoration: underline;}
+    }
+}
+
+#table_try_it {
     .my-font-size(14);
     .my-line-height(20);
-    .linear-gradient (#666; #666);
-    border-bottom: 2px solid #666; 
+a {color : #4d4d4d;}
+    border: 1px solid @gradient-red-start; 
+    font-weight:bold;
+    padding: 5px 10px 3px;
+}
+
+.table_contact_us {
+    .my-font-size(14);
+    .my-line-height(20);
+    .linear-gradient (@gradient-red-start; @gradient-red-end);
+    border-bottom: 2px solid #A00 ;
     font-weight:bold;
     padding: 5px 10px 3px;
 }
