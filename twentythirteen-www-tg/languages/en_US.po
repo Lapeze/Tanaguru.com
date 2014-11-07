@@ -149,7 +149,7 @@ msgid "Offer link"
 msgstr "Link_to_Offer_Page"
 
 msgid "Contact link"
-msgstr "http://www.tanaguru.com/en/contact-3/"
+msgstr "http://www.tanaguru.com/en/contact-en/"
 
 msgid "KBAccess link title"
 msgstr "KBAccess - collaborative set of good and bad examples of web accessibility"
