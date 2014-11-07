@@ -86,7 +86,7 @@ msgid "Steps Little Phrase"
 msgstr "Avec Tanaguru, 4 étapes suffisent pour tester un site entier, de manière personnalisable, fiable et agréable."
 
 msgid "Step1 Description"
-msgstr "Lancez un audit en le parametrant suivant vos besoins"
+msgstr "Lancez un audit en le paramétrant suivant vos besoins"
 
 msgid "Step2 Description"
 msgstr "Définissez vos priorités grâce à la synthèse globale."
