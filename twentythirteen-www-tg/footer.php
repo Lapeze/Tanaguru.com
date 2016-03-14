@@ -49,9 +49,6 @@
                     <a href="<?php _e('KBAccess URL', 'wwwtg'); ?>" title="<?php _e('KBAccess link title', 'wwwtg'); ?>">KBAccess</a>
                 </li>
                 <li>
-                    <a href="<?php _e('Observatory URL', 'wwwtg'); ?>"><?php _e('Observatory link text', 'wwwtg'); ?></a>
-                </li>
-                <li>
                     <a href="<?php _e('Open-S URL', 'wwwtg'); ?>">Open-S</a>
                 </li>
             </ul>
