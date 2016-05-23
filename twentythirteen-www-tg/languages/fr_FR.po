@@ -229,7 +229,7 @@ msgid "Ohloh link"
 msgstr "https://www.ohloh.net/p/Tanaguru"
 
 msgid "Tanaguru free software by Open-S"
-msgstr "Tanaguru, logiciel libre édité par la société <a href=\"http://www.Open-S.com/\">Open-S</a>"
+msgstr "Tanaguru, logiciel libre édité par la société <a href=\"http://www.oceaneconsulting.com/\">Océane Consulting</a>"
 
 msgid "Legal text link"
 msgstr "Mentions légales"
