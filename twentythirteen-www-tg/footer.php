@@ -46,9 +46,6 @@
                     <a href="<?php _e('Contrast-Finder URL', 'wwwtg'); ?>" title="<?php _e('Contrast-Finder link title', 'wwwtg'); ?>">Contrast-Finder</a>
                 </li>
                 <li>
-                    <a href="<?php _e('KBAccess URL', 'wwwtg'); ?>" title="<?php _e('KBAccess link title', 'wwwtg'); ?>">KBAccess</a>
-                </li>
-                <li>
                     <a href="<?php _e('Observatory URL', 'wwwtg'); ?>"><?php _e('Observatory link text', 'wwwtg'); ?></a>
                 </li>
             </ul>
