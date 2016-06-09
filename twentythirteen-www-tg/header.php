@@ -61,8 +61,8 @@
                 <?php if (is_front_page()) { ?>
                     <div id="logo">
                         <h1>
-                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAD10lEQVR42s2ZXWgUVxiGv5nd2jaN222sy9pKQmlhSaoQYaEFehOgAYpNpD8WqARI6VVuSisUSiqLDQWhlt7kpj8WJAL+awwCEciNgELAgOqyiEiCaoga42aNv7Pjc2BuRlnOmcnMxBcePiDZ73s4mZmdnGPJMlL7RVKUTdAFRShAK2QgBQ5UYQYqMAkTcK75d34WMqGkqz/a7ZR+2AZ5CZ5ZGIE9mT/r5VilFwbSGygl+AIsWX5cOAKl7PDTC5FKz3/3SrMn+wOkJPo48BeUWv57Ulu29K1tr26kHISCxJ8KfL125NH50NJz37y2mXIAXpfk8gC25vY/HAssPbul6VvKXrAl+dShL39saZ+x9I3P3thMOa4RTkK8952T98e00te7mzdSzmouiSQvlY/eHa+dbyh9rSvTTJkMcdMtwSiMwxRMw2NYBW3QCd3QA00hbs7i+olqTbykfX+PJ1YpoPAC7ILh1tP3Fhs9MeEc/D/zyZurqQPwM2TFLAUowfYXVnr64+wGylSA5/AofN92ZmFOAoZZOcq/8HmA53gnsy4IscWL+9QqQQrEgCHYEkZYRX2Oz/fCkOG8FJR8K321s6WdctHwG3Lovan5XyWiMPs3yqDhV/6HzC7bQlxH+sEC0TAKOyTCqH5wwmC2Bf1CrCsda1LUa5A3uOkK71+6MycRB4ccpWJwc87Cett1rE2QB9GwKw5hFdVX9dc74ImvLXXpAtGwBMMSZ+gPSwYuXTbmRRANox9cvr0oMUb1V3MMXIq2W5cCiIZxSSBqjoFLIS11q1X0mZIEgovJnNY05hnRZzqZlTaak0mLa6VEn8eSQHAxmZNSK+0YvG+sSmaljeY4trhSBdHQJkmEOQYuVaStGRANnZJEmGPgMmO7rlRANHwqCYQ53QYuFVZaJkE09JbX5ldLjFH9mdNj4DKppCdANDTBgMQZ+kOTgcuEVX47H+gtr/327JxEHByCveUh4WA/AqIhC3+X1+StSIXpR99/IGvgMKJ8bSGuWHvABdHQCzslwqh+0GMw21Wevn9sL7WsO0T5UswyBDs65m+6EjLMsyg7YVDMcph5X8lzO0glcMQsg3CUwbmQwjnKsQDCeOHnxXqu2R+Un8Lse7AKiwayYfY9VHbTf3sj6eXsMB2HU3HtMCFd80n7xN9a99Lt5XXcvenby7PBF+8XtkJdVjZ15eETbiTtiY9R+qC+gsJ9yiPwSQCXyoqdBPiEjaT94omfuXiXRMPYoonXoAi7wZF44nj9iz5ho5XWr3ps54jIhjxHNJeP7MQW2YhPbPXyoc/GkXUkZJ4B5iDaa06VvUMAAAAASUVORK5CYII=" alt=""/>
-                            Tanaguru
+                            <img src="<?php echo get_stylesheet_directory_uri() ?>/Images/logo_tg.png" alt=""/>
+                            <span>Tanaguru</span>
                         </h1>
                     </div>
                 <?php } else { ?>
