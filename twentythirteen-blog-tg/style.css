@@ -145,4 +145,15 @@ h6 {
 .site-header .home-link {
   background: url(Images/bg-noise.png) repeat top left;
   background: url(Images/Montagnes.png) no-repeat bottom right;
+  padding-top: 30px;
+}
+.site-logo {
+  width: 150px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.site-title {
+  padding: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
 }

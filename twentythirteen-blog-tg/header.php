@@ -44,8 +44,9 @@
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header" role="banner">
-			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+			<a class="home-link" href="http://www.tanaguru.com/<?php echo (pll_current_language() === 'fr') ?  'fr' : 'en'; ?>" rel="home">
+				<img class="site-logo" src="<?php echo get_stylesheet_directory_uri() ?>/Images/logo_tg.png">
+				<h1 class="site-title">Tanaguru</h1>
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 			</a>
 
