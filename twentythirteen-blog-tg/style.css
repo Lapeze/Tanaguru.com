@@ -146,11 +146,13 @@ h6 {
   background: url(Images/bg-noise.png) repeat top left;
   background: url(Images/Montagnes.png) no-repeat bottom right;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 .site-logo {
   width: 150px;
   display: inline-block;
   vertical-align: middle;
+  max-width: 100%;
 }
 .site-title {
   padding: 0 10px;
