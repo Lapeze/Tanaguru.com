@@ -159,3 +159,16 @@ h6 {
   display: inline-block;
   vertical-align: middle;
 }
+.entry-meta .author span {
+  color: #bc360a;
+}
+
+.entry-meta .author span:before {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font: normal 16px/1 Genericons;
+  vertical-align: text-bottom;
+  content: "\f304";
+  position: relative;
+  top: -1px;
+}
