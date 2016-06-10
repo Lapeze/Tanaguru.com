@@ -67,7 +67,7 @@
                     </div>
                 <?php } else { ?>
                     <div id="logo">
-                        <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/tg-logo-header.png" alt=""/> Tanaguru</a>
+                        <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/logo_tg.png" alt=""/><span>Tanaguru</span></a>
                     </div>
                 <?php } ?>   
 
