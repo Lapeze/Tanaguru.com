@@ -27,10 +27,10 @@
                 </li>
                 <li>
                     <a href="" title="<?php _e('Tour link title', 'wwwtg'); ?>"><?php _e('Tour link text', 'wwwtg'); ?></a>
-                </li>
-                <li>
-                    <a href="" title="<?php _e('Offer link title', 'wwwtg'); ?>"><?php _e('Offer link text', 'wwwtg'); ?></a>
                 </li>-->
+                <li>
+                    <a href="<?php _e('Offer link url', 'wwwtg'); ?>" title="<?php _e('Offer link title', 'wwwtg'); ?>"><?php _e('Offer link text', 'wwwtg'); ?></a>
+                </li>
                 <li>
                     <a href="<?php _e('Contact link', 'wwwtg'); ?>">Contact</a>
                 </li>
@@ -58,10 +58,10 @@
                     <img src="data:image/png;base64,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" 
                          alt="<?php _e('Tanaguru on Github', 'wwwtg'); ?>" />
                 </a> 
-                <a href="<?php _e('Ohloh link', 'wwwtg'); ?>" title="<?php _e('Ohloh link title', 'wwwtg'); ?>">
+               <!--  <a href="<?php _e('Ohloh link', 'wwwtg'); ?>" title="<?php _e('Ohloh link title', 'wwwtg'); ?>">
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAzCAMAAADmSHsbAAACJVBMVEX////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////Q0dL////V1db+/v7Q0dL////Q0dL////Q0dL////Q0dL////////Q0dLg4OH+/v7////Q0dLQ0dL////Q0dL////Q0dLr6+z+/v7////9/f1kZGZlZmhoaGpqamxra21zc3V8e3yAfoKEg4WMi42TkpSYlpmamZufnp+hkIGtrK+xo5a2qZ24t7q7ur28sKXCtqzDwsXFurDMw7vPuaDQ0dLR0NHSvqfS0dHS09TTz87T0tXT09TU1NXWiDHWiTTXjDbYjzvYxrHY0crY2NjZ0svZ2dnZ2drak0La29zbl0fb2t3b29zcmUrc3N3dnVDd3d/en1PeoVbf2dPf39/f3+Dgp2DhqGPh08Th4eLiq2bi4uPjrmzksXDksnPk39vk4+Xl5Obl5ebnuoDovofo6Onq6uvrxZTs7O3tzKHt7e3t7e/w1K7w7/Dw7/Hx8PDx8fLy8vPy8/P038P09PT148n29fX29vb29vf39/f46tf4+Pj68eT68eX6+vr6+vv8/Pz9+PL9+vX9/fz9/f3++/b++/n+/v7//vz///9N88h7AAAASHRSTlMACwsNDRsbICAkJCcnKSkzMzY2Y2NlZWdnaWl5eX9/gICIiI2Nmpqenp+fpaXBwcvL1tbc3N3d39/m5/Hx9PX5+fr6/Pz8/P4eCJeFAAACzklEQVR42pXRd0PTQBjH8ccJ7r0H7i177zLjAFEBwe2hKJygbBBlKkNFZIMyrLI3ir/X5xGO0DYtjZ9/8rTJN3dJSMd19xn3oDAgLMj9zG5XcmL9YW9Y8T68nhzbeC4KOlHnNpJ9q0/Iy3XJidVkx3Z/OOS/nXT2RmIFkXvJxlE4cZSsHINTx8jCfhiwnzQ7o2BA1E6S1gbCkMC1MjgFg06RamscDIrbqgaXYNglElzjYFicq+4TGPgYvvgPvkSbYeHP+MjI+AxUQ2azGTqb6SCWfeWqT9MQkhRFSYKtg3RBm58WcSn3iQyUJti4QJ6QeriFTiAlQQSlsOFJoXJ6nCPu3J4PVLUvrPQKuGsvCKVYOVWK6/Ohei6KN8A9Eby7cyspKfkhNLEkh7+c8x5IP8WPz2qQoqgsiqXgN+dF0Lzl/JEaXFGuXheHZIsgHqoZzmuhaeQ8XQTCze6hREVJxJJ4mrAXfFwKbgB4oSgJWDJBA1pQAk0F5w9EIDdvGQxQzPJD/4D0WrziKjUotQ1iKERO7znP+QBVfi7nFbAfhJCHnO5z8Z5GIEyXiDHNQeBB583yaVpeiuvqU1Mbc8SxsdcquHb7C1Tm83SgAVIL1zQCloHwDKqGA7Qpa0oGv9JruaoyrdcqSNCCqaxNRD6t0Ix11td2jmFRd0ZGxhCEJjEsbrzVh4jcxBLOyQXcROASXQeD6qJdSLjI+mFIP7tIC7ZEZ0/CgMns6C2kOskK5+DUXCE7SYvWBLDyeTgxX84C1pC0w8SKZ7Gi2WJm2kGafYzljWIFo3mM7SMLboxldsGhrkzG3MjKEcZY2TDsGi4TJ4+QjT0R4t+aQegM1ogTEXtIZ5sfEwraRq323lbABL9tZMeq4ya2ILu6ueNbX9/3jubqbLbAdHwV2bfhrInpmM5uIMfWHfJiVrwOrSMnXHadvhwczlh48OXTu1zI1j91Nbr2dTvSrAAAAABJRU5ErkJggg=="
                          alt="<?php _e('Tanaguru on Ohloh', 'wwwtg'); ?>" />
-                </a>
+                </a> -->
             </p>
 
 
