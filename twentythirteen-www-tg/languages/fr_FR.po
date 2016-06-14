@@ -112,6 +112,12 @@ msgstr "Ils nous font confiance et nous en sommes très fiers, merci."
 msgid "Evaluate your accessibility !"
 msgstr "Evaluer votre accessibilité !"
 
+msgid "References Big Phrase"
+msgstr "Tanaguru est conçu pour les entreprises de toutes tailles, du consultant indépendant au grand groupe."
+
+msgid "Button Reference Tanaguru"
+msgstr "Essayer Tanaguru"
+
 # ==============================================================================
 # Header
 # header.php
