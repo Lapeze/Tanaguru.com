@@ -112,6 +112,12 @@ msgstr "They trust us and we are very proud of it, thank you."
 msgid "Evaluate your accessibility !"
 msgstr "Evaluate your accessibility !"
 
+msgid "References Big Phrase"
+msgstr "Tanaguru is designed for all companies, from individual consultants to the large group."
+
+msgid "Button Reference Tanaguru"
+msgstr "Try Tanaguru"
+
 # ==============================================================================
 # Header
 # header.php
@@ -143,7 +149,10 @@ msgid "Tour link"
 msgstr "Link_to_Tour_Page"
 
 msgid "Offer link text"
-msgstr "Offer"
+msgstr "Offers"
+
+msgid "Offer link url"
+msgstr "http://www.tanaguru.com/en/accessibility-automation-offers/"
 
 msgid "Offer link"
 msgstr "Link_to_Offer_Page"

@@ -1625,6 +1625,20 @@ table {
   font-weight: bold;
   padding: 5px 10px 3px;
 }
+#references .list-logos {
+  max-width: 960px;
+  padding: 0;
+  list-style: none;
+}
+#references .logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  padding: 0 10px;
+}
+#references .big-phrase {
+  margin-top: 40px;
+}
 /* glue: 0.9.4 hash: 18aea2eb85 */
 .sprite-Front-page-step4,
 .sprite-Front-page-step3,
