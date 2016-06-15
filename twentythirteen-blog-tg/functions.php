@@ -47,8 +47,6 @@ function comments_popup_link_custom( $zero = false, $one = false, $more = false,
 
 	echo '<span';
 	
-	echo '"';
-
 	if ( !empty( $css_class ) ) {
 		echo ' class="'.$css_class.'" ';
 	}
