@@ -1,0 +1,26 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Matthieu Faure <mfaure@open-s.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ==============================================================================
+# Comments
+# content.php
+
+msgid "No comments yet"
+msgstr "0 commentaire"
+
+msgid "1 comment"
+msgstr "1 commentaire"
+
+msgid "% comments"
+msgstr "% commentaires"
+
+msgid "Disabled comments"
+msgstr "Commentaires désactivés"

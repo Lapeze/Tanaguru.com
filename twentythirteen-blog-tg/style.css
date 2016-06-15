@@ -159,7 +159,7 @@ h6 {
   display: inline-block;
   vertical-align: middle;
 }
-.entry-meta .author span {
+.entry-meta span {
   color: #bc360a;
 }
 
@@ -171,4 +171,12 @@ h6 {
   content: "\f304";
   position: relative;
   top: -1px;
+}
+
+.hentry {
+  list-style: none;
+}
+
+.list-articles {
+  padding-left: 0;
 }
