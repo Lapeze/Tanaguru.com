@@ -180,3 +180,118 @@ h6 {
 .list-articles {
   padding-left: 0;
 }
+
+/* ====================
+        FOOTER
+ =====================*/ 
+
+.site-footer {
+  background-color: #3F3F3F;
+  color: #fff;
+  padding-bottom: 14px;
+}
+
+#footer-tg-logo p {
+  font-size: 1.875rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+}
+
+.site-footer a {
+  color: #fff;
+}
+
+.site-footer .widget ul {
+  line-height: 1.45;
+}
+
+.site-footer .widget a {
+  color: #fff;
+}
+
+.site-footer h2 {
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  margin: 0 0 5px 0;
+}
+
+.widget {
+  margin: 0 1% 0 0;
+  padding: 20px 20px 5px;
+}
+
+.widget li {
+  padding: 0;
+}
+
+#evaluate {
+    padding: 60px 30px 130px;
+}
+
+#footer-tg li:before, #footer-and-also li:before {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAALCAYAAACzkJeoAAAAVElEQVR42mL4//9/IBCvAmJmBiQA5IOJi/8hYAI2SVUgfg1VUIAiCWVYAfE3IP4LxMEoklBOMFTyG1QxAwOaPaugxl8jTidOO/G6lpA/cYYQQIABAKbNraSJDbzuAAAAAElFTkSuQmCC);
+}
+
+#footer-social a {
+  display: inline-block;
+}
+
+#footer-social img {
+  margin: 0px 0 20px 15px;
+}
+
+#footer2-1, 
+#footer2-2 {
+  font-size: 0.813rem;
+  line-height: 0.95rem;
+}
+
+#footer2-1 a,
+#footer2-2 a {
+  text-decoration: underline;
+}
+
+#footer2-1 {
+  margin-bottom: 0.4em;
+}
+
+#footer2-2 {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1040px) {
+  .widget {
+    padding: 0 0.5% 5px;
+  }
+
+  #footer-tg-logo {
+    width: 30%;
+  }
+
+  #footer-tg,
+  #footer-and-also,
+  #footer-social {
+    width: 20%;
+  }
+}
+
+#evaluate {
+    padding: 60px 30px 130px;
+}
+
+@media (max-width: 899px) {
+  #evaluate {
+      padding: 0;
+  }
+}
+
+
+@media screen and (min-width: 900px) {
+  #evaluate {
+    background-image: url(../twentythirteen-www-tg/Images/Background/footer_mountains.png), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAASCAIAAAAVNSPrAAAAEklEQVQI12Owt7dnYmBgoBQDADi+AOAzu3mLAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat, repeat-x;
+    background-position: bottom center, bottom;
+    min-height: 250px;
+  }
+}
