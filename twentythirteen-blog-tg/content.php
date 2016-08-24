@@ -40,7 +40,12 @@
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
-		<?php the_excerpt(); ?>
+		<?php 
+		if ( is_single() ) :
+			the_content();
+		else :
+			the_excerpt(); 
+		endif;?>
 	</div><!-- .entry-content -->
 	<?php endif; ?>
 </li><!-- #post -->
