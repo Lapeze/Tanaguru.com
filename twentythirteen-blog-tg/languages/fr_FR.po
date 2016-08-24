@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Matthieu Faure <mfaure@open-s.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ==============================================================================
+# Comments
+# content.php
+
+msgid "No comments yet"
+msgstr "0 commentaire"
+
+msgid "1 comment"
+msgstr "1 commentaire"
+
+msgid "% comments"
+msgstr "% commentaires"
+
+msgid "Disabled comments"
+msgstr "Commentaires désactivés"
+
+
+# ==============================================================================
+# Footer
+# footer.php
+
+msgid "And also"
+msgstr "Et aussi"
+
+msgid "Technology link title"
+msgstr "La technologie Tanaguru"
+
+msgid "Technology link text"
+msgstr "Notre technologie"
+
+msgid "Technology link"
+msgstr "Link_to_Technology_Page"
+
+msgid "Tour link text"
+msgstr "Visite guidées"
+
+msgid "Tour link"
+msgstr "Link_to_Tour_Page"
+
+msgid "Offer link text"
+msgstr "Offres"
+
+msgid "Offer link url"
+msgstr "http://www.tanaguru.com/fr/offres-accessibilite-web-automatisation-formation-saas/"
+
+msgid "Offer link"
+msgstr "Link_to_Offer_Page"
+
+msgid "Contact link"
+msgstr "http://www.tanaguru.com/fr/contact/"
+
+msgid "KBAccess link title"
+msgstr "KBAccess - bons et mauvais exemples d'accessibilité en mode collaboratif"
+
+msgid "KBAccess URL"
+msgstr "http://www.kbaccess.org"
+
+msgid "Contrast-Finder link title"
+msgstr "Contrast-Finder *propose* les bonnes couleurs pour un contraste valide"
+
+msgid "Contrast-Finder URL"
+msgstr "http://contrast-finder.tanaguru.com"
+
+msgid "Observatory link text"
+msgstr "L'Observatoire"
+
+msgid "Observatory URL"
+msgstr "http://observatoire-accessibilite.org"
+
+msgid "Open-S URL"
+msgstr "http://www.open-s.com"
+
+msgid "Press link text"
+msgstr "Presse"
+
+msgid "Press link"
+msgstr "link_to_Press_page"
+
+msgid "Social Tanaguru"
+msgstr "Tanaguru sur les réseaux sociaux"
+
+msgid "Tanaguru on Twitter"
+msgstr "Tanaguru sur Twitter"
+
+msgid "Twitter link title"
+msgstr "Tanaguru sur Twitter"
+
+msgid "Twitter link"
+msgstr "https://twitter.com/tanaguruapp"
+
+msgid "Tanaguru on Github"
+msgstr "Tanaguru sur Github"
+
+msgid "Github link title"
+msgstr "Tanaguru sur Github"
+
+msgid "Github link"
+msgstr "https://github.com/Tanaguru/Tanaguru"
+
+msgid "Tanaguru on Linkedin"
+msgstr "Tanaguru sur Linkedin"
+
+msgid "Linkedin link title"
+msgstr "Tanaguru sur Linkedin"
+
+msgid "Linkedin link"
+msgstr "https://www.linkedin.com/company/open-s"
+
+msgid "Tanaguru on Slideshare"
+msgstr "Tanaguru sur Slideshare"
+
+msgid "Slideshare link title"
+msgstr "Tanaguru sur Slideshare"
+
+msgid "Slideshare link"
+msgstr "http://fr.slideshare.net/OpenSCompany"
+
+msgid "Tanaguru on Ohloh"
+msgstr "Tanaguru sur Ohloh"
+
+msgid "Ohloh link title"
+msgstr "Tanaguru sur Ohloh"
+
+msgid "Ohloh link"
+msgstr "https://www.ohloh.net/p/Tanaguru"
+
+msgid "Tanaguru free software by Open-S"
+msgstr "Tanaguru, logiciel libre édité par la société <a href=\"http://www.oceaneconsulting.com/\">Océane Consulting</a>"
+
+msgid "Legal text link"
+msgstr "Mentions légales"
+
+msgid "Legal link"
+msgstr "http://www.tanaguru.com/fr/mentions-legales/"
+
+msgid "Credits text link"
+msgstr "Crédits"
+
+msgid "Credits link"
+msgstr "http://www.tanaguru.com/fr/credits/"
+
+msgid "Accessibility text link"
+msgstr "Aide et Accessibilité"
+
+msgid "Accessibility link"
+msgstr "Link_to_Accessibility_page"
