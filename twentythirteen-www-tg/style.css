@@ -1484,6 +1484,9 @@ abbr[data-original-title] {
   padding: 10px 20px 6px;
   margin-bottom: 30px;
 }
+.infinite {
+  font-size: 2em;
+}
 .type {
   background-color: #4d4d4d;
   font-weight: normal;
@@ -1508,7 +1511,7 @@ abbr[data-original-title] {
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 }
 .button_cell {
-  padding: 30px 0 0 0;
+  padding: 30px 3px 0;
   height: 60px;
 }
 .padding_cell {
@@ -1536,10 +1539,10 @@ table {
   font-weight: normal;
 }
 th {
-  padding: 0 10px 0 10px;
+  padding: 10px;
 }
 td {
-  width: 150px;
+  width: 120px;
   height: 40px;
   text-align: center;
   padding: 6px 10px 6px 6px;
@@ -1571,11 +1574,14 @@ td {
   line-height: 3.4rem;
 }
 table {
-  font-size: 18px;
-  font-size: 1.8rem;
-  line-height: 22px;
-  line-height: 2.2rem;
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 17px;
+  line-height: 1.7rem;
   margin: 35px 0 0 0;
+}
+caption {
+  text-align: center;
 }
 .small_button {
   display: inline-block;
@@ -1586,7 +1592,7 @@ table {
   min-width: 135px;
 }
 #button_cell_color {
-  padding: 30px 0 0 0;
+  padding: 30px 3px 0;
   height: 60px;
 }
 #button_cell_color a {
