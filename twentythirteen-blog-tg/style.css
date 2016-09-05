@@ -511,7 +511,7 @@ header a {
 }
 
 #footer-tg-logo p {
-  font-size: 1.875rem;
+  font-size: 3rem;
   line-height: 1.25rem;
   font-weight: bold;
 }
@@ -529,8 +529,8 @@ header a {
 }
 
 .site-footer h2 {
-  font-size: 1.25rem;
-  line-height: 1.25rem;
+  font-size: 2rem;
+  line-height: 2rem;
   margin: 0 0 5px 0;
 }
 
@@ -561,8 +561,8 @@ header a {
 
 #footer2-1, 
 #footer2-2 {
-  font-size: 0.813rem;
-  line-height: 0.95rem;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
 }
 
 #footer2-1 a,
