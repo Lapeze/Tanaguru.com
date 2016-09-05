@@ -38,22 +38,48 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div id="page" class="hfeed site">
-		<header id="masthead" class="site-header" role="banner">
-			<a class="home-link" href="http://www.tanaguru.com/<?php echo (pll_current_language() === 'fr') ?  'fr' : 'en'; ?>" rel="home">
-				<img class="site-logo" src="<?php echo get_stylesheet_directory_uri() ?>/Images/logo_tg.png">
-				<h1 class="site-title">Tanaguru</h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-			</a>
+	<div id="page" class="hfeed site red_line">
 
-			<div id="navbar" class="navbar">
-				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
-					<button class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></button>
-					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); ?>
-					<?php get_search_form(); ?>
-				</nav><!-- #site-navigation -->
-			</div><!-- #navbar -->
-		</header><!-- #masthead -->
+		<header id="masthead" class="site-header cf" role="banner">
+
+	        <div id="signin">
+	            <a href="https://my.tanaguru.com/" id="button_signin" class="gradient"><?php _e('Sign in', 'wwwtg'); ?></a>
+	        </div>
+
+	        <div id="signup">
+	            <a href="https://my.tanaguru.com/sign-up/sign-up.html" id="button_signup" class="gradient"><?php _e('Sign up', 'wwwtg'); ?></a>
+	        </div>
+
+	        <?php if (is_front_page()) { ?>
+	            <div id="logo">
+	                <h1>
+	                    <img src="<?php echo get_stylesheet_directory_uri() ?>/Images/logo_tg.png" alt=""/>
+	                    <span>Tanaguru</span>
+	                </h1>
+	            </div>
+	        <?php } else { ?>
+	            <div id="logo">
+	                <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/Images/logo_tg.png" alt=""/><span>Tanaguru</span></a>
+	            </div>
+	        <?php } ?>   
+
+	        <div id="navbar" class="navbar">
+
+	            <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+	                <p class="menu-toggle"><?php _e('Menu', 'twentythirteen'); ?></p>
+	<!--                        <a class="screen-reader-text skip-link" href="#content"><?php _e('Skip to content', 'twentythirteen'); ?></a>-->
+	                <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'nav-menu')); ?>
+
+	            </nav><!-- #site-navigation -->
+	        </div><!-- #navbar -->
+	        <div id="nav2">
+	            <?php get_sidebar('main'); ?>
+	        </div>
+	    </header><!-- #masthead -->
+
+	    <div id='page_title_gradient'>
+	        <div id="page_title_filter"></div>    
+	        <div id="page_title"><h1 class="entry-title">Blog</h1></div>
+	    </div>
 
 		<div id="main" class="site-main">
