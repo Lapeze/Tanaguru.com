@@ -51,10 +51,28 @@
 	        </div>
 
 	        <?php if (is_front_page()) { ?>
+
+	        	<?php 
+	        		$lang = pll_current_language('slug');
+
+					switch ($lang) {
+						case 'en':
+							$titleLogo = 'Go back to Tanaguru website';
+							break;
+						case 'fr':
+							$titleLogo = 'Retourner sur le site de Tanaguru';
+							break;
+						default:
+							$titleLogo = 'Go back to Tanaguru website';
+					}
+	        	?>
+
 	            <div id="logo">
 	                <h1>
-	                    <img src="<?php echo get_stylesheet_directory_uri() ?>/Images/logo_tg.png" alt=""/>
-	                    <span>Tanaguru</span>
+	                	<a title="<?php echo $titleLogo ?>" href="http://www.tanaguru.com/<?php echo $lang ?>">
+		                    <img src="<?php echo get_stylesheet_directory_uri() ?>/Images/logo_tg.png" alt=""/>
+		                    <span>Tanaguru</span>
+		                </a>
 	                </h1>
 	            </div>
 	        <?php } else { ?>
