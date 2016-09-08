@@ -57,6 +57,9 @@ msgstr "http://www.tanaguru.com/fr/offres-accessibilite-web-automatisation-forma
 msgid "Offer link"
 msgstr "Link_to_Offer_Page"
 
+msgid "Offer link title"
+msgstr "Offres accessibilité web : automatisation, expertise, formation, support"
+
 msgid "Contact link"
 msgstr "http://www.tanaguru.com/fr/contact/"
 
