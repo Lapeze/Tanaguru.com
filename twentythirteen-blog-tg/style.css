@@ -350,11 +350,11 @@ h6 {
     max-width: 96rem;
   }
   #logo {
-    width: 30%;
+    width: 40%;
   }
   #navbar {
     text-align: right;
-    width: 70%;
+    width: 60%;
   }
 }
 
@@ -432,6 +432,15 @@ h6 {
     padding: 10px;
     min-width: 180px;
     text-align: center;
+  }
+}
+@media (max-width: 359px) {
+  #page_title {
+    top: inherit;
+    left: 16rem;
+  }
+  #page_title_filter {
+    width: 20rem;
   }
 }
 
